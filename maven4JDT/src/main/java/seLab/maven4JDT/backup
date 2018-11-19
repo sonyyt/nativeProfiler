@@ -1,0 +1,16 @@
+////    	String[] test = StringUtils.substringsBetween(s, "x86/", ".so/");
+////    	System.out.println(test[0]);
+////    	System.exit(0);
+//        //Pattern p = Pattern.compile(".*\\/ *(.*) *\\.so.*");
+//        //Pattern p = Pattern.compile("(?<=\\/)[^\\/]+");
+//        
+//        Matcher m = p.matcher(s);
+//        
+//        while (m.find()) {
+//        	System.out.println("found");
+//        	allMatches.add(m.group(0));
+//        }
+        
+        
+        
+        mkdir -p /data/nativeProfiler/apk_generated/nqueen.apk/; cp -R /data/nativeProfiler/shellAPP/* /data/nativeProfiler/apk_generated/nqueen.apk/;find /data/nativeProfiler/apk_generated/nqueen.apk/ -type f -exec sed -i 's/selab.vt.shellapp/selab.vt.nqueenandroid/g' {} \\\;mkdir -p /data/nativeProfiler/apk_generated/nqueen.apk/app/src/main/java/selab/vt/nqueenandroid/; cp /data/nativeProfiler/temp/MainActivity.class.tmp /data/nativeProfiler/apk_generated/nqueen.apk/app/src/main/java/selab/vt/nqueenandroid/MainActivity.java cp /data/nativeProfiler/apk_process/nqueen.apk/lib/x86/libnative-lib.so /data/nativeProfiler/apk_generated/nqueen.apk/imported-lib/x86/; /data/nativeProfiler/apk_generated/nqueen.apk/gradlew

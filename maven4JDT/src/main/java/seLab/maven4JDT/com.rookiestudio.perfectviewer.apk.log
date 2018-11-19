@@ -1,0 +1,52 @@
+package:com.rookiestudio.perfectviewer
+permission:android.permission.RECEIVE_BOOT_COMPLETED
+permission:android.permission.SET_WALLPAPER
+permission:android.permission.SET_WALLPAPER_HINTS
+permission:android.permission.WRITE_EXTERNAL_STORAGE
+permission:android.permission.GET_ACCOUNTS
+permission:android.permission.USE_CREDENTIALS
+permission:android.permission.INTERNET
+nativeInterface:Lcom/rookiestudio/perfectviewer/TBitmap2;|MergeImageClip|(J J I I I I Landroid/graphics/Bitmap; I I)V
+nativeInterface:Lcom/rookiestudio/perfectviewer/TBitmap2;|MergeImageClipM|(J J I I I I Landroid/graphics/Bitmap; I I)V
+nativeInterface:Lcom/rookiestudio/baseclass/TThumbData;|GetImageArchiveThumb|(I Ljava/lang/String; Ljava/lang/String; I I I)[B
+nativeInterface:Lcom/rookiestudio/baseclass/TThumbData;|GetImageDataThumb|(J I I I I)[B
+nativeInterface:Lcom/rookiestudio/baseclass/TThumbData;|GetImageFileThumb|(I Ljava/lang/String; I I)[B
+nativeInterface:Lcom/rookiestudio/perfectviewer/TBitmap;|ClipBitmap|(J I I I I Landroid/graphics/Bitmap; I I)V
+nativeInterface:Lcom/rookiestudio/perfectviewer/TBitmap;|ClipBitmapM|(J I I I I Landroid/graphics/Bitmap; I I)V
+nativeInterface:Lcom/rookiestudio/perfectviewer/TBitmap;|DrawEBookImage|(J I)I
+nativeInterface:Lcom/rookiestudio/perfectviewer/TBitmap;|GetOriginalImage|(J)J
+nativeInterface:Lcom/rookiestudio/perfectviewer/TBitmap;|ImageAdjustColor|(J D D D)V
+nativeInterface:Lcom/rookiestudio/perfectviewer/TBitmap;|ImageApplyColor|(J D D D)V
+nativeInterface:Lcom/rookiestudio/perfectviewer/TBitmap;|ImageAutoColor|(J)V
+nativeInterface:Lcom/rookiestudio/perfectviewer/TBitmap;|ImageAutoRotate|(J I I I I)V
+nativeInterface:Lcom/rookiestudio/perfectviewer/TBitmap;|ImageColorBalance|(J [D I)V
+nativeInterface:Lcom/rookiestudio/perfectviewer/TBitmap;|ImageCrop|(J I I I I)V
+nativeInterface:Lcom/rookiestudio/perfectviewer/TBitmap;|ImageDeblock|(J)V
+nativeInterface:Lcom/rookiestudio/perfectviewer/TBitmap;|ImageDetectBorder|(J I Landroid/graphics/Rect;)Z
+nativeInterface:Lcom/rookiestudio/perfectviewer/TBitmap;|ImageInvert|(J)V
+nativeInterface:Lcom/rookiestudio/perfectviewer/TBitmap;|ImageResize|(J I I I)V
+nativeInterface:Lcom/rookiestudio/perfectviewer/TBitmap;|ImageRotate|(J I)V
+nativeInterface:Lcom/rookiestudio/perfectviewer/TBitmap;|ImageSepiaTone|(J)V
+nativeInterface:Lcom/rookiestudio/perfectviewer/TBitmap;|ImageSharpen|(J I)V
+nativeInterface:Lcom/rookiestudio/perfectviewer/TBitmap;|InsertBlankPage|(J I I)V
+nativeInterface:Lcom/rookiestudio/perfectviewer/TBitmap;|LoadImageArchive|(Ljava/lang/String; Ljava/lang/String; I)V
+nativeInterface:Lcom/rookiestudio/perfectviewer/TBitmap;|LoadImageFile|(Ljava/lang/String;)V
+nativeInterface:Lcom/rookiestudio/perfectviewer/TBitmap;|MultiPageLoadNextPage|(J I)I
+nativeInterface:Lcom/rookiestudio/perfectviewer/TArchiveFiles;|ListArchiveFile|(Ljava/lang/String; Ljava/lang/String;)V
+nativeInterface:Lcom/rookiestudio/perfectviewer/TArchiveFiles;|SetUnicodeFileName|(Z)V
+nativeInterface:Lcom/rookiestudio/perfectviewer/TEBookNavigator;|GetBookCover|(Ljava/lang/Object; I I I)[B
+nativeInterface:Lcom/rookiestudio/perfectviewer/TEBookNavigator;|LastPage|()V
+nativeInterface:Lcom/rookiestudio/perfectviewer/TEBookNavigator;|NextPage|()Z
+nativeInterface:Lcom/rookiestudio/perfectviewer/TEBookNavigator;|OpenBookFile|(Ljava/lang/String; I Z)V
+nativeInterface:Lcom/rookiestudio/perfectviewer/TEBookNavigator;|OpenTextData|([B)V
+nativeInterface:Lcom/rookiestudio/perfectviewer/TEBookNavigator;|PreviousPage|()Z
+nativeInterface:Lcom/rookiestudio/perfectviewer/TEBookNavigator;|CloseBookFile|()V
+nativeInterface:Lcom/rookiestudio/perfectviewer/TEBookNavigator;|FirstPage|()V
+nativeInterface:Lcom/rookiestudio/perfectviewer/TEBookNavigator;|SearchText|(Ljava/lang/String;)[Ljava/lang/Object;
+nativeInterface:Lcom/rookiestudio/perfectviewer/TEBookNavigator;|GetBookInfo|()I
+nativeInterface:Lcom/rookiestudio/perfectviewer/TEBookNavigator;|SetPosition|(I)V
+nativeInterface:Lcom/rookiestudio/perfectviewer/TEBookNavigator;|GetMaxPosition|()I
+nativeInterface:Lcom/rookiestudio/perfectviewer/TEBookNavigator;|SetSelection|(I I)V
+nativeInterface:Lcom/rookiestudio/perfectviewer/TEBookNavigator;|GetOutline|()[Ljava/lang/Object;
+nativeInterface:Lcom/rookiestudio/perfectviewer/TEBookNavigator;|GetPosition|()I
+nativeInterface:Lcom/rookiestudio/adapter/TFileListSMB;|SMBListFile|(Ljava/lang/String; Z)V

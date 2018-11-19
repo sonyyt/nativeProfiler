@@ -1,0 +1,680 @@
+11-19 10:47:05.868 1962-2670/system_process I/ActivityManager: Force stopping hd.youngby.wallpaper appid=10067 user=0: from pid 16054
+11-19 10:47:05.868 16054-16054/? D/AndroidRuntime: Shutting down VM
+11-19 10:47:06.246 16073-16073/? D/AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 0 <<<<<<
+11-19 10:47:06.247 16073-16073/? D/AndroidRuntime: CheckJNI is ON
+11-19 10:47:06.254 16073-16073/? D/ICU: No timezone override file found: /data/misc/zoneinfo/current/icu/icu_tzdata.dat
+11-19 10:47:06.264 16073-16073/? E/memtrack: Couldn't load memtrack module (No such file or directory)
+11-19 10:47:06.264 16073-16073/? E/android.os.Debug: failed to load memtrack module: -2
+11-19 10:47:06.264 16073-16073/? I/Radio-JNI: register_android_hardware_Radio DONE
+11-19 10:47:06.269 16073-16073/? D/AndroidRuntime: Calling main entry com.android.commands.am.Am
+11-19 10:47:06.270 1962-2130/system_process I/ActivityManager: START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 cmp=hd.youngby.wallpaper/.MainActivity} from uid 0 on display 0
+11-19 10:47:06.273 16073-16073/? D/AndroidRuntime: Shutting down VM
+11-19 10:47:06.275 16081-16081/? I/art: Not late-enabling -Xcheck:jni (already on)
+11-19 10:47:06.283 1962-2205/system_process I/ActivityManager: Start proc 16081:hd.youngby.wallpaper/u0a67 for activity hd.youngby.wallpaper/.MainActivity
+11-19 10:47:06.288 16081-16087/? I/art: Debugger is no longer active
+11-19 10:47:06.298 16094-16094/? W/dex2oat: Unexpected CPU variant for X86 using defaults: dalvik.vm.isa.x86.features=default
+11-19 10:47:06.298 16094-16094/? W/dex2oat: Mismatch between dex2oat instruction set features (ISA: X86 Feature string: smp,-ssse3,-sse4.1,-sse4.2,-avx,-avx2) and those of dex2oat executable (ISA: X86 Feature string: smp,ssse3,sse4.1,sse4.2,-avx,-avx2) for the command line:
+11-19 10:47:06.298 16094-16094/? W/dex2oat: /system/bin/dex2oat --runtime-arg -classpath --runtime-arg  --debuggable --instruction-set=x86 --instruction-set-features=smp,ssse3,sse4.1,sse4.2,-avx,-avx2 --runtime-arg -Xrelocate --boot-image=/system/framework/boot.art --runtime-arg -Xms64m --runtime-arg -Xmx512m --instruction-set-variant=dalvik.vm.isa.x86.features=default --dex-file=/data/app/hd.youngby.wallpaper-1/split_lib_dependencies_apk.apk --oat-file=/data/dalvik-cache/x86/data@app@hd.youngby.wallpaper-1@split_lib_dependencies_apk.apk@classes.dex
+11-19 10:47:06.298 16094-16094/? E/dex2oat: Failed to create oat file: /data/dalvik-cache/x86/data@app@hd.youngby.wallpaper-1@split_lib_dependencies_apk.apk@classes.dex: Permission denied
+11-19 10:47:06.298 16094-16094/? I/dex2oat: dex2oat took 201.047us (threads: 4) 
+11-19 10:47:06.298 16081-16081/? W/art: Failed execv(/system/bin/dex2oat --runtime-arg -classpath --runtime-arg  --debuggable --instruction-set=x86 --instruction-set-features=smp,ssse3,sse4.1,sse4.2,-avx,-avx2 --runtime-arg -Xrelocate --boot-image=/system/framework/boot.art --runtime-arg -Xms64m --runtime-arg -Xmx512m --instruction-set-variant=dalvik.vm.isa.x86.features=default --dex-file=/data/app/hd.youngby.wallpaper-1/split_lib_dependencies_apk.apk --oat-file=/data/dalvik-cache/x86/data@app@hd.youngby.wallpaper-1@split_lib_dependencies_apk.apk@classes.dex) because non-0 exit status
+11-19 10:47:06.320 1273-3129/? D/gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 8294400
+11-19 10:47:06.350 16097-16097/? W/dex2oat: Unexpected CPU variant for X86 using defaults: dalvik.vm.isa.x86.features=default
+11-19 10:47:06.350 16097-16097/? W/dex2oat: Mismatch between dex2oat instruction set features (ISA: X86 Feature string: smp,-ssse3,-sse4.1,-sse4.2,-avx,-avx2) and those of dex2oat executable (ISA: X86 Feature string: smp,ssse3,sse4.1,sse4.2,-avx,-avx2) for the command line:
+11-19 10:47:06.350 16097-16097/? W/dex2oat: /system/bin/dex2oat --runtime-arg -classpath --runtime-arg  --debuggable --instruction-set=x86 --instruction-set-features=smp,ssse3,sse4.1,sse4.2,-avx,-avx2 --runtime-arg -Xrelocate --boot-image=/system/framework/boot.art --runtime-arg -Xms64m --runtime-arg -Xmx512m --instruction-set-variant=dalvik.vm.isa.x86.features=default --dex-file=/data/app/hd.youngby.wallpaper-1/split_lib_slice_0_apk.apk --oat-file=/data/dalvik-cache/x86/data@app@hd.youngby.wallpaper-1@split_lib_slice_0_apk.apk@classes.dex
+11-19 10:47:06.350 16097-16097/? E/dex2oat: Failed to create oat file: /data/dalvik-cache/x86/data@app@hd.youngby.wallpaper-1@split_lib_slice_0_apk.apk@classes.dex: Permission denied
+11-19 10:47:06.350 16097-16097/? I/dex2oat: dex2oat took 428.214us (threads: 4) 
+11-19 10:47:06.351 16081-16081/? W/art: Failed execv(/system/bin/dex2oat --runtime-arg -classpath --runtime-arg  --debuggable --instruction-set=x86 --instruction-set-features=smp,ssse3,sse4.1,sse4.2,-avx,-avx2 --runtime-arg -Xrelocate --boot-image=/system/framework/boot.art --runtime-arg -Xms64m --runtime-arg -Xmx512m --instruction-set-variant=dalvik.vm.isa.x86.features=default --dex-file=/data/app/hd.youngby.wallpaper-1/split_lib_slice_0_apk.apk --oat-file=/data/dalvik-cache/x86/data@app@hd.youngby.wallpaper-1@split_lib_slice_0_apk.apk@classes.dex) because non-0 exit status
+11-19 10:47:06.359 16100-16100/? W/dex2oat: Unexpected CPU variant for X86 using defaults: dalvik.vm.isa.x86.features=default
+11-19 10:47:06.359 16100-16100/? W/dex2oat: Mismatch between dex2oat instruction set features (ISA: X86 Feature string: smp,-ssse3,-sse4.1,-sse4.2,-avx,-avx2) and those of dex2oat executable (ISA: X86 Feature string: smp,ssse3,sse4.1,sse4.2,-avx,-avx2) for the command line:
+11-19 10:47:06.359 16100-16100/? W/dex2oat: /system/bin/dex2oat --runtime-arg -classpath --runtime-arg  --debuggable --instruction-set=x86 --instruction-set-features=smp,ssse3,sse4.1,sse4.2,-avx,-avx2 --runtime-arg -Xrelocate --boot-image=/system/framework/boot.art --runtime-arg -Xms64m --runtime-arg -Xmx512m --instruction-set-variant=dalvik.vm.isa.x86.features=default --dex-file=/data/app/hd.youngby.wallpaper-1/split_lib_slice_1_apk.apk --oat-file=/data/dalvik-cache/x86/data@app@hd.youngby.wallpaper-1@split_lib_slice_1_apk.apk@classes.dex
+11-19 10:47:06.359 16100-16100/? E/dex2oat: Failed to create oat file: /data/dalvik-cache/x86/data@app@hd.youngby.wallpaper-1@split_lib_slice_1_apk.apk@classes.dex: Permission denied
+11-19 10:47:06.359 16100-16100/? I/dex2oat: dex2oat took 267.634us (threads: 4) 
+11-19 10:47:06.360 16081-16081/? W/art: Failed execv(/system/bin/dex2oat --runtime-arg -classpath --runtime-arg  --debuggable --instruction-set=x86 --instruction-set-features=smp,ssse3,sse4.1,sse4.2,-avx,-avx2 --runtime-arg -Xrelocate --boot-image=/system/framework/boot.art --runtime-arg -Xms64m --runtime-arg -Xmx512m --instruction-set-variant=dalvik.vm.isa.x86.features=default --dex-file=/data/app/hd.youngby.wallpaper-1/split_lib_slice_1_apk.apk --oat-file=/data/dalvik-cache/x86/data@app@hd.youngby.wallpaper-1@split_lib_slice_1_apk.apk@classes.dex) because non-0 exit status
+11-19 10:47:06.368 16103-16103/? W/dex2oat: Unexpected CPU variant for X86 using defaults: dalvik.vm.isa.x86.features=default
+11-19 10:47:06.368 16103-16103/? W/dex2oat: Mismatch between dex2oat instruction set features (ISA: X86 Feature string: smp,-ssse3,-sse4.1,-sse4.2,-avx,-avx2) and those of dex2oat executable (ISA: X86 Feature string: smp,ssse3,sse4.1,sse4.2,-avx,-avx2) for the command line:
+11-19 10:47:06.368 16103-16103/? W/dex2oat: /system/bin/dex2oat --runtime-arg -classpath --runtime-arg  --debuggable --instruction-set=x86 --instruction-set-features=smp,ssse3,sse4.1,sse4.2,-avx,-avx2 --runtime-arg -Xrelocate --boot-image=/system/framework/boot.art --runtime-arg -Xms64m --runtime-arg -Xmx512m --instruction-set-variant=dalvik.vm.isa.x86.features=default --dex-file=/data/app/hd.youngby.wallpaper-1/split_lib_slice_2_apk.apk --oat-file=/data/dalvik-cache/x86/data@app@hd.youngby.wallpaper-1@split_lib_slice_2_apk.apk@classes.dex
+11-19 10:47:06.368 16103-16103/? E/dex2oat: Failed to create oat file: /data/dalvik-cache/x86/data@app@hd.youngby.wallpaper-1@split_lib_slice_2_apk.apk@classes.dex: Permission denied
+11-19 10:47:06.368 16103-16103/? I/dex2oat: dex2oat took 302.301us (threads: 4) 
+11-19 10:47:06.368 16081-16081/? W/art: Failed execv(/system/bin/dex2oat --runtime-arg -classpath --runtime-arg  --debuggable --instruction-set=x86 --instruction-set-features=smp,ssse3,sse4.1,sse4.2,-avx,-avx2 --runtime-arg -Xrelocate --boot-image=/system/framework/boot.art --runtime-arg -Xms64m --runtime-arg -Xmx512m --instruction-set-variant=dalvik.vm.isa.x86.features=default --dex-file=/data/app/hd.youngby.wallpaper-1/split_lib_slice_2_apk.apk --oat-file=/data/dalvik-cache/x86/data@app@hd.youngby.wallpaper-1@split_lib_slice_2_apk.apk@classes.dex) because non-0 exit status
+11-19 10:47:06.371 3047-3117/com.android.launcher3 D/EGL_emulation: eglMakeCurrent: 0x7fa7f5469c20: ver 2 0 (tinfo 0x7fa7f3ad02e0)
+11-19 10:47:06.372 3047-3117/com.android.launcher3 E/Surface: getSlotFromBufferLocked: unknown buffer: 0x7fa7e8608c80
+11-19 10:47:06.378 16105-16105/? W/dex2oat: Unexpected CPU variant for X86 using defaults: dalvik.vm.isa.x86.features=default
+11-19 10:47:06.378 16105-16105/? W/dex2oat: Mismatch between dex2oat instruction set features (ISA: X86 Feature string: smp,-ssse3,-sse4.1,-sse4.2,-avx,-avx2) and those of dex2oat executable (ISA: X86 Feature string: smp,ssse3,sse4.1,sse4.2,-avx,-avx2) for the command line:
+11-19 10:47:06.378 16105-16105/? W/dex2oat: /system/bin/dex2oat --runtime-arg -classpath --runtime-arg  --debuggable --instruction-set=x86 --instruction-set-features=smp,ssse3,sse4.1,sse4.2,-avx,-avx2 --runtime-arg -Xrelocate --boot-image=/system/framework/boot.art --runtime-arg -Xms64m --runtime-arg -Xmx512m --instruction-set-variant=dalvik.vm.isa.x86.features=default --dex-file=/data/app/hd.youngby.wallpaper-1/split_lib_slice_3_apk.apk --oat-file=/data/dalvik-cache/x86/data@app@hd.youngby.wallpaper-1@split_lib_slice_3_apk.apk@classes.dex
+11-19 10:47:06.378 16105-16105/? E/dex2oat: Failed to create oat file: /data/dalvik-cache/x86/data@app@hd.youngby.wallpaper-1@split_lib_slice_3_apk.apk@classes.dex: Permission denied
+11-19 10:47:06.378 16105-16105/? I/dex2oat: dex2oat took 411.356us (threads: 4) 
+11-19 10:47:06.379 16081-16081/? W/art: Failed execv(/system/bin/dex2oat --runtime-arg -classpath --runtime-arg  --debuggable --instruction-set=x86 --instruction-set-features=smp,ssse3,sse4.1,sse4.2,-avx,-avx2 --runtime-arg -Xrelocate --boot-image=/system/framework/boot.art --runtime-arg -Xms64m --runtime-arg -Xmx512m --instruction-set-variant=dalvik.vm.isa.x86.features=default --dex-file=/data/app/hd.youngby.wallpaper-1/split_lib_slice_3_apk.apk --oat-file=/data/dalvik-cache/x86/data@app@hd.youngby.wallpaper-1@split_lib_slice_3_apk.apk@classes.dex) because non-0 exit status
+11-19 10:47:06.388 16108-16108/? W/dex2oat: Unexpected CPU variant for X86 using defaults: dalvik.vm.isa.x86.features=default
+11-19 10:47:06.388 16108-16108/? W/dex2oat: Mismatch between dex2oat instruction set features (ISA: X86 Feature string: smp,-ssse3,-sse4.1,-sse4.2,-avx,-avx2) and those of dex2oat executable (ISA: X86 Feature string: smp,ssse3,sse4.1,sse4.2,-avx,-avx2) for the command line:
+11-19 10:47:06.388 16108-16108/? W/dex2oat: /system/bin/dex2oat --runtime-arg -classpath --runtime-arg  --debuggable --instruction-set=x86 --instruction-set-features=smp,ssse3,sse4.1,sse4.2,-avx,-avx2 --runtime-arg -Xrelocate --boot-image=/system/framework/boot.art --runtime-arg -Xms64m --runtime-arg -Xmx512m --instruction-set-variant=dalvik.vm.isa.x86.features=default --dex-file=/data/app/hd.youngby.wallpaper-1/split_lib_slice_5_apk.apk --oat-file=/data/dalvik-cache/x86/data@app@hd.youngby.wallpaper-1@split_lib_slice_5_apk.apk@classes.dex
+11-19 10:47:06.388 16108-16108/? E/dex2oat: Failed to create oat file: /data/dalvik-cache/x86/data@app@hd.youngby.wallpaper-1@split_lib_slice_5_apk.apk@classes.dex: Permission denied
+11-19 10:47:06.388 16108-16108/? I/dex2oat: dex2oat took 460.150us (threads: 4) 
+11-19 10:47:06.389 16081-16081/? W/art: Failed execv(/system/bin/dex2oat --runtime-arg -classpath --runtime-arg  --debuggable --instruction-set=x86 --instruction-set-features=smp,ssse3,sse4.1,sse4.2,-avx,-avx2 --runtime-arg -Xrelocate --boot-image=/system/framework/boot.art --runtime-arg -Xms64m --runtime-arg -Xmx512m --instruction-set-variant=dalvik.vm.isa.x86.features=default --dex-file=/data/app/hd.youngby.wallpaper-1/split_lib_slice_5_apk.apk --oat-file=/data/dalvik-cache/x86/data@app@hd.youngby.wallpaper-1@split_lib_slice_5_apk.apk@classes.dex) because non-0 exit status
+11-19 10:47:06.400 16111-16111/? W/dex2oat: Unexpected CPU variant for X86 using defaults: dalvik.vm.isa.x86.features=default
+11-19 10:47:06.400 16111-16111/? W/dex2oat: Mismatch between dex2oat instruction set features (ISA: X86 Feature string: smp,-ssse3,-sse4.1,-sse4.2,-avx,-avx2) and those of dex2oat executable (ISA: X86 Feature string: smp,ssse3,sse4.1,sse4.2,-avx,-avx2) for the command line:
+11-19 10:47:06.400 16111-16111/? W/dex2oat: /system/bin/dex2oat --runtime-arg -classpath --runtime-arg  --debuggable --instruction-set=x86 --instruction-set-features=smp,ssse3,sse4.1,sse4.2,-avx,-avx2 --runtime-arg -Xrelocate --boot-image=/system/framework/boot.art --runtime-arg -Xms64m --runtime-arg -Xmx512m --instruction-set-variant=dalvik.vm.isa.x86.features=default --dex-file=/data/app/hd.youngby.wallpaper-1/split_lib_slice_6_apk.apk --oat-file=/data/dalvik-cache/x86/data@app@hd.youngby.wallpaper-1@split_lib_slice_6_apk.apk@classes.dex
+11-19 10:47:06.400 16111-16111/? E/dex2oat: Failed to create oat file: /data/dalvik-cache/x86/data@app@hd.youngby.wallpaper-1@split_lib_slice_6_apk.apk@classes.dex: Permission denied
+11-19 10:47:06.400 16111-16111/? I/dex2oat: dex2oat took 222.194us (threads: 4) 
+11-19 10:47:06.401 16081-16081/? W/art: Failed execv(/system/bin/dex2oat --runtime-arg -classpath --runtime-arg  --debuggable --instruction-set=x86 --instruction-set-features=smp,ssse3,sse4.1,sse4.2,-avx,-avx2 --runtime-arg -Xrelocate --boot-image=/system/framework/boot.art --runtime-arg -Xms64m --runtime-arg -Xmx512m --instruction-set-variant=dalvik.vm.isa.x86.features=default --dex-file=/data/app/hd.youngby.wallpaper-1/split_lib_slice_6_apk.apk --oat-file=/data/dalvik-cache/x86/data@app@hd.youngby.wallpaper-1@split_lib_slice_6_apk.apk@classes.dex) because non-0 exit status
+11-19 10:47:06.409 16114-16114/? W/dex2oat: Unexpected CPU variant for X86 using defaults: dalvik.vm.isa.x86.features=default
+11-19 10:47:06.409 16114-16114/? W/dex2oat: Mismatch between dex2oat instruction set features (ISA: X86 Feature string: smp,-ssse3,-sse4.1,-sse4.2,-avx,-avx2) and those of dex2oat executable (ISA: X86 Feature string: smp,ssse3,sse4.1,sse4.2,-avx,-avx2) for the command line:
+11-19 10:47:06.409 16114-16114/? W/dex2oat: /system/bin/dex2oat --runtime-arg -classpath --runtime-arg  --debuggable --instruction-set=x86 --instruction-set-features=smp,ssse3,sse4.1,sse4.2,-avx,-avx2 --runtime-arg -Xrelocate --boot-image=/system/framework/boot.art --runtime-arg -Xms64m --runtime-arg -Xmx512m --instruction-set-variant=dalvik.vm.isa.x86.features=default --dex-file=/data/app/hd.youngby.wallpaper-1/split_lib_slice_7_apk.apk --oat-file=/data/dalvik-cache/x86/data@app@hd.youngby.wallpaper-1@split_lib_slice_7_apk.apk@classes.dex
+11-19 10:47:06.409 16114-16114/? E/dex2oat: Failed to create oat file: /data/dalvik-cache/x86/data@app@hd.youngby.wallpaper-1@split_lib_slice_7_apk.apk@classes.dex: Permission denied
+11-19 10:47:06.409 16114-16114/? I/dex2oat: dex2oat took 397.655us (threads: 4) 
+11-19 10:47:06.410 16081-16081/? W/art: Failed execv(/system/bin/dex2oat --runtime-arg -classpath --runtime-arg  --debuggable --instruction-set=x86 --instruction-set-features=smp,ssse3,sse4.1,sse4.2,-avx,-avx2 --runtime-arg -Xrelocate --boot-image=/system/framework/boot.art --runtime-arg -Xms64m --runtime-arg -Xmx512m --instruction-set-variant=dalvik.vm.isa.x86.features=default --dex-file=/data/app/hd.youngby.wallpaper-1/split_lib_slice_7_apk.apk --oat-file=/data/dalvik-cache/x86/data@app@hd.youngby.wallpaper-1@split_lib_slice_7_apk.apk@classes.dex) because non-0 exit status
+11-19 10:47:06.418 16116-16116/? W/dex2oat: Unexpected CPU variant for X86 using defaults: dalvik.vm.isa.x86.features=default
+11-19 10:47:06.418 16116-16116/? W/dex2oat: Mismatch between dex2oat instruction set features (ISA: X86 Feature string: smp,-ssse3,-sse4.1,-sse4.2,-avx,-avx2) and those of dex2oat executable (ISA: X86 Feature string: smp,ssse3,sse4.1,sse4.2,-avx,-avx2) for the command line:
+11-19 10:47:06.418 16116-16116/? W/dex2oat: /system/bin/dex2oat --runtime-arg -classpath --runtime-arg  --debuggable --instruction-set=x86 --instruction-set-features=smp,ssse3,sse4.1,sse4.2,-avx,-avx2 --runtime-arg -Xrelocate --boot-image=/system/framework/boot.art --runtime-arg -Xms64m --runtime-arg -Xmx512m --instruction-set-variant=dalvik.vm.isa.x86.features=default --dex-file=/data/app/hd.youngby.wallpaper-1/split_lib_slice_8_apk.apk --oat-file=/data/dalvik-cache/x86/data@app@hd.youngby.wallpaper-1@split_lib_slice_8_apk.apk@classes.dex
+11-19 10:47:06.418 16116-16116/? E/dex2oat: Failed to create oat file: /data/dalvik-cache/x86/data@app@hd.youngby.wallpaper-1@split_lib_slice_8_apk.apk@classes.dex: Permission denied
+11-19 10:47:06.418 16116-16116/? I/dex2oat: dex2oat took 190.364us (threads: 4) 
+11-19 10:47:06.419 16081-16081/? W/art: Failed execv(/system/bin/dex2oat --runtime-arg -classpath --runtime-arg  --debuggable --instruction-set=x86 --instruction-set-features=smp,ssse3,sse4.1,sse4.2,-avx,-avx2 --runtime-arg -Xrelocate --boot-image=/system/framework/boot.art --runtime-arg -Xms64m --runtime-arg -Xmx512m --instruction-set-variant=dalvik.vm.isa.x86.features=default --dex-file=/data/app/hd.youngby.wallpaper-1/split_lib_slice_8_apk.apk --oat-file=/data/dalvik-cache/x86/data@app@hd.youngby.wallpaper-1@split_lib_slice_8_apk.apk@classes.dex) because non-0 exit status
+11-19 10:47:06.427 16119-16119/? W/dex2oat: Unexpected CPU variant for X86 using defaults: dalvik.vm.isa.x86.features=default
+11-19 10:47:06.427 16119-16119/? W/dex2oat: Mismatch between dex2oat instruction set features (ISA: X86 Feature string: smp,-ssse3,-sse4.1,-sse4.2,-avx,-avx2) and those of dex2oat executable (ISA: X86 Feature string: smp,ssse3,sse4.1,sse4.2,-avx,-avx2) for the command line:
+11-19 10:47:06.427 16119-16119/? W/dex2oat: /system/bin/dex2oat --runtime-arg -classpath --runtime-arg  --debuggable --instruction-set=x86 --instruction-set-features=smp,ssse3,sse4.1,sse4.2,-avx,-avx2 --runtime-arg -Xrelocate --boot-image=/system/framework/boot.art --runtime-arg -Xms64m --runtime-arg -Xmx512m --instruction-set-variant=dalvik.vm.isa.x86.features=default --dex-file=/data/app/hd.youngby.wallpaper-1/split_lib_slice_9_apk.apk --oat-file=/data/dalvik-cache/x86/data@app@hd.youngby.wallpaper-1@split_lib_slice_9_apk.apk@classes.dex
+11-19 10:47:06.427 16119-16119/? E/dex2oat: Failed to create oat file: /data/dalvik-cache/x86/data@app@hd.youngby.wallpaper-1@split_lib_slice_9_apk.apk@classes.dex: Permission denied
+11-19 10:47:06.427 16119-16119/? I/dex2oat: dex2oat took 466.398us (threads: 4) 
+11-19 10:47:06.428 16081-16081/? W/art: Failed execv(/system/bin/dex2oat --runtime-arg -classpath --runtime-arg  --debuggable --instruction-set=x86 --instruction-set-features=smp,ssse3,sse4.1,sse4.2,-avx,-avx2 --runtime-arg -Xrelocate --boot-image=/system/framework/boot.art --runtime-arg -Xms64m --runtime-arg -Xmx512m --instruction-set-variant=dalvik.vm.isa.x86.features=default --dex-file=/data/app/hd.youngby.wallpaper-1/split_lib_slice_9_apk.apk --oat-file=/data/dalvik-cache/x86/data@app@hd.youngby.wallpaper-1@split_lib_slice_9_apk.apk@classes.dex) because non-0 exit status
+11-19 10:47:06.431 16081-16081/? I/InstantRun: starting instant run server: is main process
+11-19 10:47:06.449 16081-16081/? W/art: Before Android 4.1, method android.graphics.PorterDuffColorFilter android.support.graphics.drawable.VectorDrawableCompat.updateTintFilter(android.graphics.PorterDuffColorFilter, android.content.res.ColorStateList, android.graphics.PorterDuff$Mode) would have incorrectly overridden the package-private method in android.graphics.drawable.Drawable
+11-19 10:47:06.509 16081-16081/? A/art: art/runtime/java_vm_ext.cc:410] JNI DETECTED ERROR IN APPLICATION: JNI NewGlobalRef called with pending exception java.lang.NoSuchFieldError: no "J" field "mNativeContext" in class "Lcom/facebook/animated/gif/GifImage;" or its superclasses
+11-19 10:47:06.509 16081-16081/? A/art: art/runtime/java_vm_ext.cc:410]   at java.lang.String java.lang.Runtime.nativeLoad(java.lang.String, java.lang.ClassLoader, java.lang.String) (Runtime.java:-2)
+11-19 10:47:06.509 16081-16081/? A/art: art/runtime/java_vm_ext.cc:410]   at java.lang.String java.lang.Runtime.doLoad(java.lang.String, java.lang.ClassLoader) (Runtime.java:435)
+11-19 10:47:06.509 16081-16081/? A/art: art/runtime/java_vm_ext.cc:410]   at void java.lang.Runtime.loadLibrary(java.lang.String, java.lang.ClassLoader) (Runtime.java:370)
+11-19 10:47:06.509 16081-16081/? A/art: art/runtime/java_vm_ext.cc:410]   at void java.lang.System.loadLibrary(java.lang.String) (System.java:1076)
+11-19 10:47:06.509 16081-16081/? A/art: art/runtime/java_vm_ext.cc:410]   at void com.facebook.animated.gif.GifImage.<clinit>() (GifImage.java:4)
+11-19 10:47:06.509 16081-16081/? A/art: art/runtime/java_vm_ext.cc:410]   at void hd.youngby.wallpaper.MainActivity.runTestCases() (MainActivity.java:19)
+11-19 10:47:06.509 16081-16081/? A/art: art/runtime/java_vm_ext.cc:410]   at void hd.youngby.wallpaper.MainActivity.onCreate(android.os.Bundle) (MainActivity.java:16)
+11-19 10:47:06.509 16081-16081/? A/art: art/runtime/java_vm_ext.cc:410]   at void android.app.Activity.performCreate(android.os.Bundle) (Activity.java:6237)
+11-19 10:47:06.509 16081-16081/? A/art: art/runtime/java_vm_ext.cc:410]   at void android.app.Instrumentation.callActivityOnCreate(android.app.Activity, android.os.Bundle) (Instrumentation.java:1107)
+11-19 10:47:06.509 16081-16081/? A/art: art/runtime/java_vm_ext.cc:410]   at android.app.Activity android.app.ActivityThread.performLaunchActivity(android.app.ActivityThread$ActivityClientRecord, android.content.Intent) (ActivityThread.java:2369)
+11-19 10:47:06.509 16081-16081/? A/art: art/runtime/java_vm_ext.cc:410]   at void android.app.ActivityThread.handleLaunchActivity(android.app.ActivityThread$ActivityClientRecord, android.content.Intent) (ActivityThread.java:2476)
+11-19 10:47:06.509 16081-16081/? A/art: art/runtime/java_vm_ext.cc:410]   at void android.app.ActivityThread.-wrap11(android.app.ActivityThread, android.app.ActivityThread$ActivityClientRecord, android.content.Intent) (ActivityThread.java:-1)
+11-19 10:47:06.509 16081-16081/? A/art: art/runtime/java_vm_ext.cc:410]   at void android.app.ActivityThread$H.handleMessage(android.os.Message) (ActivityThread.java:1344)
+11-19 10:47:06.509 16081-16081/? A/art: art/runtime/java_vm_ext.cc:410]   at void android.os.Handler.dispatchMessage(android.os.Message) (Handler.java:102)
+11-19 10:47:06.509 16081-16081/? A/art: art/runtime/java_vm_ext.cc:410]   at void android.os.Looper.loop() (Looper.java:148)
+11-19 10:47:06.509 16081-16081/? A/art: art/runtime/java_vm_ext.cc:410]   at void android.app.ActivityThread.main(java.lang.String[]) (ActivityThread.java:5417)
+11-19 10:47:06.509 16081-16081/? A/art: art/runtime/java_vm_ext.cc:410]   at java.lang.Object java.lang.reflect.Method.invoke!(java.lang.Object, java.lang.Object[]) (Method.java:-2)
+11-19 10:47:06.509 16081-16081/? A/art: art/runtime/java_vm_ext.cc:410]   at void com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run() (ZygoteInit.java:726)
+11-19 10:47:06.509 16081-16081/? A/art: art/runtime/java_vm_ext.cc:410]   at void com.android.internal.os.ZygoteInit.main(java.lang.String[]) (ZygoteInit.java:616)
+11-19 10:47:06.509 16081-16081/? A/art: art/runtime/java_vm_ext.cc:410] 
+11-19 10:47:06.509 16081-16081/? A/art: art/runtime/java_vm_ext.cc:410]     in call to NewGlobalRef
+11-19 10:47:06.509 16081-16081/? A/art: art/runtime/java_vm_ext.cc:410]     from java.lang.String java.lang.Runtime.nativeLoad(java.lang.String, java.lang.ClassLoader, java.lang.String)
+11-19 10:47:06.509 16081-16081/? A/art: art/runtime/java_vm_ext.cc:410] "main" prio=5 tid=1 Runnable
+11-19 10:47:06.509 16081-16081/? A/art: art/runtime/java_vm_ext.cc:410]   | group="main" sCount=0 dsCount=0 obj=0x75454258 self=0xf4034500
+11-19 10:47:06.509 16081-16081/? A/art: art/runtime/java_vm_ext.cc:410]   | sysTid=16081 nice=0 cgrp=default sched=0/0 handle=0xf76fdc00
+11-19 10:47:06.509 16081-16081/? A/art: art/runtime/java_vm_ext.cc:410]   | state=R schedstat=( 0 0 0 ) utm=9 stm=4 core=0 HZ=100
+11-19 10:47:06.509 16081-16081/? A/art: art/runtime/java_vm_ext.cc:410]   | stack=0xff5ae000-0xff5b0000 stackSize=8MB
+11-19 10:47:06.509 16081-16081/? A/art: art/runtime/java_vm_ext.cc:410]   | held mutexes= "mutator lock"(shared held)
+11-19 10:47:06.509 16081-16081/? A/art: art/runtime/java_vm_ext.cc:410]   native: #00 pc 0058bae2  /system/lib/libart.so (art::DumpNativeStack(std::__1::basic_ostream<char, std::__1::char_traits<char> >&, int, char const*, art::ArtMethod*, void*)+226)
+11-19 10:47:06.509 16081-16081/? A/art: art/runtime/java_vm_ext.cc:410]   native: #01 pc 0055172e  /system/lib/libart.so (art::Thread::Dump(std::__1::basic_ostream<char, std::__1::char_traits<char> >&) const+286)
+11-19 10:47:06.509 16081-16081/? A/art: art/runtime/java_vm_ext.cc:410]   native: #02 pc 003a461f  /system/lib/libart.so (art::JavaVMExt::JniAbort(char const*, char const*)+1247)
+11-19 10:47:06.509 16081-16081/? A/art: art/runtime/java_vm_ext.cc:410]   native: #03 pc 003a5c9c  /system/lib/libart.so (art::JavaVMExt::JniAbortV(char const*, char const*, char*)+116)
+11-19 10:47:06.509 16081-16081/? A/art: art/runtime/java_vm_ext.cc:410]   native: #04 pc 00163950  /system/lib/libart.so (art::ScopedCheck::AbortF(char const*, ...)+62)
+11-19 10:47:06.509 16081-16081/? A/art: art/runtime/java_vm_ext.cc:410]   native: #05 pc 0016d912  /system/lib/libart.so (art::ScopedCheck::CheckThread(_JNIEnv*)+1890)
+11-19 10:47:06.509 16081-16081/? A/art: art/runtime/java_vm_ext.cc:410]   native: #06 pc 0016e421  /system/lib/libart.so (art::ScopedCheck::Check(art::ScopedObjectAccess&, bool, char const*, art::JniValueType*) (.constprop.114)+1489)
+11-19 10:47:06.509 16081-16081/? A/art: art/runtime/java_vm_ext.cc:410]   native: #07 pc 0017680a  /system/lib/libart.so (art::CheckJNI::NewRef(char const*, _JNIEnv*, _jobject*, art::IndirectRefKind)+602)
+11-19 10:47:06.509 16081-16081/? A/art: art/runtime/java_vm_ext.cc:410]   native: #08 pc 00176b49  /system/lib/libart.so (art::CheckJNI::NewGlobalRef(_JNIEnv*, _jobject*)+52)
+11-19 10:47:06.509 16081-16081/? A/art: art/runtime/java_vm_ext.cc:410]   native: #09 pc 0053e19b  /system/lib/libart.so (art::Thread::SetClassLoaderOverride(_jobject*)+57)
+11-19 10:47:06.509 16081-16081/? A/art: art/runtime/java_vm_ext.cc:410]   native: #10 pc 003a637e  /system/lib/libart.so (art::JavaVMExt::LoadNativeLibrary(_JNIEnv*, std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&, _jobject*, std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >*)+1534)
+11-19 10:47:06.509 16081-16081/? A/art: art/runtime/java_vm_ext.cc:410]   native: #11 pc 00470b4d  /system/lib/libart.so (art::Runtime_nativeLoad(_JNIEnv*, _jclass*, _jstring*, _jobject*, _jstring*)+301)
+11-19 10:47:06.509 16081-16081/? A/art: art/runtime/java_vm_ext.cc:410]   native: #12 pc 002c26ce  /data/dalvik-cache/x86/system@framework@boot.oat (Java_java_lang_Runtime_nativeLoad__Ljava_lang_String_2Ljava_lang_ClassLoader_2Ljava_lang_String_2+194)
+11-19 10:47:06.509 16081-16081/? A/art: art/runtime/java_vm_ext.cc:410]   native: #13 pc 00641453  /dev/ashmem/dalvik-main space 1 (deleted) (???)
+11-19 10:47:06.509 16081-16081/? A/art: art/runtime/java_vm_ext.cc:410]   at java.lang.Runtime.nativeLoad(Native method)
+11-19 10:47:06.509 16081-16081/? A/art: art/runtime/java_vm_ext.cc:410]   at java.lang.Runtime.doLoad(Runtime.java:435)
+11-19 10:47:06.509 16081-16081/? A/art: art/runtime/java_vm_ext.cc:410]   - locked <0x01f48cab> (a java.lang.Runtime)
+11-19 10:47:06.509 16081-16081/? A/art: art/runtime/java_vm_ext.cc:410]   at java.lang.Runtime.loadLibrary(Runtime.java:370)
+11-19 10:47:06.509 16081-16081/? A/art: art/runtime/java_vm_ext.cc:410]   at java.lang.System.loadLibrary(System.java:1076)
+11-19 10:47:06.509 16081-16081/? A/art: art/runtime/java_vm_ext.cc:410]   at com.facebook.animated.gif.GifImage.<clinit>(GifImage.java:4)
+11-19 10:47:06.509 16081-16081/? A/art: art/runtime/java_vm_ext.cc:410]   at hd.youngby.wallpaper.MainActivity.runTestCases(MainActivity.java:19)
+11-19 10:47:06.509 16081-16081/? A/art: art/runtime/java_vm_ext.cc:410]   at hd.youngby.wallpaper.MainActivity.onCreate(MainActivity.java:16)
+11-19 10:47:06.509 16081-16081/? A/art: art/runtime/java_vm_ext.cc:410]   at android.app.Activity.performCreate(Activity.java:6237)
+11-19 10:47:06.509 16081-16081/? A/art: art/runtime/java_vm_ext.cc:410]   at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1107)
+11-19 10:47:06.509 16081-16081/? A/art: art/runtime/java_vm_ext.cc:410]   at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2369)
+11-19 10:47:06.509 16081-16081/? A/art: art/runtime/java_vm_ext.cc:410]   at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:2476)
+11-19 10:47:06.509 16081-16081/? A/art: art/runtime/java_vm_ext.cc:410]   at android.app.ActivityThread.-wrap11(ActivityThread.java:-1)
+11-19 10:47:06.509 16081-16081/? A/art: art/runtime/java_vm_ext.cc:410]   at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1344)
+11-19 10:47:06.509 16081-16081/? A/art: art/runtime/java_vm_ext.cc:410]   at android.os.Handler.dispatchMessage(Handler.java:102)
+11-19 10:47:06.509 16081-16081/? A/art: art/runtime/java_vm_ext.cc:410]   at android.os.Looper.loop(Looper.java:148)
+11-19 10:47:06.509 16081-16081/? A/art: art/runtime/java_vm_ext.cc:410]   at android.app.ActivityThread.main(ActivityThread.java:5417)
+11-19 10:47:06.509 16081-16081/? A/art: art/runtime/java_vm_ext.cc:410]   at java.lang.reflect.Method.invoke!(Native method)
+11-19 10:47:06.509 16081-16081/? A/art: art/runtime/java_vm_ext.cc:410]   at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:726)
+11-19 10:47:06.509 16081-16081/? A/art: art/runtime/java_vm_ext.cc:410]   at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:616)
+11-19 10:47:06.509 16081-16081/? A/art: art/runtime/java_vm_ext.cc:410] 
+11-19 10:47:06.556 16081-16081/? A/art: art/runtime/runtime.cc:366] Runtime aborting...
+11-19 10:47:06.556 16081-16081/? A/art: art/runtime/runtime.cc:366] Aborting thread:
+11-19 10:47:06.556 16081-16081/? A/art: art/runtime/runtime.cc:366] "main" prio=5 tid=1 Native
+11-19 10:47:06.556 16081-16081/? A/art: art/runtime/runtime.cc:366]   | group="" sCount=0 dsCount=0 obj=0x75454258 self=0xf4034500
+11-19 10:47:06.556 16081-16081/? A/art: art/runtime/runtime.cc:366]   | sysTid=16081 nice=0 cgrp=default sched=0/0 handle=0xf76fdc00
+11-19 10:47:06.556 16081-16081/? A/art: art/runtime/runtime.cc:366]   | state=R schedstat=( 0 0 0 ) utm=9 stm=4 core=0 HZ=100
+11-19 10:47:06.556 16081-16081/? A/art: art/runtime/runtime.cc:366]   | stack=0xff5ae000-0xff5b0000 stackSize=8MB
+11-19 10:47:06.556 16081-16081/? A/art: art/runtime/runtime.cc:366]   | held mutexes= "abort lock"
+11-19 10:47:06.556 16081-16081/? A/art: art/runtime/runtime.cc:366]   native: #00 pc 0058bae2  /system/lib/libart.so (art::DumpNativeStack(std::__1::basic_ostream<char, std::__1::char_traits<char> >&, int, char const*, art::ArtMethod*, void*)+226)
+11-19 10:47:06.556 16081-16081/? A/art: art/runtime/runtime.cc:366]   native: #01 pc 0055172e  /system/lib/libart.so (art::Thread::Dump(std::__1::basic_ostream<char, std::__1::char_traits<char> >&) const+286)
+11-19 10:47:06.556 16081-16081/? A/art: art/runtime/runtime.cc:366]   native: #02 pc 005174de  /system/lib/libart.so (art::Runtime::Abort()+1164)
+11-19 10:47:06.556 16081-16081/? A/art: art/runtime/runtime.cc:366]   native: #03 pc 0014d933  /system/lib/libart.so (art::LogMessage::~LogMessage()+1343)
+11-19 10:47:06.556 16081-16081/? A/art: art/runtime/runtime.cc:366]   native: #04 pc 003a5042  /system/lib/libart.so (art::JavaVMExt::JniAbort(char const*, char const*)+3842)
+11-19 10:47:06.556 16081-16081/? A/art: art/runtime/runtime.cc:366]   native: #05 pc 003a5c9c  /system/lib/libart.so (art::JavaVMExt::JniAbortV(char const*, char const*, char*)+116)
+11-19 10:47:06.556 16081-16081/? A/art: art/runtime/runtime.cc:366]   native: #06 pc 00163950  /system/lib/libart.so (art::ScopedCheck::AbortF(char const*, ...)+62)
+11-19 10:47:06.556 16081-16081/? A/art: art/runtime/runtime.cc:366]   native: #07 pc 0016d912  /system/lib/libart.so (art::ScopedCheck::CheckThread(_JNIEnv*)+1890)
+11-19 10:47:06.556 16081-16081/? A/art: art/runtime/runtime.cc:366]   native: #08 pc 0016e421  /system/lib/libart.so (art::ScopedCheck::Check(art::ScopedObjectAccess&, bool, char const*, art::JniValueType*) (.constprop.114)+1489)
+11-19 10:47:06.556 16081-16081/? A/art: art/runtime/runtime.cc:366]   native: #09 pc 0017680a  /system/lib/libart.so (art::CheckJNI::NewRef(char const*, _JNIEnv*, _jobject*, art::IndirectRefKind)+602)
+11-19 10:47:06.556 16081-16081/? A/art: art/runtime/runtime.cc:366]   native: #10 pc 00176b49  /system/lib/libart.so (art::CheckJNI::NewGlobalRef(_JNIEnv*, _jobject*)+52)
+11-19 10:47:06.556 16081-16081/? A/art: art/runtime/runtime.cc:366]   native: #11 pc 0053e19b  /system/lib/libart.so (art::Thread::SetClassLoaderOverride(_jobject*)+57)
+11-19 10:47:06.556 16081-16081/? A/art: art/runtime/runtime.cc:366]   native: #12 pc 003a637e  /system/lib/libart.so (art::JavaVMExt::LoadNativeLibrary(_JNIEnv*, std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&, _jobject*, std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >*)+1534)
+11-19 10:47:06.556 16081-16081/? A/art: art/runtime/runtime.cc:366]   native: #13 pc 00470b4d  /system/lib/libart.so (art::Runtime_nativeLoad(_JNIEnv*, _jclass*, _jstring*, _jobject*, _jstring*)+301)
+11-19 10:47:06.556 16081-16081/? A/art: art/runtime/runtime.cc:366]   native: #14 pc 002c26ce  /data/dalvik-cache/x86/system@framework@boot.oat (???)
+11-19 10:47:06.556 16081-16081/? A/art: art/runtime/runtime.cc:366]   native: #15 pc 00641453  /dev/ashmem/dalvik-main space 1 (deleted) (???)
+11-19 10:47:06.556 16081-16081/? A/art: art/runtime/runtime.cc:366]   at java.lang.Runtime.nativeLoad(Native method)
+11-19 10:47:06.556 16081-16081/? A/art: art/runtime/runtime.cc:366]   at java.lang.Runtime.doLoad(Runtime.java:435)
+11-19 10:47:06.556 16081-16081/? A/art: art/runtime/runtime.cc:366]   - locked <0x01f48cab> (a java.lang.Runtime)
+11-19 10:47:06.556 16081-16081/? A/art: art/runtime/runtime.cc:366]   at java.lang.Runtime.loadLibrary(Runtime.java:370)
+11-19 10:47:06.556 16081-16081/? A/art: art/runtime/runtime.cc:366]   at java.lang.System.loadLibrary(System.java:1076)
+11-19 10:47:06.556 16081-16081/? A/art: art/runtime/runtime.cc:366]   at com.facebook.animated.gif.GifImage.<clinit>(GifImage.java:4)
+11-19 10:47:06.556 16081-16081/? A/art: art/runtime/runtime.cc:366]   at hd.youngby.wallpaper.MainActivity.runTestCases(MainActivity.java:19)
+11-19 10:47:06.556 16081-16081/? A/art: art/runtime/runtime.cc:366]   at hd.youngby.wallpaper.MainActivity.onCreate(MainActivity.java:16)
+11-19 10:47:06.556 16081-16081/? A/art: art/runtime/runtime.cc:366]   at android.app.Activity.performCreate(Activity.java:6237)
+11-19 10:47:06.556 16081-16081/? A/art: art/runtime/runtime.cc:366]   at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1107)
+11-19 10:47:06.556 16081-16081/? A/art: art/runtime/runtime.cc:366]   at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2369)
+11-19 10:47:06.556 16081-16081/? A/art: art/runtime/runtime.cc:366]   at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:2476)
+11-19 10:47:06.556 16081-16081/? A/art: art/runtime/runtime.cc:366]   at android.app.ActivityThread.-wrap11(ActivityThread.java:-1)
+11-19 10:47:06.556 16081-16081/? A/art: art/runtime/runtime.cc:366]   at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1344)
+11-19 10:47:06.556 16081-16081/? A/art: art/runtime/runtime.cc:366]   at android.os.Handler.dispatchMessage(Handler.java:102)
+11-19 10:47:06.556 16081-16081/? A/art: art/runtime/runtime.cc:366]   at android.os.Looper.loop(Looper.java:148)
+11-19 10:47:06.556 16081-16081/? A/art: art/runtime/runtime.cc:366]   at android.app.ActivityThread.main(ActivityThread.java:5417)
+11-19 10:47:06.556 16081-16081/? A/art: art/runtime/runtime.cc:366]   at java.lang.reflect.Method.invoke!(Native method)
+11-19 10:47:06.556 16081-16081/? A/art: art/runtime/runtime.cc:366]   at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:726)
+11-19 10:47:06.556 16081-16081/? A/art: art/runtime/runtime.cc:366]   at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:616)
+11-19 10:47:06.556 16081-16081/? A/art: art/runtime/runtime.cc:366] Pending exception java.lang.NoSuchFieldError: no "J" field "mNativeContext" in class "Lcom/facebook/animated/gif/GifImage;" or its superclasses
+11-19 10:47:06.556 16081-16081/? A/art: art/runtime/runtime.cc:366]   at java.lang.String java.lang.Runtime.nativeLoad(java.lang.String, java.lang.ClassLoader, java.lang.String) (Runtime.java:-2)
+11-19 10:47:06.556 16081-16081/? A/art: art/runtime/runtime.cc:366]   at java.lang.String java.lang.Runtime.doLoad(java.lang.String, java.lang.ClassLoader) (Runtime.java:435)
+11-19 10:47:06.556 16081-16081/? A/art: art/runtime/runtime.cc:366]   at void java.lang.Runtime.loadLibrary(java.lang.String, java.lang.ClassLoader) (Runtime.java:370)
+11-19 10:47:06.556 16081-16081/? A/art: art/runtime/runtime.cc:366]   at void java.lang.System.loadLibrary(java.lang.String) (System.java:1076)
+11-19 10:47:06.556 16081-16081/? A/art: art/runtime/runtime.cc:366]   at void com.facebook.animated.gif.GifImage.<clinit>() (GifImage.java:4)
+11-19 10:47:06.556 16081-16081/? A/art: art/runtime/runtime.cc:366]   at void hd.youngby.wallpaper.MainActivity.runTestCases() (MainActivity.java:19)
+11-19 10:47:06.556 16081-16081/? A/art: art/runtime/runtime.cc:366]   at void hd.youngby.wallpaper.MainActivity.onCreate(android.os.Bundle) (MainActivity.java:16)
+11-19 10:47:06.556 16081-16081/? A/art: art/runtime/runtime.cc:366]   at void android.app.Activity.performCreate(android.os.Bundle) (Activity.java:6237)
+11-19 10:47:06.556 16081-16081/? A/art: art/runtime/runtime.cc:366]   at void android.app.Instrumentation.callActivityOnCreate(android.app.Activity, android.os.Bundle) (Instrumentation.java:1107)
+11-19 10:47:06.556 16081-16081/? A/art: art/runtime/runtime.cc:366]   at android.app.Activity android.app.ActivityThread.performLaunchActivity(android.app.ActivityThread$ActivityClientRecord, android.content.Intent) (ActivityThread.java:2369)
+11-19 10:47:06.556 16081-16081/? A/art: art/runtime/runtime.cc:366]   at void android.app.ActivityThread.handleLaunchActivity(android.app.ActivityThread$ActivityClientRecord, android.content.Intent) (ActivityThread.java:2476)
+11-19 10:47:06.556 16081-16081/? A/art: art/runtime/runtime.cc:366]   at void android.app.ActivityThread.-wrap11(android.app.ActivityThread, android.app.ActivityThread$ActivityClientRecord, android.content.Intent) (ActivityThread.java:-1)
+11-19 10:47:06.556 16081-16081/? A/art: art/runtime/runtime.cc:366]   at void android.app.ActivityThread$H.handleMessage(android.os.Message) (ActivityThread.java:1344)
+11-19 10:47:06.556 16081-16081/? A/art: art/runtime/runtime.cc:366]   at void android.os.Handler.dispatchMessage(android.os.Message) (Handler.java:102)
+11-19 10:47:06.556 16081-16081/? A/art: art/runtime/runtime.cc:366]   at void android.os.Looper.loop() (Looper.java:148)
+11-19 10:47:06.556 16081-16081/? A/art: art/runtime/runtime.cc:366]   at void android.app.ActivityThread.main(java.lang.String[]) (ActivityThread.java:5417)
+11-19 10:47:06.556 16081-16081/? A/art: art/runtime/runtime.cc:366]   at java.lang.Object java.lang.reflect.Method.invoke!(java.lang.Object, java.lang.Object[]) (Method.java:-2)
+11-19 10:47:06.556 16081-16081/? A/art: art/runtime/runtime.cc:366]   at void com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run() (ZygoteInit.java:726)
+11-19 10:47:06.556 16081-16081/? A/art: art/runtime/runtime.cc:366]   at void com.android.internal.os.ZygoteInit.main(java.lang.String[]) (ZygoteInit.java:616)
+11-19 10:47:06.556 16081-16081/? A/art: art/runtime/runtime.cc:366] Dumping all threads without appropriate locks held: thread list lock mutator lock
+11-19 10:47:06.556 16081-16081/? A/art: art/runtime/runtime.cc:366] All threads:
+11-19 10:47:06.556 16081-16081/? A/art: art/runtime/runtime.cc:366] DALVIK THREADS (17):
+11-19 10:47:06.556 16081-16081/? A/art: art/runtime/runtime.cc:366] "main" prio=5 tid=1 Runnable
+11-19 10:47:06.556 16081-16081/? A/art: art/runtime/runtime.cc:366]   | group="" sCount=0 dsCount=0 obj=0x75454258 self=0xf4034500
+11-19 10:47:06.556 16081-16081/? A/art: art/runtime/runtime.cc:366]   | sysTid=16081 nice=0 cgrp=default sched=0/0 handle=0xf76fdc00
+11-19 10:47:06.556 16081-16081/? A/art: art/runtime/runtime.cc:366]   | state=R schedstat=( 0 0 0 ) utm=10 stm=4 core=0 HZ=100
+11-19 10:47:06.556 16081-16081/? A/art: art/runtime/runtime.cc:366]   | stack=0xff5ae000-0xff5b0000 stackSize=8MB
+11-19 10:47:06.556 16081-16081/? A/art: art/runtime/runtime.cc:366]   | held mutexes= "abort lock" "mutator lock"(shared held)
+11-19 10:47:06.556 16081-16081/? A/art: art/runtime/runtime.cc:366]   native: #00 pc 0058bae2  /system/lib/libart.so (art::DumpNativeStack(std::__1::basic_ostream<char, std::__1::char_traits<char> >&, int, char const*, art::ArtMethod*, void*)+226)
+11-19 10:47:06.556 16081-16081/? A/art: art/runtime/runtime.cc:366]   native: #01 pc 0055172e  /system/lib/libart.so (art::Thread::Dump(std::__1::basic_ostream<char, std::__1::char_traits<char> >&) const+286)
+11-19 10:47:06.556 16081-16081/? A/art: art/runtime/runtime.cc:366]   native: #02 pc 0055c03b  /system/lib/libart.so (art::DumpCheckpoint::Run(art::Thread*)+923)
+11-19 10:47:06.556 16081-16081/? A/art: art/runtime/runtime.cc:366]   native: #03 pc 0055ebdd  /system/lib/libart.so (art::ThreadList::RunCheckpoint(art::Closure*)+301)
+11-19 10:47:06.556 16081-16081/? A/art: art/runtime/runtime.cc:366]   native: #04 pc 0055fed3  /system/lib/libart.so (art::ThreadList::Dump(std::__1::basic_ostream<char, std::__1::char_traits<char> >&)+243)
+11-19 10:47:06.556 16081-16081/? A/art: art/runtime/runtime.cc:366]   native: #05 pc 00517348  /system/lib/libart.so (art::Runtime::Abort()+758)
+11-19 10:47:06.556 16081-16081/? A/art: art/runtime/runtime.cc:366]   native: #06 pc 0014d933  /system/lib/libart.so (art::LogMessage::~LogMessage()+1343)
+11-19 10:47:06.556 16081-16081/? A/art: art/runtime/runtime.cc:366]   native: #07 pc 003a5042  /system/lib/libart.so (art::JavaVMExt::JniAbort(char const*, char const*)+3842)
+11-19 10:47:06.556 16081-16081/? A/art: art/runtime/runtime.cc:366]   native: #08 pc 003a5c9c  /system/lib/libart.so (art::JavaVMExt::JniAbortV(char const*, char const*, char*)+116)
+11-19 10:47:06.556 16081-16081/? A/art: art/runtime/runtime.cc:366]   native: #09 pc 00163950  /system/lib/libart.so (art::ScopedCheck::AbortF(char const*, ...)+62)
+11-19 10:47:06.556 16081-16081/? A/art: art/runtime/runtime.cc:366]   native: #10 pc 0016d912  /system/lib/libart.so (art::ScopedCheck::CheckThread(_JNIEnv*)+1890)
+11-19 10:47:06.556 16081-16081/? A/art: art/runtime/runtime.cc:366]   native: #11 pc 0016e421  /system/lib/libart.so (art::ScopedCheck::Check(art::ScopedObjectAccess&, bool, char const*, art::JniValueType*) (.constprop.114)+1489)
+11-19 10:47:06.556 16081-16081/? A/art: art/runtime/runtime.cc:366]   native: #12 pc 0017680a  /system/lib/libart.so (art::CheckJNI::NewRef(char const*, _JNIEnv*, _jobject*, art::IndirectRefKind)+602)
+11-19 10:47:06.556 16081-16081/? A/art: art/runtime/runtime.cc:366]   native: #13 pc 00176b49  /system/lib/libart.so (art::CheckJNI::NewGlobalRef(_JNIEnv*, _jobject*)+52)
+11-19 10:47:06.556 16081-16081/? A/art: art/runtime/runtime.cc:366]   native: #14 pc 0053e19b  /system/lib/libart.so (art::Thread::SetClassLoaderOverride(_jobject*)+57)
+11-19 10:47:06.556 16081-16081/? A/art: art/runtime/runtime.cc:366]   native: #15 pc 003a637e  /system/lib/libart.so (art::JavaVMExt::LoadNativeLibrary(_JNIEnv*, std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&, _jobject*, std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >*)+1534)
+11-19 10:47:06.556 16081-16081/? A/art: art/runtime/runtime.cc:366]   native: #16 pc 00470b4d  /system/lib/libart.so (art::Runtime_nativeLoad(_JNIEnv*, _jclass*, _jstring*, _jobject*, _jstring*)+301)
+11-19 10:47:06.556 16081-16081/? A/art: art/runtime/runtime.cc:366]   native: #17 pc 002c26ce  /data/dalvik-cache/x86/system@framework@boot.oat (Java_java_lang_Runtime_nativeLoad__Ljava_lang_String_2Ljava_lang_ClassLoader_2Ljava_lang_String_2+194)
+11-19 10:47:06.556 16081-16081/? A/art: art/runtime/runtime.cc:366]   native: #18 pc 00641453  /dev/ashmem/dalvik-main space 1 (deleted) (???)
+11-19 10:47:06.556 16081-16081/? A/art: art/runtime/runtime.cc:366]   at java.lang.Runtime.nativeLoad(Native method)
+11-19 10:47:06.556 16081-16081/? A/art: art/runtime/runtime.cc:366]   at java.lang.Runtime.doLoad(Runtime.java:435)
+11-19 10:47:06.556 16081-16081/? A/art: art/runtime/runtime.cc:366]   - locked <0x01f48cab> (a java.lang.Runtime)
+11-19 10:47:06.556 16081-16081/? A/art: art/runtime/runtime.cc:366]   at java.lang.Runtime.loadLibrary(Runtime.java:370)
+11-19 10:47:06.556 16081-16081/? A/art: art/runtime/runtime.cc:366]   at java.lang.System.loadLibrary(System.java:1076)
+11-19 10:47:06.556 16081-16081/? A/art: art/runtime/runtime.cc:366]   at com.facebook.animated.gif.GifImage.<clinit>(GifImage.java:4)
+11-19 10:47:06.556 16081-16081/? A/art: art/runtime/runtime.cc:366]   at hd.youngby.wallpaper.MainActivity.runTestCases(MainActivity.java:19)
+11-19 10:47:06.556 16081-16081/? A/art: art/runtime/runtime.cc:366]   at hd.youngby.wallpaper.MainActivity.onCreate(MainActivity.java:16)
+11-19 10:47:06.556 16081-16081/? A/art: art/runtime/runtime.cc:366]   at android.app.Activity.performCreate(Activity.java:6237)
+11-19 10:47:06.556 16081-16081/? A/art: art/runtime/runtime.cc:366]   at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1107)
+11-19 10:47:06.556 16081-16081/? A/art: art/runtime/runtime.cc:366]   at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2369)
+11-19 10:47:06.556 16081-16081/? A/art: art/runtime/runtime.cc:366]   at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:2476)
+11-19 10:47:06.556 16081-16081/? A/art: art/runtime/runtime.cc:366]   at android.app.ActivityThread.-wrap11(ActivityThread.java:-1)
+11-19 10:47:06.556 16081-16081/? A/art: art/runtime/runtime.cc:366]   at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1344)
+11-19 10:47:06.556 16081-16081/? A/art: art/runtime/runtime.cc:366]   at android.os.Handler.dispatchMessage(Handler.java:102)
+11-19 10:47:06.556 16081-16081/? A/art: art/runtime/runtime.cc:366]   at android.os.Looper.loop(Looper.java:148)
+11-19 10:47:06.556 16081-16081/? A/art: art/runtime/runtime.cc:366]   at android.app.ActivityThread.main(ActivityThread.java:5417)
+11-19 10:47:06.556 16081-16081/? A/art: art/runtime/runtime.cc:366]   at java.lang.reflect.Method.invoke!(Native method)
+11-19 10:47:06.556 16081-16081/? A/art: art/runtime/runtime.cc:366]   at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:726)
+11-19 10:47:06.556 16081-16081/? A/art: art/runtime/runtime.cc:366]   at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:616)
+11-19 10:47:06.556 16081-16081/? A/art: art/runtime/runtime.cc:366] 
+11-19 10:47:06.556 16081-16081/? A/art: art/runtime/runtime.cc:366] "Signal Catcher" prio=5 tid=2 WaitingInMainSignalCatcherLoop
+11-19 10:47:06.556 16081-16081/? A/art: art/runtime/runtime.cc:366]   | group="" sCount=1 dsCount=0 obj=0x12c470a0 self=0xea22d500
+11-19 10:47:06.556 16081-16081/? A/art: art/runtime/runtime.cc:366]   | sysTid=16086 nice=0 cgrp=default sched=0/0 handle=0xf3431930
+11-19 10:47:06.556 16081-16081/? A/art: art/runtime/runtime.cc:366]   | state=S schedstat=( 0 0 0 ) utm=0 stm=0 core=1 HZ=100
+11-19 10:47:06.556 16081-16081/? A/art: art/runtime/runtime.cc:366]   | stack=0xf3335000-0xf3337000 stackSize=1014KB
+11-19 10:47:06.556 16081-16081/? A/art: art/runtime/runtime.cc:366]   | held mutexes=
+11-19 10:47:06.556 16081-16081/? A/art: art/runtime/runtime.cc:366]   kernel: do_sigtimedwait+0xe3/0x1b6
+11-19 10:47:06.556 16081-16081/? A/art: art/runtime/runtime.cc:366]   kernel: compat_SyS_rt_sigtimedwait+0x8f/0xc9
+11-19 10:47:06.556 16081-16081/? A/art: art/runtime/runtime.cc:366]   kernel: ia32_sysret+0x0/0x5
+11-19 10:47:06.556 16081-16081/? A/art: art/runtime/runtime.cc:366]   native: #00 pc 0008412b  /system/lib/libc.so (__rt_sigtimedwait+27)
+11-19 10:47:06.556 16081-16081/? A/art: art/runtime/runtime.cc:366]   native: #01 pc 00028e6c  /system/lib/libc.so (sigwait+69)
+11-19 10:47:06.556 16081-16081/? A/art: art/runtime/runtime.cc:366]   native: #02 pc 005229d6  /system/lib/libart.so (art::SignalCatcher::WaitForSignal(art::Thread*, art::SignalSet&)+118)
+11-19 10:47:06.556 16081-16081/? A/art: art/runtime/runtime.cc:366]   native: #03 pc 005261ce  /system/lib/libart.so (art::SignalCatcher::Run(void*)+302)
+11-19 10:47:06.556 16081-16081/? A/art: art/runtime/runtime.cc:366]   native: #04 pc 00081923  /system/lib/libc.so (__pthread_start(void*)+56)
+11-19 10:47:06.556 16081-16081/? A/art: art/runtime/runtime.cc:366]   native: #05 pc 000227f2  /system/lib/libc.so (__start_thread+25)
+11-19 10:47:06.556 16081-16081/? A/art: art/runtime/runtime.cc:366]   native: #06 pc 000170b6  /system/lib/libc.so (__bionic_clone+70)
+11-19 10:47:06.556 16081-16081/? A/art: art/runtime/runtime.cc:366]   (no managed stack frames)
+11-19 10:47:06.556 16081-16081/? A/art: art/runtime/runtime.cc:366] 
+11-19 10:47:06.556 16081-16081/? A/art: art/runtime/runtime.cc:366] "JDWP" prio=5 tid=3 WaitingInMainDebuggerLoop
+11-19 10:47:06.556 16081-16081/? A/art: art/runtime/runtime.cc:366]   | group="" sCount=1 dsCount=0 obj=0x12c4a0a0 self=0xebb6fd00
+11-19 10:47:06.556 16081-16081/? A/art: art/runtime/runtime.cc:366]   | sysTid=16087 nice=0 cgrp=default sched=0/0 handle=0xf332d930
+11-19 10:47:06.556 16081-16081/? A/art: art/runtime/runtime.cc:366]   | state=S schedstat=( 0 0 0 ) utm=0 stm=0 core=2 HZ=100
+11-19 10:47:06.556 16081-16081/? A/art: art/runtime/runtime.cc:366]   | stack=0xf3231000-0xf3233000 stackSize=1014KB
+11-19 10:47:06.556 16081-16081/? A/art: art/runtime/runtime.cc:366]   | held mutexes=
+11-19 10:47:06.556 16081-16081/? A/art: art/runtime/runtime.cc:366]   kernel: unix_stream_recvmsg+0x31b/0x7cd
+11-19 10:47:06.556 16081-16081/? A/art: art/runtime/runtime.cc:366]   kernel: sock_recvmsg+0xad/0xce
+11-19 10:47:06.556 16081-16081/? A/art: art/runtime/runtime.cc:366]   kernel: ___sys_recvmsg+0x155/0x21a
+11-19 10:47:06.556 16081-16081/? A/art: art/runtime/runtime.cc:366]   kernel: __sys_recvmsg+0x3d/0x5e
+11-19 10:47:06.556 16081-16081/? A/art: art/runtime/runtime.cc:366]   kernel: compat_sys_recvmsg+0x1a/0x1c
+11-19 10:47:06.556 16081-16081/? A/art: art/runtime/runtime.cc:366]   kernel: compat_sys_socketcall+0x14e/0x17d
+11-19 10:47:06.556 16081-16081/? A/art: art/runtime/runtime.cc:366]   kernel: ia32_sysret+0x0/0x5
+11-19 10:47:06.556 16081-16081/? A/art: art/runtime/runtime.cc:366]   native: #00 pc 00086191  /system/lib/libc.so (recvmsg+17)
+11-19 10:47:06.556 16081-16081/? A/art: art/runtime/runtime.cc:366]   native: #01 pc 0066e02f  /system/lib/libart.so (art::JDWP::JdwpAdbState::Accept()+267)
+11-19 10:47:06.556 16081-16081/? A/art: art/runtime/runtime.cc:366]   native: #02 pc 003be7ea  /system/lib/libart.so (art::JDWP::JdwpState::Run()+282)
+11-19 10:47:06.556 16081-16081/? A/art: art/runtime/runtime.cc:366]   native: #03 pc 003c06a1  /system/lib/libart.so (art::JDWP::StartJdwpThread(void*)+32)
+11-19 10:47:06.556 16081-16081/? A/art: art/runtime/runtime.cc:366]   native: #04 pc 00081923  /system/lib/libc.so (__pthread_start(void*)+56)
+11-19 10:47:06.556 16081-16081/? A/art: art/runtime/runtime.cc:366]   native: #05 pc 000227f2  /system/lib/libc.so (__start_thread+25)
+11-19 10:47:06.556 16081-16081/? A/art: art/runtime/runtime.cc:366]   native: #06 pc 000170b6  /system/lib/libc.so (__bionic_clone+70)
+11-19 10:47:06.556 16081-16081/? A/art: art/runtime/runtime.cc:366]   (no managed stack frames)
+11-19 10:47:06.556 16081-16081/? A/art: art/runtime/runtime.cc:366] 
+11-19 10:47:06.556 16081-16081/? A/art: art/runtime/runtime.cc:366] "ReferenceQueueDaemon" prio=5 tid=4 Waiting
+11-19 10:47:06.556 16081-16081/? A/art: art/runtime/runtime.cc:366]   | group="" sCount=1 dsCount=0 obj=0x12c43580 self=0xebb71100
+11-19 10:47:06.556 16081-16081/? A/art: art/runtime/runtime.cc:366]   | sysTid=16088 nice=0 cgrp=default sched=0/0 handle=0xf3227930
+11-19 10:47:06.556 16081-16081/? A/art: art/runtime/runtime.cc:366]   | state=S schedstat=( 0 0 0 ) utm=0 stm=0 core=0 HZ=100
+11-19 10:47:06.556 16081-16081/? A/art: art/runtime/runtime.cc:366]   | stack=0xf3125000-0xf3127000 stackSize=1038KB
+11-19 10:47:06.556 16081-16081/? A/art: art/runtime/runtime.cc:366]   | held mutexes=
+11-19 10:47:06.556 16081-16081/? A/art: art/runtime/runtime.cc:366]   kernel: futex_wait_queue_me+0xde/0x12f
+11-19 10:47:06.556 16081-16081/? A/art: art/runtime/runtime.cc:366]   kernel: futex_wait+0x113/0x22e
+11-19 10:47:06.556 16081-16081/? A/art: art/runtime/runtime.cc:366]   kernel: do_futex+0xc5/0x8a2
+11-19 10:47:06.556 16081-16081/? A/art: art/runtime/runtime.cc:366]   kernel: compat_SyS_futex+0xb7/0x129
+11-19 10:47:06.556 16081-16081/? A/art: art/runtime/runtime.cc:366]   kernel: ia32_sysret+0x0/0x5
+11-19 10:47:06.556 16081-16081/? A/art: art/runtime/runtime.cc:366]   native: #00 pc 000171e0  /system/lib/libc.so (syscall+32)
+11-19 10:47:06.556 16081-16081/? A/art: art/runtime/runtime.cc:366]   native: #01 pc 00154f74  /system/lib/libart.so (art::ConditionVariable::WaitHoldingLocks(art::Thread*)+772)
+11-19 10:47:06.556 16081-16081/? A/art: art/runtime/runtime.cc:366]   native: #02 pc 0044f301  /system/lib/libart.so (art::Monitor::Wait(art::Thread*, long long, int, bool, art::ThreadState)+1777)
+11-19 10:47:06.556 16081-16081/? A/art: art/runtime/runtime.cc:366]   native: #03 pc 00452f85  /system/lib/libart.so (art::Monitor::Wait(art::Thread*, art::mirror::Object*, long long, int, bool, art::ThreadState)+197)
+11-19 10:47:06.556 16081-16081/? A/art: art/runtime/runtime.cc:366]   native: #04 pc 00470899  /system/lib/libart.so (art::Object_wait(_JNIEnv*, _jobject*)+90)
+11-19 10:47:06.556 16081-16081/? A/art: art/runtime/runtime.cc:366]   native: #05 pc 00000494  /data/dalvik-cache/x86/system@framework@boot.oat (Java_java_lang_Object_wait__+104)
+11-19 10:47:06.556 16081-16081/? A/art: art/runtime/runtime.cc:366]   native: #06 pc 8b018b33  ???
+11-19 10:47:06.556 16081-16081/? A/art: art/runtime/runtime.cc:366]   at java.lang.Object.wait!(Native method)
+11-19 10:47:06.556 16081-16081/? A/art: art/runtime/runtime.cc:366]   - waiting on <0x0f3e2f08> (a java.lang.Class<java.lang.ref.ReferenceQueue>)
+11-19 10:47:06.556 16081-16081/? A/art: art/runtime/runtime.cc:366]   at java.lang.Daemons$ReferenceQueueDaemon.run(Daemons.java:147)
+11-19 10:47:06.556 16081-16081/? A/art: art/runtime/runtime.cc:366]   - locked <0x0f3e2f08> (a java.lang.Class<java.lang.ref.ReferenceQueue>)
+11-19 10:47:06.556 16081-16081/? A/art: art/runtime/runtime.cc:366]   at java.lang.Thread.run(Thread.java:818)
+11-19 10:47:06.556 16081-16081/? A/art: art/runtime/runtime.cc:366] 
+11-19 10:47:06.556 16081-16081/? A/art: art/runtime/runtime.cc:366] "FinalizerDaemon" prio=5 tid=5 Waiting
+11-19 10:47:06.556 16081-16081/? A/art: art/runtime/runtime.cc:366]   | group="" sCount=1 dsCount=0 obj=0x12c435e0 self=0xebb71600
+11-19 10:47:06.556 16081-16081/? A/art: art/runtime/runtime.cc:366]   | sysTid=16089 nice=0 cgrp=default sched=0/0 handle=0xf311d930
+11-19 10:47:06.556 16081-16081/? A/art: art/runtime/runtime.cc:366]   | state=S schedstat=( 0 0 0 ) utm=0 stm=0 core=1 HZ=100
+11-19 10:47:06.556 16081-16081/? A/art: art/runtime/runtime.cc:366]   | stack=0xf301b000-0xf301d000 stackSize=1038KB
+11-19 10:47:06.556 16081-16081/? A/art: art/runtime/runtime.cc:366]   | held mutexes=
+11-19 10:47:06.556 16081-16081/? A/art: art/runtime/runtime.cc:366]   kernel: futex_wait_queue_me+0xde/0x12f
+11-19 10:47:06.556 16081-16081/? A/art: art/runtime/runtime.cc:366]   kernel: futex_wait+0x113/0x22e
+11-19 10:47:06.556 16081-16081/? A/art: art/runtime/runtime.cc:366]   kernel: do_futex+0xc5/0x8a2
+11-19 10:47:06.556 16081-16081/? A/art: art/runtime/runtime.cc:366]   kernel: compat_SyS_futex+0xb7/0x129
+11-19 10:47:06.556 16081-16081/? A/art: art/runtime/runtime.cc:366]   kernel: ia32_sysret+0x0/0x5
+11-19 10:47:06.556 16081-16081/? A/art: art/runtime/runtime.cc:366]   native: #00 pc 000171e0  /system/lib/libc.so (syscall+32)
+11-19 10:47:06.556 16081-16081/? A/art: art/runtime/runtime.cc:366]   native: #01 pc 00154f74  /system/lib/libart.so (art::ConditionVariable::WaitHoldingLocks(art::Thread*)+772)
+11-19 10:47:06.556 16081-16081/? A/art: art/runtime/runtime.cc:366]   native: #02 pc 0044f301  /system/lib/libart.so (art::Monitor::Wait(art::Thread*, long long, int, bool, art::ThreadState)+1777)
+11-19 10:47:06.556 16081-16081/? A/art: art/runtime/runtime.cc:366]   native: #03 pc 00452f85  /system/lib/libart.so (art::Monitor::Wait(art::Thread*, art::mirror::Object*, long long, int, bool, art::ThreadState)+197)
+11-19 10:47:06.556 16081-16081/? A/art: art/runtime/runtime.cc:366]   native: #04 pc 004708fc  /system/lib/libart.so (art::Object_waitJI(_JNIEnv*, _jobject*, long long, int)+92)
+11-19 10:47:06.556 16081-16081/? A/art: art/runtime/runtime.cc:366]   native: #05 pc 00000704  /data/dalvik-cache/x86/system@framework@boot.oat (Java_java_lang_Object_wait__JI+136)
+11-19 10:47:06.556 16081-16081/? A/art: art/runtime/runtime.cc:366]   native: #06 pc 1c8009ef  /dev/ashmem/dalvik-main space 1 (deleted) (???)
+11-19 10:47:06.556 16081-16081/? A/art: art/runtime/runtime.cc:366]   native: #07 pc 1c8009d7  /dev/ashmem/dalvik-main space 1 (deleted) (???)
+11-19 10:47:06.556 16081-16081/? A/art: art/runtime/runtime.cc:366]   at java.lang.Object.wait!(Native method)
+11-19 10:47:06.556 16081-16081/? A/art: art/runtime/runtime.cc:366]   - waiting on <0x07fea6a1> (a java.lang.ref.ReferenceQueue)
+11-19 10:47:06.556 16081-16081/? A/art: art/runtime/runtime.cc:366]   at java.lang.Object.wait(Object.java:423)
+11-19 10:47:06.556 16081-16081/? A/art: art/runtime/runtime.cc:366]   at java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:101)
+11-19 10:47:06.556 16081-16081/? A/art: art/runtime/runtime.cc:366]   - locked <0x07fea6a1> (a java.lang.ref.ReferenceQueue)
+11-19 10:47:06.556 16081-16081/? A/art: art/runtime/runtime.cc:366]   at java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:72)
+11-19 10:47:06.556 16081-16081/? A/art: art/runtime/runtime.cc:366]   at java.lang.Daemons$FinalizerDaemon.run(Daemons.java:185)
+11-19 10:47:06.556 16081-16081/? A/art: art/runtime/runtime.cc:366]   at java.lang.Thread.run(Thread.java:818)
+11-19 10:47:06.556 16081-16081/? A/art: art/runtime/runtime.cc:366] 
+11-19 10:47:06.556 16081-16081/? A/art: art/runtime/runtime.cc:366] "FinalizerWatchdogDaemon" prio=5 tid=6 Waiting
+11-19 10:47:06.556 16081-16081/? A/art: art/runtime/runtime.cc:366]   | group="" sCount=1 dsCount=0 obj=0x12c43640 self=0xebb71b00
+11-19 10:47:06.556 16081-16081/? A/art: art/runtime/runtime.cc:366]   | sysTid=16090 nice=0 cgrp=default sched=0/0 handle=0xf3013930
+11-19 10:47:06.556 16081-16081/? A/art: art/runtime/runtime.cc:366]   | state=S schedstat=( 0 0 0 ) utm=0 stm=0 core=2 HZ=100
+11-19 10:47:06.556 16081-16081/? A/art: art/runtime/runtime.cc:366]   | stack=0xf2f11000-0xf2f13000 stackSize=1038KB
+11-19 10:47:06.556 16081-16081/? A/art: art/runtime/runtime.cc:366]   | held mutexes=
+11-19 10:47:06.556 16081-16081/? A/art: art/runtime/runtime.cc:366]   kernel: futex_wait_queue_me+0xde/0x12f
+11-19 10:47:06.556 16081-16081/? A/art: art/runtime/runtime.cc:366]   kernel: futex_wait+0x113/0x22e
+11-19 10:47:06.556 16081-16081/? A/art: art/runtime/runtime.cc:366]   kernel: do_futex+0xc5/0x8a2
+11-19 10:47:06.556 16081-16081/? A/art: art/runtime/runtime.cc:366]   kernel: compat_SyS_futex+0xb7/0x129
+11-19 10:47:06.556 16081-16081/? A/art: art/runtime/runtime.cc:366]   kernel: ia32_sysret+0x0/0x5
+11-19 10:47:06.556 16081-16081/? A/art: art/runtime/runtime.cc:366]   native: #00 pc 000171e0  /system/lib/libc.so (syscall+32)
+11-19 10:47:06.556 16081-16081/? A/art: art/runtime/runtime.cc:366]   native: #01 pc 00154f74  /system/lib/libart.so (art::ConditionVariable::WaitHoldingLocks(art::Thread*)+772)
+11-19 10:47:06.556 16081-16081/? A/art: art/runtime/runtime.cc:366]   native: #02 pc 0044f301  /system/lib/libart.so (art::Monitor::Wait(art::Thread*, long long, int, bool, art::ThreadState)+1777)
+11-19 10:47:06.556 16081-16081/? A/art: art/runtime/runtime.cc:366]   native: #03 pc 00452f85  /system/lib/libart.so (art::Monitor::Wait(art::Thread*, art::mirror::Object*, long long, int, bool, art::ThreadState)+197)
+11-19 10:47:06.556 16081-16081/? A/art: art/runtime/runtime.cc:366]   native: #04 pc 00470899  /system/lib/libart.so (art::Object_wait(_JNIEnv*, _jobject*)+90)
+11-19 10:47:06.556 16081-16081/? A/art: art/runtime/runtime.cc:366]   native: #05 pc 00000494  /data/dalvik-cache/x86/system@framework@boot.oat (Java_java_lang_Object_wait__+104)
+11-19 10:47:06.556 16081-16081/? A/art: art/runtime/runtime.cc:366]   native: #06 pc 1c1b93ff  /dev/ashmem/dalvik-main space 1 (deleted) (???)
+11-19 10:47:06.556 16081-16081/? A/art: art/runtime/runtime.cc:366]   at java.lang.Object.wait!(Native method)
+11-19 10:47:06.556 16081-16081/? A/art: art/runtime/runtime.cc:366]   - waiting on <0x0fb830c6> (a java.lang.Daemons$FinalizerWatchdogDaemon)
+11-19 10:47:06.556 16081-16081/? A/art: art/runtime/runtime.cc:366]   at java.lang.Daemons$FinalizerWatchdogDaemon.waitForObject(Daemons.java:255)
+11-19 10:47:06.556 16081-16081/? A/art: art/runtime/runtime.cc:366]   - locked <0x0fb830c6> (a java.lang.Daemons$FinalizerWatchdogDaemon)
+11-19 10:47:06.556 16081-16081/? A/art: art/runtime/runtime.cc:366]   at java.lang.Daemons$FinalizerWatchdogDaemon.run(Daemons.java:227)
+11-19 10:47:06.556 16081-16081/? A/art: art/runtime/runtime.cc:366]   at java.lang.Thread.run(Thread.java:818)
+11-19 10:47:06.556 16081-16081/? A/art: art/runtime/runtime.cc:366] 
+11-19 10:47:06.556 16081-16081/? A/art: art/runtime/runtime.cc:366] "HeapTaskDaemon" prio=5 tid=7 Blocked
+11-19 10:47:06.556 16081-16081/? A/art: art/runtime/runtime.cc:366]   | group="" sCount=1 dsCount=0 obj=0x12c436a0 self=0xebb77000
+11-19 10:47:06.556 16081-16081/? A/art: art/runtime/runtime.cc:366]   | sysTid=16091 nice=0 cgrp=default sched=0/0 handle=0xf2f09930
+11-19 10:47:06.556 16081-16081/? A/art: art/runtime/runtime.cc:366]   | state=S schedstat=( 0 0 0 ) utm=0 stm=0 core=0 HZ=100
+11-19 10:47:06.556 16081-16081/? A/art: art/runtime/runtime.cc:366]   | stack=0xf2e07000-0xf2e09000 stackSize=1038KB
+11-19 10:47:06.556 16081-16081/? A/art: art/runtime/runtime.cc:366]   | held mutexes=
+11-19 10:47:06.556 16081-16081/? A/art: art/runtime/runtime.cc:366]   kernel: futex_wait_queue_me+0xde/0x12f
+11-19 10:47:06.556 16081-16081/? A/art: art/runtime/runtime.cc:366]   kernel: futex_wait+0x113/0x22e
+11-19 10:47:06.556 16081-16081/? A/art: art/runtime/runtime.cc:366]   kernel: do_futex+0xc5/0x8a2
+11-19 10:47:06.556 16081-16081/? A/art: art/runtime/runtime.cc:366]   kernel: compat_SyS_futex+0xb7/0x129
+11-19 10:47:06.556 16081-16081/? A/art: art/runtime/runtime.cc:366]   kernel: ia32_sysret+0x0/0x5
+11-19 10:47:06.556 16081-16081/? A/art: art/runtime/runtime.cc:366]   native: #00 pc 000171e0  /system/lib/libc.so (syscall+32)
+11-19 10:47:06.556 16081-16081/? A/art: art/runtime/runtime.cc:366]   native: #01 pc 00154f74  /system/lib/libart.so (art::ConditionVariable::WaitHoldingLocks(art::Thread*)+772)
+11-19 10:47:06.556 16081-16081/? A/art: art/runtime/runtime.cc:366]   native: #02 pc 002da209  /system/lib/libart.so (art::gc::TaskProcessor::GetTask(art::Thread*)+153)
+11-19 10:47:06.556 16081-16081/? A/art: art/runtime/runtime.cc:366]   native: #03 pc 002dad25  /system/lib/libart.so (art::gc::TaskProcessor::RunAllTasks(art::Thread*)+37)
+11-19 10:47:06.556 16081-16081/? A/art: art/runtime/runtime.cc:366]   native: #04 pc 0045f13c  /system/lib/libart.so (art::VMRuntime_runHeapTasks(_JNIEnv*, _jobject*)+53)
+11-19 10:47:06.556 16081-16081/? A/art: art/runtime/runtime.cc:366]   native: #05 pc 00000494  /data/dalvik-cache/x86/system@framework@boot.oat (Java_dalvik_system_VMRuntime_runHeapTasks__+104)
+11-19 10:47:06.556 16081-16081/? A/art: art/runtime/runtime.cc:366]   at dalvik.system.VMRuntime.runHeapTasks(Native method)
+11-19 10:47:06.556 16081-16081/? A/art: art/runtime/runtime.cc:366]   - waiting to lock an unknown object
+11-19 10:47:06.556 16081-16081/? A/art: art/runtime/runtime.cc:366]   at java.lang.Daemons$HeapTaskDaemon.run(Daemons.java:355)
+11-19 10:47:06.556 16081-16081/? A/art: art/runtime/runtime.cc:366]   at java.lang.Thread.run(Thread.java:818)
+11-19 10:47:06.556 16081-16081/? A/art: art/runtime/runtime.cc:366] 
+11-19 10:47:06.556 16081-16081/? A/art: art/runtime/runtime.cc:366] "Binder_1" prio=5 tid=8 Native
+11-19 10:47:06.556 16081-16081/? A/art: art/runtime/runtime.cc:366]   | group="" sCount=1 dsCount=0 obj=0x12c500a0 self=0xea22e900
+11-19 10:47:06.556 16081-16081/? A/art: art/runtime/runtime.cc:366]   | sysTid=16092 nice=0 cgrp=default sched=0/0 handle=0xf2d03930
+11-19 10:47:06.556 16081-16081/? A/art: art/runtime/runtime.cc:366]   | state=S schedstat=( 0 0 0 ) utm=0 stm=0 core=3 HZ=100
+11-19 10:47:06.556 16081-16081/? A/art: art/runtime/runtime.cc:366]   | stack=0xf2c07000-0xf2c09000 stackSize=1014KB
+11-19 10:47:06.556 16081-16081/? A/art: art/runtime/runtime.cc:366]   | held mutexes=
+11-19 10:47:06.556 16081-16081/? A/art: art/runtime/runtime.cc:366]   kernel: binder_thread_read+0xbef/0xdf1
+11-19 10:47:06.556 16081-16081/? A/art: art/runtime/runtime.cc:366]   kernel: binder_ioctl_write_read+0x136/0x259
+11-19 10:47:06.556 16081-16081/? A/art: art/runtime/runtime.cc:366]   kernel: binder_ioctl+0x1dd/0x561
+11-19 10:47:06.556 16081-16081/? A/art: art/runtime/runtime.cc:366]   kernel: compat_sys_ioctl+0x1c2/0xd0f
+11-19 10:47:06.556 16081-16081/? A/art: art/runtime/runtime.cc:366]   kernel: ia32_sysret+0x0/0x5
+11-19 10:47:06.556 16081-16081/? A/art: art/runtime/runtime.cc:366]   native: #00 pc 00084164  /system/lib/libc.so (__ioctl+20)
+11-19 10:47:06.556 16081-16081/? A/art: art/runtime/runtime.cc:366]   native: #01 pc 00095d1a  /system/lib/libc.so (ioctl+42)
+11-19 10:47:06.556 16081-16081/? A/art: art/runtime/runtime.cc:366]   native: #02 pc 000267ff  /system/lib/libbinder.so (android::IPCThreadState::talkWithDriver(bool)+239)
+11-19 10:47:06.556 16081-16081/? A/art: art/runtime/runtime.cc:366]   native: #03 pc 000271d5  /system/lib/libbinder.so (android::IPCThreadState::getAndExecuteCommand()+37)
+11-19 10:47:06.556 16081-16081/? A/art: art/runtime/runtime.cc:366]   native: #04 pc 00027317  /system/lib/libbinder.so (android::IPCThreadState::joinThreadPool(bool)+151)
+11-19 10:47:06.556 16081-16081/? A/art: art/runtime/runtime.cc:366]   native: #05 pc 00030362  /system/lib/libbinder.so (android::PoolThread::threadLoop()+40)
+11-19 10:47:06.556 16081-16081/? A/art: art/runtime/runtime.cc:366]   native: #06 pc 00014aac  /system/lib/libutils.so (android::Thread::_threadLoop(void*)+418)
+11-19 10:47:06.556 16081-16081/? A/art: art/runtime/runtime.cc:366]   native: #07 pc 0006bfae  /system/lib/libandroid_runtime.so (android::AndroidRuntime::javaThreadShell(void*)+98)
+11-19 10:47:06.556 16081-16081/? A/art: art/runtime/runtime.cc:366]   native: #08 pc 000141cf  /system/lib/libutils.so (thread_data_t::trampoline(thread_data_t const*)+122)
+11-19 10:47:06.556 16081-16081/? A/art: art/runtime/runtime.cc:366]   native: #09 pc 00081923  /system/lib/libc.so (__pthread_start(void*)+56)
+11-19 10:47:06.556 16081-16081/? A/art: art/runtime/runtime.cc:366]   native: #10 pc 000227f2  /system/lib/libc.so (__start_thread+25)
+11-19 10:47:06.556 16081-16081/? A/art: art/runtime/runtime.cc:366]   native: #11 pc 000170b6  /system/lib/libc.so (__bionic_clone+70)
+11-19 10:47:06.556 16081-16081/? A/art: art/runtime/runtime.cc:366]   (no managed stack frames)
+11-19 10:47:06.556 16081-16081/? A/art: art/runtime/runtime.cc:366] 
+11-19 10:47:06.556 16081-16081/? A/art: art/runtime/runtime.cc:366] "Binder_2" prio=5 tid=9 Native
+11-19 10:47:06.556 16081-16081/? A/art: art/runtime/runtime.cc:366]   | group="" sCount=1 dsCount=0 obj=0x12c530a0 self=0xebb77500
+11-19 10:47:06.556 16081-16081/? A/art: art/runtime/runtime.cc:366]   | sysTid=16093 nice=0 cgrp=default sched=0/0 handle=0xf2bff930
+11-19 10:47:06.556 16081-16081/? A/art: art/runtime/runtime.cc:366]   | state=S schedstat=( 0 0 0 ) utm=0 stm=0 core=2 HZ=100
+11-19 10:47:06.556 16081-16081/? A/art: art/runtime/runtime.cc:366]   | stack=0xf2b03000-0xf2b05000 stackSize=1014KB
+11-19 10:47:06.556 16081-16081/? A/art: art/runtime/runtime.cc:366]   | held mutexes=
+11-19 10:47:06.556 16081-16081/? A/art: art/runtime/runtime.cc:366]   kernel: binder_thread_read+0xbef/0xdf1
+11-19 10:47:06.556 16081-16081/? A/art: art/runtime/runtime.cc:366]   kernel: binder_ioctl_write_read+0x136/0x259
+11-19 10:47:06.556 16081-16081/? A/art: art/runtime/runtime.cc:366]   kernel: binder_ioctl+0x1dd/0x561
+11-19 10:47:06.556 16081-16081/? A/art: art/runtime/runtime.cc:366]   kernel: compat_sys_ioctl+0x1c2/0xd0f
+11-19 10:47:06.556 16081-16081/? A/art: art/runtime/runtime.cc:366]   kernel: ia32_sysret+0x0/0x5
+11-19 10:47:06.556 16081-16081/? A/art: art/runtime/runtime.cc:366]   native: #00 pc 00084164  /system/lib/libc.so (__ioctl+20)
+11-19 10:47:06.556 16081-16081/? A/art: art/runtime/runtime.cc:366]   native: #01 pc 00095d1a  /system/lib/libc.so (ioctl+42)
+11-19 10:47:06.556 16081-16081/? A/art: art/runtime/runtime.cc:366]   native: #02 pc 000267ff  /system/lib/libbinder.so (android::IPCThreadState::talkWithDriver(bool)+239)
+11-19 10:47:06.556 16081-16081/? A/art: art/runtime/runtime.cc:366]   native: #03 pc 000271d5  /system/lib/libbinder.so (android::IPCThreadState::getAndExecuteCommand()+37)
+11-19 10:47:06.556 16081-16081/? A/art: art/runtime/runtime.cc:366]   native: #04 pc 000272d1  /system/lib/libbinder.so (android::IPCThreadState::joinThreadPool(bool)+81)
+11-19 10:47:06.556 16081-16081/? A/art: art/runtime/runtime.cc:366]   native: #05 pc 00030362  /system/lib/libbinder.so (android::PoolThread::threadLoop()+40)
+11-19 10:47:06.557 16081-16081/? A/art: art/runtime/runtime.cc:366]   native: #06 pc 00014aac  /system/lib/libutils.so (android::Thread::_threadLoop(void*)+418)
+11-19 10:47:06.557 16081-16081/? A/art: art/runtime/runtime.cc:366]   native: #07 pc 0006bfae  /system/lib/libandroid_runtime.so (android::AndroidRuntime::javaThreadShell(void*)+98)
+11-19 10:47:06.557 16081-16081/? A/art: art/runtime/runtime.cc:366]   native: #08 pc 000141cf  /system/lib/libutils.so (thread_data_t::trampoline(thread_data_t const*)+122)
+11-19 10:47:06.557 16081-16081/? A/art: art/runtime/runtime.cc:366]   native: #09 pc 00081923  /system/lib/libc.so (__pthread_start(void*)+56)
+11-19 10:47:06.557 16081-16081/? A/art: art/runtime/runtime.cc:366]   native: #10 pc 000227f2  /system/lib/libc.so (__start_thread+25)
+11-19 10:47:06.557 16081-16081/? A/art: art/runtime/runtime.cc:366]   native: #11 pc 000170b6  /system/lib/libc.so (__bionic_clone+70)
+11-19 10:47:06.557 16081-16081/? A/art: art/runtime/runtime.cc:366]   (no managed stack frames)
+11-19 10:47:06.557 16081-16081/? A/art: art/runtime/runtime.cc:366] 
+11-19 10:47:06.557 16081-16081/? A/art: art/runtime/runtime.cc:366] "Binder_3" prio=5 tid=10 Native
+11-19 10:47:06.557 16081-16081/? A/art: art/runtime/runtime.cc:366]   | group="" sCount=1 dsCount=0 obj=0x12cc90a0 self=0xea22fd00
+11-19 10:47:06.557 16081-16081/? A/art: art/runtime/runtime.cc:366]   | sysTid=16095 nice=0 cgrp=default sched=0/0 handle=0xf2a75930
+11-19 10:47:06.557 16081-16081/? A/art: art/runtime/runtime.cc:366]   | state=S schedstat=( 0 0 0 ) utm=0 stm=0 core=2 HZ=100
+11-19 10:47:06.557 16081-16081/? A/art: art/runtime/runtime.cc:366]   | stack=0xf2979000-0xf297b000 stackSize=1014KB
+11-19 10:47:06.557 16081-16081/? A/art: art/runtime/runtime.cc:366]   | held mutexes=
+11-19 10:47:06.557 16081-16081/? A/art: art/runtime/runtime.cc:366]   kernel: binder_thread_read+0xbef/0xdf1
+11-19 10:47:06.557 16081-16081/? A/art: art/runtime/runtime.cc:366]   kernel: binder_ioctl_write_read+0x136/0x259
+11-19 10:47:06.557 16081-16081/? A/art: art/runtime/runtime.cc:366]   kernel: binder_ioctl+0x1dd/0x561
+11-19 10:47:06.557 16081-16081/? A/art: art/runtime/runtime.cc:366]   kernel: compat_sys_ioctl+0x1c2/0xd0f
+11-19 10:47:06.557 16081-16081/? A/art: art/runtime/runtime.cc:366]   kernel: ia32_sysret+0x0/0x5
+11-19 10:47:06.557 16081-16081/? A/art: art/runtime/runtime.cc:366]   native: #00 pc 00084164  /system/lib/libc.so (__ioctl+20)
+11-19 10:47:06.557 16081-16081/? A/art: art/runtime/runtime.cc:366]   native: #01 pc 00095d1a  /system/lib/libc.so (ioctl+42)
+11-19 10:47:06.557 16081-16081/? A/art: art/runtime/runtime.cc:366]   native: #02 pc 000267ff  /system/lib/libbinder.so (android::IPCThreadState::talkWithDriver(bool)+239)
+11-19 10:47:06.557 16081-16081/? A/art: art/runtime/runtime.cc:366]   native: #03 pc 000271d5  /system/lib/libbinder.so (android::IPCThreadState::getAndExecuteCommand()+37)
+11-19 10:47:06.557 16081-16081/? A/art: art/runtime/runtime.cc:366]   native: #04 pc 000272d1  /system/lib/libbinder.so (android::IPCThreadState::joinThreadPool(bool)+81)
+11-19 10:47:06.557 16081-16081/? A/art: art/runtime/runtime.cc:366]   native: #05 pc 00030362  /system/lib/libbinder.so (android::PoolThread::threadLoop()+40)
+11-19 10:47:06.557 16081-16081/? A/art: art/runtime/runtime.cc:366]   native: #06 pc 00014aac  /system/lib/libutils.so (android::Thread::_threadLoop(void*)+418)
+11-19 10:47:06.557 16081-16081/? A/art: art/runtime/runtime.cc:366]   native: #07 pc 0006bfae  /system/lib/libandroid_runtime.so (android::AndroidRuntime::javaThreadShell(void*)+98)
+11-19 10:47:06.557 16081-16081/? A/art: art/runtime/runtime.cc:366]   native: #08 pc 000141cf  /system/lib/libutils.so (thread_data_t::trampoline(thread_data_t const*)+122)
+11-19 10:47:06.557 16081-16081/? A/art: art/runtime/runtime.cc:366]   native: #09 pc 00081923  /system/lib/libc.so (__pthread_start(void*)+56)
+11-19 10:47:06.557 16081-16081/? A/art: art/runtime/runtime.cc:366]   native: #10 pc 000227f2  /system/lib/libc.so (__start_thread+25)
+11-19 10:47:06.557 16081-16081/? A/art: art/runtime/runtime.cc:366]   native: #11 pc 000170b6  /system/lib/libc.so (__bionic_clone+70)
+11-19 10:47:06.557 16081-16081/? A/art: art/runtime/runtime.cc:366]   (no managed stack frames)
+11-19 10:47:06.557 16081-16081/? A/art: art/runtime/runtime.cc:366] 
+11-19 10:47:06.557 16081-16081/? A/art: art/runtime/runtime.cc:366] "Binder_4" prio=5 tid=11 Native
+11-19 10:47:06.557 16081-16081/? A/art: art/runtime/runtime.cc:366]   | group="" sCount=1 dsCount=0 obj=0x12ccc0a0 self=0xebb79300
+11-19 10:47:06.557 16081-16081/? A/art: art/runtime/runtime.cc:366]   | sysTid=16098 nice=0 cgrp=default sched=0/0 handle=0xedfdf930
+11-19 10:47:06.557 16081-16081/? A/art: art/runtime/runtime.cc:366]   | state=S schedstat=( 0 0 0 ) utm=0 stm=0 core=3 HZ=100
+11-19 10:47:06.557 16081-16081/? A/art: art/runtime/runtime.cc:366]   | stack=0xedee3000-0xedee5000 stackSize=1014KB
+11-19 10:47:06.557 16081-16081/? A/art: art/runtime/runtime.cc:366]   | held mutexes=
+11-19 10:47:06.557 16081-16081/? A/art: art/runtime/runtime.cc:366]   kernel: binder_thread_read+0xbef/0xdf1
+11-19 10:47:06.557 16081-16081/? A/art: art/runtime/runtime.cc:366]   kernel: binder_ioctl_write_read+0x136/0x259
+11-19 10:47:06.557 16081-16081/? A/art: art/runtime/runtime.cc:366]   kernel: binder_ioctl+0x1dd/0x561
+11-19 10:47:06.557 16081-16081/? A/art: art/runtime/runtime.cc:366]   kernel: compat_sys_ioctl+0x1c2/0xd0f
+11-19 10:47:06.557 16081-16081/? A/art: art/runtime/runtime.cc:366]   kernel: ia32_sysret+0x0/0x5
+11-19 10:47:06.557 16081-16081/? A/art: art/runtime/runtime.cc:366]   native: #00 pc 00084164  /system/lib/libc.so (__ioctl+20)
+11-19 10:47:06.557 16081-16081/? A/art: art/runtime/runtime.cc:366]   native: #01 pc 00095d1a  /system/lib/libc.so (ioctl+42)
+11-19 10:47:06.557 16081-16081/? A/art: art/runtime/runtime.cc:366]   native: #02 pc 000267ff  /system/lib/libbinder.so (android::IPCThreadState::talkWithDriver(bool)+239)
+11-19 10:47:06.557 16081-16081/? A/art: art/runtime/runtime.cc:366]   native: #03 pc 000271d5  /system/lib/libbinder.so (android::IPCThreadState::getAndExecuteCommand()+37)
+11-19 10:47:06.557 16081-16081/? A/art: art/runtime/runtime.cc:366]   native: #04 pc 000272d1  /system/lib/libbinder.so (android::IPCThreadState::joinThreadPool(bool)+81)
+11-19 10:47:06.557 16081-16081/? A/art: art/runtime/runtime.cc:366]   native: #05 pc 00030362  /system/lib/libbinder.so (android::PoolThread::threadLoop()+40)
+11-19 10:47:06.557 16081-16081/? A/art: art/runtime/runtime.cc:366]   native: #06 pc 00014aac  /system/lib/libutils.so (android::Thread::_threadLoop(void*)+418)
+11-19 10:47:06.557 16081-16081/? A/art: art/runtime/runtime.cc:366]   native: #07 pc 0006bfae  /system/lib/libandroid_runtime.so (android::AndroidRuntime::javaThreadShell(void*)+98)
+11-19 10:47:06.557 16081-16081/? A/art: art/runtime/runtime.cc:366]   native: #08 pc 000141cf  /system/lib/libutils.so (thread_data_t::trampoline(thread_data_t const*)+122)
+11-19 10:47:06.557 16081-16081/? A/art: art/runtime/runtime.cc:366]   native: #09 pc 00081923  /system/lib/libc.so (__pthread_start(void*)+56)
+11-19 10:47:06.557 16081-16081/? A/art: art/runtime/runtime.cc:366]   native: #10 pc 000227f2  /system/lib/libc.so (__start_thread+25)
+11-19 10:47:06.557 16081-16081/? A/art: art/runtime/runtime.cc:366]   native: #11 pc 000170b6  /system/lib/libc.so (__bionic_clone+70)
+11-19 10:47:06.557 16081-16081/? A/art: art/runtime/runtime.cc:366]   (no managed stack frames)
+11-19 10:47:06.557 16081-16081/? A/art: art/runtime/runtime.cc:366] 
+11-19 10:47:06.557 16081-16081/? A/art: art/runtime/runtime.cc:366] "Binder_5" prio=5 tid=12 Native
+11-19 10:47:06.557 16081-16081/? A/art: art/runtime/runtime.cc:366]   | group="" sCount=1 dsCount=0 obj=0x12cd10a0 self=0xea231100
+11-19 10:47:06.557 16081-16081/? A/art: art/runtime/runtime.cc:366]   | sysTid=16101 nice=0 cgrp=default sched=0/0 handle=0xedee0930
+11-19 10:47:06.557 16081-16081/? A/art: art/runtime/runtime.cc:366]   | state=S schedstat=( 0 0 0 ) utm=0 stm=0 core=2 HZ=100
+11-19 10:47:06.557 16081-16081/? A/art: art/runtime/runtime.cc:366]   | stack=0xedde4000-0xedde6000 stackSize=1014KB
+11-19 10:47:06.557 16081-16081/? A/art: art/runtime/runtime.cc:366]   | held mutexes=
+11-19 10:47:06.557 16081-16081/? A/art: art/runtime/runtime.cc:366]   kernel: binder_thread_read+0xbef/0xdf1
+11-19 10:47:06.557 16081-16081/? A/art: art/runtime/runtime.cc:366]   kernel: binder_ioctl_write_read+0x136/0x259
+11-19 10:47:06.557 16081-16081/? A/art: art/runtime/runtime.cc:366]   kernel: binder_ioctl+0x1dd/0x561
+11-19 10:47:06.557 16081-16081/? A/art: art/runtime/runtime.cc:366]   kernel: compat_sys_ioctl+0x1c2/0xd0f
+11-19 10:47:06.557 16081-16081/? A/art: art/runtime/runtime.cc:366]   kernel: ia32_sysret+0x0/0x5
+11-19 10:47:06.557 16081-16081/? A/art: art/runtime/runtime.cc:366]   native: #00 pc 00084164  /system/lib/libc.so (__ioctl+20)
+11-19 10:47:06.557 16081-16081/? A/art: art/runtime/runtime.cc:366]   native: #01 pc 00095d1a  /system/lib/libc.so (ioctl+42)
+11-19 10:47:06.557 16081-16081/? A/art: art/runtime/runtime.cc:366]   native: #02 pc 000267ff  /system/lib/libbinder.so (android::IPCThreadState::talkWithDriver(bool)+239)
+11-19 10:47:06.557 16081-16081/? A/art: art/runtime/runtime.cc:366]   native: #03 pc 000271d5  /system/lib/libbinder.so (android::IPCThreadState::getAndExecuteCommand()+37)
+11-19 10:47:06.557 16081-16081/? A/art: art/runtime/runtime.cc:366]   native: #04 pc 000272d1  /system/lib/libbinder.so (android::IPCThreadState::joinThreadPool(bool)+81)
+11-19 10:47:06.557 16081-16081/? A/art: art/runtime/runtime.cc:366]   native: #05 pc 00030362  /system/lib/libbinder.so (android::PoolThread::threadLoop()+40)
+11-19 10:47:06.557 16081-16081/? A/art: art/runtime/runtime.cc:366]   native: #06 pc 00014aac  /system/lib/libutils.so (android::Thread::_threadLoop(void*)+418)
+11-19 10:47:06.557 16081-16081/? A/art: art/runtime/runtime.cc:366]   native: #07 pc 0006bfae  /system/lib/libandroid_runtime.so (android::AndroidRuntime::javaThreadShell(void*)+98)
+11-19 10:47:06.557 16081-16081/? A/art: art/runtime/runtime.cc:366]   native: #08 pc 000141cf  /system/lib/libutils.so (thread_data_t::trampoline(thread_data_t const*)+122)
+11-19 10:47:06.557 16081-16081/? A/art: art/runtime/runtime.cc:366]   native: #09 pc 00081923  /system/lib/libc.so (__pthread_start(void*)+56)
+11-19 10:47:06.557 16081-16081/? A/art: art/runtime/runtime.cc:366]   native: #10 pc 000227f2  /system/lib/libc.so (__start_thread+25)
+11-19 10:47:06.557 16081-16081/? A/art: art/runtime/runtime.cc:366]   native: #11 pc 000170b6  /system/lib/libc.so (__bionic_clone+70)
+11-19 10:47:06.557 16081-16081/? A/art: art/runtime/runtime.cc:366]   (no managed stack frames)
+11-19 10:47:06.557 16081-16081/? A/art: art/runtime/runtime.cc:366] 
+11-19 10:47:06.557 16081-16081/? A/art: art/runtime/runtime.cc:366] "Binder_6" prio=5 tid=13 Native
+11-19 10:47:06.557 16081-16081/? A/art: art/runtime/runtime.cc:366]   | group="" sCount=1 dsCount=0 obj=0x12cd50a0 self=0xebb7a700
+11-19 10:47:06.557 16081-16081/? A/art: art/runtime/runtime.cc:366]   | sysTid=16106 nice=0 cgrp=default sched=0/0 handle=0xedde1930
+11-19 10:47:06.557 16081-16081/? A/art: art/runtime/runtime.cc:366]   | state=S schedstat=( 0 0 0 ) utm=0 stm=0 core=2 HZ=100
+11-19 10:47:06.557 16081-16081/? A/art: art/runtime/runtime.cc:366]   | stack=0xedce5000-0xedce7000 stackSize=1014KB
+11-19 10:47:06.557 16081-16081/? A/art: art/runtime/runtime.cc:366]   | held mutexes=
+11-19 10:47:06.557 16081-16081/? A/art: art/runtime/runtime.cc:366]   kernel: binder_thread_read+0xbef/0xdf1
+11-19 10:47:06.557 16081-16081/? A/art: art/runtime/runtime.cc:366]   kernel: binder_ioctl_write_read+0x136/0x259
+11-19 10:47:06.557 16081-16081/? A/art: art/runtime/runtime.cc:366]   kernel: binder_ioctl+0x1dd/0x561
+11-19 10:47:06.557 16081-16081/? A/art: art/runtime/runtime.cc:366]   kernel: compat_sys_ioctl+0x1c2/0xd0f
+11-19 10:47:06.557 16081-16081/? A/art: art/runtime/runtime.cc:366]   kernel: ia32_sysret+0x0/0x5
+11-19 10:47:06.557 16081-16081/? A/art: art/runtime/runtime.cc:366]   native: #00 pc 00084164  /system/lib/libc.so (__ioctl+20)
+11-19 10:47:06.557 16081-16081/? A/art: art/runtime/runtime.cc:366]   native: #01 pc 00095d1a  /system/lib/libc.so (ioctl+42)
+11-19 10:47:06.557 16081-16081/? A/art: art/runtime/runtime.cc:366]   native: #02 pc 000267ff  /system/lib/libbinder.so (android::IPCThreadState::talkWithDriver(bool)+239)
+11-19 10:47:06.557 16081-16081/? A/art: art/runtime/runtime.cc:366]   native: #03 pc 000271d5  /system/lib/libbinder.so (android::IPCThreadState::getAndExecuteCommand()+37)
+11-19 10:47:06.557 16081-16081/? A/art: art/runtime/runtime.cc:366]   native: #04 pc 000272d1  /system/lib/libbinder.so (android::IPCThreadState::joinThreadPool(bool)+81)
+11-19 10:47:06.557 16081-16081/? A/art: art/runtime/runtime.cc:366]   native: #05 pc 00030362  /system/lib/libbinder.so (android::PoolThread::threadLoop()+40)
+11-19 10:47:06.557 16081-16081/? A/art: art/runtime/runtime.cc:366]   native: #06 pc 00014aac  /system/lib/libutils.so (android::Thread::_threadLoop(void*)+418)
+11-19 10:47:06.557 16081-16081/? A/art: art/runtime/runtime.cc:366]   native: #07 pc 0006bfae  /system/lib/libandroid_runtime.so (android::AndroidRuntime::javaThreadShell(void*)+98)
+11-19 10:47:06.557 16081-16081/? A/art: art/runtime/runtime.cc:366]   native: #08 pc 000141cf  /system/lib/libutils.so (thread_data_t::trampoline(thread_data_t const*)+122)
+11-19 10:47:06.557 16081-16081/? A/art: art/runtime/runtime.cc:366]   native: #09 pc 00081923  /system/lib/libc.so (__pthread_start(void*)+56)
+11-19 10:47:06.557 16081-16081/? A/art: art/runtime/runtime.cc:366]   native: #10 pc 000227f2  /system/lib/libc.so (__start_thread+25)
+11-19 10:47:06.557 16081-16081/? A/art: art/runtime/runtime.cc:366]   native: #11 pc 000170b6  /system/lib/libc.so (__bionic_clone+70)
+11-19 10:47:06.557 16081-16081/? A/art: art/runtime/runtime.cc:366]   (no managed stack frames)
+11-19 10:47:06.557 16081-16081/? A/art: art/runtime/runtime.cc:366] 
+11-19 10:47:06.557 16081-16081/? A/art: art/runtime/runtime.cc:366] "Binder_7" prio=5 tid=14 Native
+11-19 10:47:06.557 16081-16081/? A/art: art/runtime/runtime.cc:366]   | group="" sCount=1 dsCount=0 obj=0x12cd80a0 self=0xea228500
+11-19 10:47:06.557 16081-16081/? A/art: art/runtime/runtime.cc:366]   | sysTid=16109 nice=0 cgrp=default sched=0/0 handle=0xedce2930
+11-19 10:47:06.557 16081-16081/? A/art: art/runtime/runtime.cc:366]   | state=S schedstat=( 0 0 0 ) utm=0 stm=0 core=2 HZ=100
+11-19 10:47:06.557 16081-16081/? A/art: art/runtime/runtime.cc:366]   | stack=0xedbe6000-0xedbe8000 stackSize=1014KB
+11-19 10:47:06.557 16081-16081/? A/art: art/runtime/runtime.cc:366]   | held mutexes=
+11-19 10:47:06.557 16081-16081/? A/art: art/runtime/runtime.cc:366]   kernel: binder_thread_read+0xbef/0xdf1
+11-19 10:47:06.557 16081-16081/? A/art: art/runtime/runtime.cc:366]   kernel: binder_ioctl_write_read+0x136/0x259
+11-19 10:47:06.557 16081-16081/? A/art: art/runtime/runtime.cc:366]   kernel: binder_ioctl+0x1dd/0x561
+11-19 10:47:06.557 16081-16081/? A/art: art/runtime/runtime.cc:366]   kernel: compat_sys_ioctl+0x1c2/0xd0f
+11-19 10:47:06.557 16081-16081/? A/art: art/runtime/runtime.cc:366]   kernel: ia32_sysret+0x0/0x5
+11-19 10:47:06.557 16081-16081/? A/art: art/runtime/runtime.cc:366]   native: #00 pc 00084164  /system/lib/libc.so (__ioctl+20)
+11-19 10:47:06.557 16081-16081/? A/art: art/runtime/runtime.cc:366]   native: #01 pc 00095d1a  /system/lib/libc.so (ioctl+42)
+11-19 10:47:06.557 16081-16081/? A/art: art/runtime/runtime.cc:366]   native: #02 pc 000267ff  /system/lib/libbinder.so (android::IPCThreadState::talkWithDriver(bool)+239)
+11-19 10:47:06.557 16081-16081/? A/art: art/runtime/runtime.cc:366]   native: #03 pc 000271d5  /system/lib/libbinder.so (android::IPCThreadState::getAndExecuteCommand()+37)
+11-19 10:47:06.557 16081-16081/? A/art: art/runtime/runtime.cc:366]   native: #04 pc 000272d1  /system/lib/libbinder.so (android::IPCThreadState::joinThreadPool(bool)+81)
+11-19 10:47:06.557 16081-16081/? A/art: art/runtime/runtime.cc:366]   native: #05 pc 00030362  /system/lib/libbinder.so (android::PoolThread::threadLoop()+40)
+11-19 10:47:06.557 16081-16081/? A/art: art/runtime/runtime.cc:366]   native: #06 pc 00014aac  /system/lib/libutils.so (android::Thread::_threadLoop(void*)+418)
+11-19 10:47:06.557 16081-16081/? A/art: art/runtime/runtime.cc:366]   native: #07 pc 0006bfae  /system/lib/libandroid_runtime.so (android::AndroidRuntime::javaThreadShell(void*)+98)
+11-19 10:47:06.557 16081-16081/? A/art: art/runtime/runtime.cc:366]   native: #08 pc 000141cf  /system/lib/libutils.so (thread_data_t::trampoline(thread_data_t const*)+122)
+11-19 10:47:06.557 16081-16081/? A/art: art/runtime/runtime.cc:366]   native: #09 pc 00081923  /system/lib/libc.so (__pthread_start(void*)+56)
+11-19 10:47:06.557 16081-16081/? A/art: art/runtime/runtime.cc:366]   native: #10 pc 000227f2  /system/lib/libc.so (__start_thread+25)
+11-19 10:47:06.557 16081-16081/? A/art: art/runtime/runtime.cc:366]   native: #11 pc 000170b6  /system/lib/libc.so (__bionic_clone+70)
+11-19 10:47:06.557 16081-16081/? A/art: art/runtime/runtime.cc:366]   (no managed stack frames)
+11-19 10:47:06.557 16081-16081/? A/art: art/runtime/runtime.cc:366] 
+11-19 10:47:06.557 16081-16081/? A/art: art/runtime/runtime.cc:366] "Binder_8" prio=5 tid=15 Native
+11-19 10:47:06.557 16081-16081/? A/art: art/runtime/runtime.cc:366]   | group="" sCount=1 dsCount=0 obj=0x12cdb0a0 self=0xebb7bb00
+11-19 10:47:06.557 16081-16081/? A/art: art/runtime/runtime.cc:366]   | sysTid=16112 nice=0 cgrp=default sched=0/0 handle=0xe23bf930
+11-19 10:47:06.557 16081-16081/? A/art: art/runtime/runtime.cc:366]   | state=S schedstat=( 0 0 0 ) utm=0 stm=0 core=3 HZ=100
+11-19 10:47:06.557 16081-16081/? A/art: art/runtime/runtime.cc:366]   | stack=0xe22c3000-0xe22c5000 stackSize=1014KB
+11-19 10:47:06.557 16081-16081/? A/art: art/runtime/runtime.cc:366]   | held mutexes=
+11-19 10:47:06.557 16081-16081/? A/art: art/runtime/runtime.cc:366]   kernel: binder_thread_read+0xbef/0xdf1
+11-19 10:47:06.557 16081-16081/? A/art: art/runtime/runtime.cc:366]   kernel: binder_ioctl_write_read+0x136/0x259
+11-19 10:47:06.557 16081-16081/? A/art: art/runtime/runtime.cc:366]   kernel: binder_ioctl+0x1dd/0x561
+11-19 10:47:06.557 16081-16081/? A/art: art/runtime/runtime.cc:366]   kernel: compat_sys_ioctl+0x1c2/0xd0f
+11-19 10:47:06.557 16081-16081/? A/art: art/runtime/runtime.cc:366]   kernel: ia32_sysret+0x0/0x5
+11-19 10:47:06.557 16081-16081/? A/art: art/runtime/runtime.cc:366]   native: #00 pc 00084164  /system/lib/libc.so (__ioctl+20)
+11-19 10:47:06.557 16081-16081/? A/art: art/runtime/runtime.cc:366]   native: #01 pc 00095d1a  /system/lib/libc.so (ioctl+42)
+11-19 10:47:06.557 16081-16081/? A/art: art/runtime/runtime.cc:366]   native: #02 pc 000267ff  /system/lib/libbinder.so (android::IPCThreadState::talkWithDriver(bool)+239)
+11-19 10:47:06.557 16081-16081/? A/art: art/runtime/runtime.cc:366]   native: #03 pc 000271d5  /system/lib/libbinder.so (android::IPCThreadState::getAndExecuteCommand()+37)
+11-19 10:47:06.557 16081-16081/? A/art: art/runtime/runtime.cc:366]   native: #04 pc 000272d1  /system/lib/libbinder.so (android::IPCThreadState::joinThreadPool(bool)+81)
+11-19 10:47:06.557 16081-16081/? A/art: art/runtime/runtime.cc:366]   native: #05 pc 00030362  /system/lib/libbinder.so (android::PoolThread::threadLoop()+40)
+11-19 10:47:06.557 16081-16081/? A/art: art/runtime/runtime.cc:366]   native: #06 pc 00014aac  /system/lib/libutils.so (android::Thread::_threadLoop(void*)+418)
+11-19 10:47:06.557 16081-16081/? A/art: art/runtime/runtime.cc:366]   native: #07 pc 0006bfae  /system/lib/libandroid_runtime.so (android::AndroidRuntime::javaThreadShell(void*)+98)
+11-19 10:47:06.557 16081-16081/? A/art: art/runtime/runtime.cc:366]   native: #08 pc 000141cf  /system/lib/libutils.so (thread_data_t::trampoline(thread_data_t const*)+122)
+11-19 10:47:06.557 16081-16081/? A/art: art/runtime/runtime.cc:366]   native: #09 pc 00081923  /system/lib/libc.so (__pthread_start(void*)+56)
+11-19 10:47:06.557 16081-16081/? A/art: art/runtime/runtime.cc:366]   native: #10 pc 000227f2  /system/lib/libc.so (__start_thread+25)
+11-19 10:47:06.557 16081-16081/? A/art: art/runtime/runtime.cc:366]   native: #11 pc 000170b6  /system/lib/libc.so (__bionic_clone+70)
+11-19 10:47:06.557 16081-16081/? A/art: art/runtime/runtime.cc:366]   (no managed stack frames)
+11-19 10:47:06.557 16081-16081/? A/art: art/runtime/runtime.cc:366] 
+11-19 10:47:06.557 16081-16081/? A/art: art/runtime/runtime.cc:366] "Binder_9" prio=5 tid=16 Native
+11-19 10:47:06.557 16081-16081/? A/art: art/runtime/runtime.cc:366]   | group="" sCount=1 dsCount=0 obj=0x12cde0a0 self=0xea229900
+11-19 10:47:06.557 16081-16081/? A/art: art/runtime/runtime.cc:366]   | sysTid=16117 nice=0 cgrp=default sched=0/0 handle=0xe22c0930
+11-19 10:47:06.557 16081-16081/? A/art: art/runtime/runtime.cc:366]   | state=S schedstat=( 0 0 0 ) utm=0 stm=0 core=2 HZ=100
+11-19 10:47:06.557 16081-16081/? A/art: art/runtime/runtime.cc:366]   | stack=0xe21c4000-0xe21c6000 stackSize=1014KB
+11-19 10:47:06.557 16081-16081/? A/art: art/runtime/runtime.cc:366]   | held mutexes=
+11-19 10:47:06.557 16081-16081/? A/art: art/runtime/runtime.cc:366]   kernel: binder_thread_read+0xbef/0xdf1
+11-19 10:47:06.557 16081-16081/? A/art: art/runtime/runtime.cc:366]   kernel: binder_ioctl_write_read+0x136/0x259
+11-19 10:47:06.557 16081-16081/? A/art: art/runtime/runtime.cc:366]   kernel: binder_ioctl+0x1dd/0x561
+11-19 10:47:06.557 16081-16081/? A/art: art/runtime/runtime.cc:366]   kernel: compat_sys_ioctl+0x1c2/0xd0f
+11-19 10:47:06.557 16081-16081/? A/art: art/runtime/runtime.cc:366]   kernel: ia32_sysret+0x0/0x5
+11-19 10:47:06.557 16081-16081/? A/art: art/runtime/runtime.cc:366]   native: #00 pc 00084164  /system/lib/libc.so (__ioctl+20)
+11-19 10:47:06.557 16081-16081/? A/art: art/runtime/runtime.cc:366]   native: #01 pc 00095d1a  /system/lib/libc.so (ioctl+42)
+11-19 10:47:06.557 16081-16081/? A/art: art/runtime/runtime.cc:366]   native: #02 pc 000267ff  /system/lib/libbinder.so (android::IPCThreadState::talkWithDriver(bool)+239)
+11-19 10:47:06.557 16081-16081/? A/art: art/runtime/runtime.cc:366]   native: #03 pc 000271d5  /system/lib/libbinder.so (android::IPCThreadState::getAndExecuteCommand()+37)
+11-19 10:47:06.557 16081-16081/? A/art: art/runtime/runtime.cc:366]   native: #04 pc 000272d1  /system/lib/libbinder.so (android::IPCThreadState::joinThreadPool(bool)+81)
+11-19 10:47:06.557 16081-16081/? A/art: art/runtime/runtime.cc:366]   native: #05 pc 00030362  /system/lib/libbinder.so (android::PoolThread::threadLoop()+40)
+11-19 10:47:06.557 16081-16081/? A/art: art/runtime/runtime.cc:366]   native: #06 pc 00014aac  /system/lib/libutils.so (android::Thread::_threadLoop(void*)+418)
+11-19 10:47:06.557 16081-16081/? A/art: art/runtime/runtime.cc:366]   native: #07 pc 0006bfae  /system/lib/libandroid_runtime.so (android::AndroidRuntime::javaThreadShell(void*)+98)
+11-19 10:47:06.557 16081-16081/? A/art: art/runtime/runtime.cc:366]   native: #08 pc 000141cf  /system/lib/libutils.so (thread_data_t::trampoline(thread_data_t const*)+122)
+11-19 10:47:06.557 16081-16081/? A/art: art/runtime/runtime.cc:366]   native: #09 pc 00081923  /system/lib/libc.so (__pthread_start(void*)+56)
+11-19 10:47:06.557 16081-16081/? A/art: art/runtime/runtime.cc:366]   native: #10 pc 000227f2  /system/lib/libc.so (__start_thread+25)
+11-19 10:47:06.557 16081-16081/? A/art: art/runtime/runtime.cc:366]   native: #11 pc 000170b6  /system/lib/libc.so (__bionic_clone+70)
+11-19 10:47:06.557 16081-16081/? A/art: art/runtime/runtime.cc:366]   (no managed stack frames)
+11-19 10:47:06.557 16081-16081/? A/art: art/runtime/runtime.cc:366] 
+11-19 10:47:06.557 16081-16081/? A/art: art/runtime/runtime.cc:366] "Thread-159" prio=5 tid=17 Native
+11-19 10:47:06.557 16081-16081/? A/art: art/runtime/runtime.cc:366]   | group="" sCount=1 dsCount=0 obj=0x12c9cac0 self=0xf4035900
+11-19 10:47:06.557 16081-16081/? A/art: art/runtime/runtime.cc:366]   | sysTid=16121 nice=0 cgrp=default sched=0/0 handle=0xe21c1930
+11-19 10:47:06.557 16081-16081/? A/art: art/runtime/runtime.cc:366]   | state=S schedstat=( 0 0 0 ) utm=0 stm=0 core=0 HZ=100
+11-19 10:47:06.557 16081-16081/? A/art: art/runtime/runtime.cc:366]   | stack=0xe20bf000-0xe20c1000 stackSize=1038KB
+11-19 10:47:06.557 16081-16081/? A/art: art/runtime/runtime.cc:366]   | held mutexes=
+11-19 10:47:06.557 16081-16081/? A/art: art/runtime/runtime.cc:366]   kernel: __skb_recv_datagram+0x211/0x27f
+11-19 10:47:06.557 16081-16081/? A/art: art/runtime/runtime.cc:366]   kernel: skb_recv_datagram+0x2b/0x2d
+11-19 10:47:06.557 16081-16081/? A/art: art/runtime/runtime.cc:366]   kernel: unix_accept+0x53/0x107
+11-19 10:47:06.557 16081-16081/? A/art: art/runtime/runtime.cc:366]   kernel: SyS_accept4+0x10a/0x1bc
+11-19 10:47:06.557 16081-16081/? A/art: art/runtime/runtime.cc:366]   kernel: compat_sys_socketcall+0x16c/0x17d
+11-19 10:47:06.557 16081-16081/? A/art: art/runtime/runtime.cc:366]   kernel: ia32_sysret+0x0/0x5
+11-19 10:47:06.557 16081-16081/? A/art: art/runtime/runtime.cc:366]   native: #00 pc 00084e91  /system/lib/libc.so (__accept4+17)
+11-19 10:47:06.557 16081-16081/? A/art: art/runtime/runtime.cc:366]   native: #01 pc 00000cb8  /system/lib/libnetd_client.so (???)
+11-19 10:47:06.557 16081-16081/? A/art: art/runtime/runtime.cc:366]   native: #02 pc 0002194d  /system/lib/libc.so (accept4+51)
+11-19 10:47:06.557 16081-16081/? A/art: art/runtime/runtime.cc:366]   native: #03 pc 00021914  /system/lib/libc.so (accept+50)
+11-19 10:47:06.557 16081-16081/? A/art: art/runtime/runtime.cc:366]   native: #04 pc 000c5053  /system/lib/libandroid_runtime.so (???)
+11-19 10:47:06.557 16081-16081/? A/art: art/runtime/runtime.cc:366]   native: #05 pc 00314ca4  /data/dalvik-cache/x86/system@framework@boot.oat (Java_android_net_LocalSocketImpl_accept__Ljava_io_FileDescriptor_2Landroid_net_LocalSocketImpl_2+168)
+11-19 10:47:06.557 16081-16081/? A/art: art/runtime/runtime.cc:366]   at android.net.LocalSocketImpl.accept(Native method)
+11-19 10:47:06.557 16081-16081/? A/art: art/runtime/runtime.cc:366]   at android.net.LocalSocketImpl.accept(LocalSocketImpl.java:331)
+11-19 10:47:06.557 16081-16081/? A/art: art/runtime/runtime.cc:366]   at android.net.LocalServerSocket.accept(LocalServerSocket.java:90)
+11-19 10:47:06.557 16081-16081/? A/art: art/runtime/runtime.cc:366]   at com.android.tools.ir.server.Server$SocketServerThread.run(Server.java:165)
+11-19 10:47:06.557 16081-16081/? A/art: art/runtime/runtime.cc:366]   at java.lang.Thread.run(Thread.java:818)
+11-19 10:47:06.557 16081-16081/? A/art: art/runtime/runtime.cc:366] 
+11-19 10:47:06.557 16081-16081/? A/art: art/runtime/runtime.cc:366] 
+    
+    --------- beginning of crash
+11-19 10:47:06.557 16081-16081/? A/libc: Fatal signal 6 (SIGABRT), code -6 in tid 16081 (ungby.wallpaper)
+11-19 10:47:06.607 1679-1679/? A/DEBUG: *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ***
+11-19 10:47:06.608 1679-1679/? A/DEBUG: Build fingerprint: 'Android/sdk_google_phone_x86_64/generic_x86_64:6.0/MASTER/4931947:userdebug/test-keys'
+11-19 10:47:06.608 1679-1679/? A/DEBUG: Revision: '0'
+11-19 10:47:06.608 1679-1679/? A/DEBUG: ABI: 'x86'
+11-19 10:47:06.608 1679-1679/? A/DEBUG: pid: 16081, tid: 16081, name: ungby.wallpaper  >>> hd.youngby.wallpaper <<<
+11-19 10:47:06.608 1679-1679/? A/DEBUG: signal 6 (SIGABRT), code -6 (SI_TKILL), fault addr --------
+11-19 10:47:06.610 1679-1679/? A/DEBUG: Abort message: 'art/runtime/java_vm_ext.cc:410] JNI DETECTED ERROR IN APPLICATION: JNI NewGlobalRef called with pending exception java.lang.NoSuchFieldError: no "J" field "mNativeContext" in class "Lcom/facebook/animated/gif/GifImage;" or its superclasses'
+11-19 10:47:06.610 1679-1679/? A/DEBUG:     eax 00000000  ebx 00003ed1  ecx 00003ed1  edx 00000006
+11-19 10:47:06.610 1679-1679/? A/DEBUG:     esi f76fdc50  edi 00000002
+11-19 10:47:06.610 1679-1679/? A/DEBUG:     xcs 00000023  xds 0000002b  xes 0000002b  xfs 00000007  xss 0000002b
+11-19 10:47:06.610 1679-1679/? A/DEBUG:     eip f72c8996  ebp 00003ed1  esp ffda9ec0  flags 00200206
+11-19 10:47:06.612 1679-1679/? A/DEBUG: backtrace:
+11-19 10:47:06.612 1679-1679/? A/DEBUG:     #00 pc 00085996  /system/lib/libc.so (tgkill+22)
+11-19 10:47:06.612 1679-1679/? A/DEBUG:     #01 pc 00082478  /system/lib/libc.so (pthread_kill+70)
+11-19 10:47:06.612 1679-1679/? A/DEBUG:     #02 pc 000280a5  /system/lib/libc.so (raise+36)
+11-19 10:47:06.612 1679-1679/? A/DEBUG:     #03 pc 0002187d  /system/lib/libc.so (abort+80)
+11-19 10:47:06.612 1679-1679/? A/DEBUG:     #04 pc 005171cb  /system/lib/libart.so (art::Runtime::Abort()+377)
+11-19 10:47:06.612 1679-1679/? A/DEBUG:     #05 pc 0014d933  /system/lib/libart.so (art::LogMessage::~LogMessage()+1343)
+11-19 10:47:06.612 1679-1679/? A/DEBUG:     #06 pc 003a5042  /system/lib/libart.so (art::JavaVMExt::JniAbort(char const*, char const*)+3842)
+11-19 10:47:06.612 1679-1679/? A/DEBUG:     #07 pc 003a5c9c  /system/lib/libart.so (art::JavaVMExt::JniAbortV(char const*, char const*, char*)+116)
+11-19 10:47:06.612 1679-1679/? A/DEBUG:     #08 pc 00163950  /system/lib/libart.so (art::ScopedCheck::AbortF(char const*, ...)+62)
+11-19 10:47:06.612 1679-1679/? A/DEBUG:     #09 pc 0016d912  /system/lib/libart.so (art::ScopedCheck::CheckThread(_JNIEnv*)+1890)
+11-19 10:47:06.612 1679-1679/? A/DEBUG:     #10 pc 0016e421  /system/lib/libart.so (art::ScopedCheck::Check(art::ScopedObjectAccess&, bool, char const*, art::JniValueType*) (.constprop.114)+1489)
+11-19 10:47:06.613 1679-1679/? A/DEBUG:     #11 pc 0017680a  /system/lib/libart.so (art::CheckJNI::NewRef(char const*, _JNIEnv*, _jobject*, art::IndirectRefKind)+602)
+11-19 10:47:06.613 1679-1679/? A/DEBUG:     #12 pc 00176b49  /system/lib/libart.so (art::CheckJNI::NewGlobalRef(_JNIEnv*, _jobject*)+52)
+11-19 10:47:06.613 1679-1679/? A/DEBUG:     #13 pc 0053e19b  /system/lib/libart.so (art::Thread::SetClassLoaderOverride(_jobject*)+57)
+11-19 10:47:06.613 1679-1679/? A/DEBUG:     #14 pc 003a637e  /system/lib/libart.so (art::JavaVMExt::LoadNativeLibrary(_JNIEnv*, std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&, _jobject*, std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >*)+1534)
+11-19 10:47:06.613 1679-1679/? A/DEBUG:     #15 pc 00470b4d  /system/lib/libart.so (art::Runtime_nativeLoad(_JNIEnv*, _jclass*, _jstring*, _jobject*, _jstring*)+301)
+11-19 10:47:06.613 1679-1679/? A/DEBUG:     #16 pc 73a196ce  /data/dalvik-cache/x86/system@framework@boot.oat (offset 0x1eb2000)
+11-19 10:47:06.613 1679-1679/? A/DEBUG:     #17 pc 00641453  /dev/ashmem/dalvik-main space 1 (deleted) (offset 0x1000)
+11-19 10:47:06.655 1679-1679/? A/DEBUG: Tombstone written to: /data/tombstones/tombstone_03
+11-19 10:47:06.655 1679-1679/? E/DEBUG: AM write failed: Broken pipe

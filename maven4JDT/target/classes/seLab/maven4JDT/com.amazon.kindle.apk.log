@@ -1,0 +1,79 @@
+package:com.amazon.kindle
+permission:com.amazon.STORE_ACCESS
+permission:com.amazon.CONTENT_PROVIDER_ACCESS
+permission:android.permission.ACCESS_NETWORK_STATE
+permission:android.permission.ACCESS_WIFI_STATE
+permission:android.permission.INTERNET
+permission:android.permission.WRITE_EXTERNAL_STORAGE
+permission:android.permission.WAKE_LOCK
+permission:android.permission.AUTHENTICATE_ACCOUNTS
+permission:android.permission.GET_ACCOUNTS
+permission:android.permission.MANAGE_ACCOUNTS
+permission:android.permission.USE_CREDENTIALS
+permission:com.amazon.dcp.sso.permission.AMAZON_ACCOUNT_PROPERTY
+permission:com.amazon.dcp.sso.permission.account.changed
+permission:com.amazon.identity.permission.CAN_CALL_MAP_INFORMATION_PROVIDER
+permission:com.google.android.c2dm.permission.RECEIVE
+permission:com.amazon.kindle.permission.C2D_MESSAGE
+permission:android.permission.C2D_MESSAGE
+permission:com.samsung.android.providers.context.permission.WRITE_USE_APP_FEATURE_SURVEY
+permission:com.amazon.kindle.otter.settings.RECEIVE_GOODREADS_UNLINK
+permission:com.amazon.dcp.metrics.permission.METRICS_PERMISSION
+permission:com.amazon.dcp.config.permission.DYN_CONFIG_VALUES_UPDATED
+permission:com.amazon.dcp.settings.permission.READ_SETTINGS
+permission:com.amazon.identity.auth.device.perm.AUTH_SDK
+permission:com.amazon.identity.permission.GENERIC_IPC
+permission:com.amazon.dcp.sso.permission.USE_DEVICE_CREDENTIALS
+permission:com.amazon.dcp.sso.permission.MANAGE_COR_PFM
+permission:com.amazon.dcp.sso.permission.CUSTOMER_ATTRIBUTE_SERVICE
+permission:com.amazon.dcp.sso.permission.AmazonAccountPropertyService.property.changed
+permission:amazon.permission.COLLECT_METRICS
+permission:android.permission.GET_TASKS
+permission:android.permission.BROADCAST_STICKY
+permission:android.permission.READ_EXTERNAL_STORAGE
+permission:android.permission.BLUETOOTH
+permission:android.permission.READ_PHONE_STATE
+permission:com.amazon.dcp.messaging.permission.HANDLE_DEVICE_MESSAGE
+nativeInterface:Lcom/audible/sdk/AudibleSDK;|getPlaybackPosition|()I
+nativeInterface:Lcom/audible/sdk/AudibleSDK;|getSampleRate|()I
+nativeInterface:Lcom/audible/sdk/AudibleSDK;|getUseralias|()Ljava/lang/String;
+nativeInterface:Lcom/audible/sdk/AudibleSDK;|hasSynchronizedImages|()Z
+nativeInterface:Lcom/audible/sdk/AudibleSDK;|byteOffsetToTimeOffset|(I)I
+nativeInterface:Lcom/audible/sdk/AudibleSDK;|seek|(I)Z
+nativeInterface:Lcom/audible/sdk/AudibleSDK;|seekToChapter|(I)Z
+nativeInterface:Lcom/audible/sdk/AudibleSDK;|setTempo|(F)V
+nativeInterface:Lcom/audible/sdk/AudibleSDK;|authenticate|([B Ljava/lang/String;)Z
+nativeInterface:Lcom/audible/sdk/AudibleSDK;|getAudioChannelCount|()I
+nativeInterface:Lcom/audible/sdk/AudibleSDK;|getAvgBitrate|()I
+nativeInterface:Lcom/audible/sdk/AudibleSDK;|getChapterStartTime|(I)I
+nativeInterface:Lcom/audible/sdk/AudibleSDK;|getCoverArtBytes|(I)[B
+nativeInterface:Lcom/audible/sdk/AudibleSDK;|getCurrentChapter|()I
+nativeInterface:Lcom/audible/sdk/AudibleSDK;|getDuration|()I
+nativeInterface:Lcom/audible/sdk/AudibleSDK;|getChapterCount|()I
+nativeInterface:Lcom/audible/sdk/AudibleSDK;|getPCMAudio|([B I)I
+nativeInterface:Lcom/audible/sdk/AudibleSDK;|getImageCount|()I
+nativeInterface:Lcom/audible/sdk/AudibleSDK;|getImageStartTime|(I)I
+nativeInterface:Lcom/audible/sdk/AudibleSDK;|setImageQuality|(I)Z
+nativeInterface:Lcom/audible/sdk/AudibleSDK;|closeFileNative|()V
+nativeInterface:Lcom/audible/sdk/AudibleSDK;|savedPlaybackPosition|()[I
+nativeInterface:Lcom/audible/sdk/AudibleSDK;|coverArtInfo|(I)[I
+nativeInterface:Lcom/audible/sdk/AudibleSDK;|setUnicodeFormat|(I)Z
+nativeInterface:Lcom/audible/sdk/AudibleSDK;|fileType|()I
+nativeInterface:Lcom/audible/sdk/AudibleSDK;|linkInfo|(I)[I
+nativeInterface:Lcom/audible/sdk/AudibleSDK;|unicodeFormat|()I
+nativeInterface:Lcom/audible/sdk/AudibleSDK;|getChapterText|(I I I I I I)Ljava/lang/String;
+nativeInterface:Lcom/audible/sdk/AudibleSDK;|audioEncoding|()I
+nativeInterface:Lcom/audible/sdk/AudibleSDK;|chapterInfo|(I)[I
+nativeInterface:Lcom/audible/sdk/AudibleSDK;|verifyFileNative|()Z
+nativeInterface:Lcom/audible/sdk/AudibleSDK;|drmType|()I
+nativeInterface:Lcom/audible/sdk/AudibleSDK;|getChapterMetadata|(I I)Ljava/lang/String;
+nativeInterface:Lcom/audible/sdk/AudibleSDK;|getChapterMetadataInfo|(I I I)I
+nativeInterface:Lcom/audible/sdk/AudibleSDK;|getLink|(I I I I I I)Ljava/lang/String;
+nativeInterface:Lcom/audible/sdk/AudibleSDK;|getMetadata|(I)Ljava/lang/String;
+nativeInterface:Lcom/audible/sdk/AudibleSDK;|imageInfo|(I)[I
+nativeInterface:Lcom/audible/sdk/AudibleSDK;|imageQuality|()I
+nativeInterface:Lcom/audible/sdk/AudibleSDK;|openFileNative|(Ljava/lang/String; Ljava/lang/String;)I
+nativeInterface:Lcom/audible/sdk/AudibleSDK;|getMetadataInfo|(I I)I
+nativeInterface:Lcom/audible/sdk/AudibleSDK;|audioType|()I
+nativeInterface:Lcom/audible/sdk/AudibleSDK;|originalTitle|()[I
+nativeInterface:Lcom/audible/sdk/AudibleSDK;|savePlaybackPosition|(I)Z

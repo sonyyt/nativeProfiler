@@ -1,0 +1,20 @@
+11-19 10:41:25.397 15423-15423/com.amazon.mp3 E/AndroidRuntime: FATAL EXCEPTION: main
+    Process: com.amazon.mp3, PID: 15423
+    java.lang.UnsatisfiedLinkError: dlopen failed: cannot locate symbol "_ZN7android10VectorImpl19reservedVectorImpl1Ev" referenced by "/data/app/com.amazon.mp3-1/lib/x86/libiniaudio_i.so"...
+        at java.lang.Runtime.loadLibrary(Runtime.java:372)
+        at java.lang.System.loadLibrary(System.java:1076)
+        at com.inisoft.audioplayer.AudioPlayer.<clinit>(AudioPlayer.java:4)
+        at com.amazon.mp3.MainActivity.runTestCases(MainActivity.java:25)
+        at com.amazon.mp3.MainActivity.onCreate(MainActivity.java:20)
+        at android.app.Activity.performCreate(Activity.java:6237)
+        at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1107)
+        at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2369)
+        at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:2476)
+        at android.app.ActivityThread.-wrap11(ActivityThread.java)
+        at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1344)
+        at android.os.Handler.dispatchMessage(Handler.java:102)
+        at android.os.Looper.loop(Looper.java:148)
+        at android.app.ActivityThread.main(ActivityThread.java:5417)
+        at java.lang.reflect.Method.invoke(Native Method)
+        at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:726)
+        at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:616)

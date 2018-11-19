@@ -1,0 +1,180 @@
+11-19 11:07:51.132 17548-17548/? D/AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 0 <<<<<<
+11-19 11:07:51.134 17548-17548/? D/AndroidRuntime: CheckJNI is ON
+11-19 11:07:51.142 17548-17548/? D/ICU: No timezone override file found: /data/misc/zoneinfo/current/icu/icu_tzdata.dat
+11-19 11:07:51.151 17548-17548/? E/memtrack: Couldn't load memtrack module (No such file or directory)
+11-19 11:07:51.151 17548-17548/? E/android.os.Debug: failed to load memtrack module: -2
+11-19 11:07:51.152 17548-17548/? I/Radio-JNI: register_android_hardware_Radio DONE
+11-19 11:07:51.156 17548-17548/? D/AndroidRuntime: Calling main entry com.android.commands.pm.Pm
+11-19 11:07:51.158 17548-17548/? I/art: System.exit called, status: 0
+11-19 11:07:51.158 17548-17548/? I/AndroidRuntime: VM exiting with result code 0.
+11-19 11:07:51.380 17563-17563/? D/AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 0 <<<<<<
+11-19 11:07:51.382 17563-17563/? D/AndroidRuntime: CheckJNI is ON
+11-19 11:07:51.389 17563-17563/? D/ICU: No timezone override file found: /data/misc/zoneinfo/current/icu/icu_tzdata.dat
+11-19 11:07:51.399 17563-17563/? E/memtrack: Couldn't load memtrack module (No such file or directory)
+11-19 11:07:51.399 17563-17563/? E/android.os.Debug: failed to load memtrack module: -2
+11-19 11:07:51.399 17563-17563/? I/Radio-JNI: register_android_hardware_Radio DONE
+11-19 11:07:51.404 17563-17563/? D/AndroidRuntime: Calling main entry com.android.commands.pm.Pm
+11-19 11:07:51.405 17563-17563/? I/art: System.exit called, status: 0
+11-19 11:07:51.406 17563-17563/? I/AndroidRuntime: VM exiting with result code 0.
+11-19 11:07:51.984 17575-17575/? D/AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 0 <<<<<<
+11-19 11:07:51.985 17575-17575/? D/AndroidRuntime: CheckJNI is ON
+11-19 11:07:51.991 17573-17573/? D/AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 0 <<<<<<
+11-19 11:07:51.992 17573-17573/? D/AndroidRuntime: CheckJNI is ON
+11-19 11:07:51.994 17575-17575/? D/ICU: No timezone override file found: /data/misc/zoneinfo/current/icu/icu_tzdata.dat
+11-19 11:07:52.002 17573-17573/? D/ICU: No timezone override file found: /data/misc/zoneinfo/current/icu/icu_tzdata.dat
+11-19 11:07:52.005 17575-17575/? E/memtrack: Couldn't load memtrack module (No such file or directory)
+11-19 11:07:52.005 17575-17575/? E/android.os.Debug: failed to load memtrack module: -2
+11-19 11:07:52.005 17575-17575/? I/Radio-JNI: register_android_hardware_Radio DONE
+11-19 11:07:52.010 17575-17575/? D/AndroidRuntime: Calling main entry com.android.commands.am.Am
+    
+    --------- beginning of system
+11-19 11:07:52.011 1962-2130/system_process I/ActivityManager: Force stopping com.cbs.app appid=10069 user=0: from pid 17575
+11-19 11:07:52.011 17575-17575/? D/AndroidRuntime: Shutting down VM
+11-19 11:07:52.015 17573-17573/? E/memtrack: Couldn't load memtrack module (No such file or directory)
+11-19 11:07:52.015 17573-17573/? E/android.os.Debug: failed to load memtrack module: -2
+11-19 11:07:52.015 17573-17573/? I/Radio-JNI: register_android_hardware_Radio DONE
+11-19 11:07:52.020 17573-17573/? D/AndroidRuntime: Calling main entry com.android.commands.wm.Wm
+11-19 11:07:52.021 17573-17573/? D/AndroidRuntime: Shutting down VM
+11-19 11:07:52.381 17594-17594/? D/AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 0 <<<<<<
+11-19 11:07:52.382 17594-17594/? D/AndroidRuntime: CheckJNI is ON
+11-19 11:07:52.391 17594-17594/? D/ICU: No timezone override file found: /data/misc/zoneinfo/current/icu/icu_tzdata.dat
+11-19 11:07:52.401 17594-17594/? E/memtrack: Couldn't load memtrack module (No such file or directory)
+11-19 11:07:52.401 17594-17594/? E/android.os.Debug: failed to load memtrack module: -2
+11-19 11:07:52.402 17594-17594/? I/Radio-JNI: register_android_hardware_Radio DONE
+11-19 11:07:52.406 17594-17594/? D/AndroidRuntime: Calling main entry com.android.commands.am.Am
+11-19 11:07:52.408 1962-7407/system_process I/ActivityManager: START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 cmp=com.cbs.app/.MainActivity} from uid 0 on display 0
+11-19 11:07:52.411 17594-17594/? D/AndroidRuntime: Shutting down VM
+11-19 11:07:52.412 17602-17602/? I/art: Not late-enabling -Xcheck:jni (already on)
+11-19 11:07:52.421 1962-2670/system_process I/ActivityManager: Start proc 17602:com.cbs.app/u0a69 for activity com.cbs.app/.MainActivity
+11-19 11:07:52.453 17615-17615/? W/dex2oat: Unexpected CPU variant for X86 using defaults: dalvik.vm.isa.x86.features=default
+11-19 11:07:52.453 17615-17615/? W/dex2oat: Mismatch between dex2oat instruction set features (ISA: X86 Feature string: smp,-ssse3,-sse4.1,-sse4.2,-avx,-avx2) and those of dex2oat executable (ISA: X86 Feature string: smp,ssse3,sse4.1,sse4.2,-avx,-avx2) for the command line:
+11-19 11:07:52.453 17615-17615/? W/dex2oat: /system/bin/dex2oat --runtime-arg -classpath --runtime-arg  --debuggable --instruction-set=x86 --instruction-set-features=smp,ssse3,sse4.1,sse4.2,-avx,-avx2 --runtime-arg -Xrelocate --boot-image=/system/framework/boot.art --runtime-arg -Xms64m --runtime-arg -Xmx512m --instruction-set-variant=dalvik.vm.isa.x86.features=default --dex-file=/data/app/com.cbs.app-1/split_lib_dependencies_apk.apk --oat-file=/data/dalvik-cache/x86/data@app@com.cbs.app-1@split_lib_dependencies_apk.apk@classes.dex
+11-19 11:07:52.453 17615-17615/? E/dex2oat: Failed to create oat file: /data/dalvik-cache/x86/data@app@com.cbs.app-1@split_lib_dependencies_apk.apk@classes.dex: Permission denied
+11-19 11:07:52.453 17615-17615/? I/dex2oat: dex2oat took 321.242us (threads: 4) 
+11-19 11:07:52.454 17602-17602/? W/art: Failed execv(/system/bin/dex2oat --runtime-arg -classpath --runtime-arg  --debuggable --instruction-set=x86 --instruction-set-features=smp,ssse3,sse4.1,sse4.2,-avx,-avx2 --runtime-arg -Xrelocate --boot-image=/system/framework/boot.art --runtime-arg -Xms64m --runtime-arg -Xmx512m --instruction-set-variant=dalvik.vm.isa.x86.features=default --dex-file=/data/app/com.cbs.app-1/split_lib_dependencies_apk.apk --oat-file=/data/dalvik-cache/x86/data@app@com.cbs.app-1@split_lib_dependencies_apk.apk@classes.dex) because non-0 exit status
+11-19 11:07:52.480 1273-1326/? D/gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 8294400
+11-19 11:07:52.515 17618-17618/? W/dex2oat: Unexpected CPU variant for X86 using defaults: dalvik.vm.isa.x86.features=default
+11-19 11:07:52.515 17618-17618/? W/dex2oat: Mismatch between dex2oat instruction set features (ISA: X86 Feature string: smp,-ssse3,-sse4.1,-sse4.2,-avx,-avx2) and those of dex2oat executable (ISA: X86 Feature string: smp,ssse3,sse4.1,sse4.2,-avx,-avx2) for the command line:
+11-19 11:07:52.515 17618-17618/? W/dex2oat: /system/bin/dex2oat --runtime-arg -classpath --runtime-arg  --debuggable --instruction-set=x86 --instruction-set-features=smp,ssse3,sse4.1,sse4.2,-avx,-avx2 --runtime-arg -Xrelocate --boot-image=/system/framework/boot.art --runtime-arg -Xms64m --runtime-arg -Xmx512m --instruction-set-variant=dalvik.vm.isa.x86.features=default --dex-file=/data/app/com.cbs.app-1/split_lib_slice_0_apk.apk --oat-file=/data/dalvik-cache/x86/data@app@com.cbs.app-1@split_lib_slice_0_apk.apk@classes.dex
+11-19 11:07:52.526 17618-17618/? E/dex2oat: Failed to create oat file: /data/dalvik-cache/x86/data@app@com.cbs.app-1@split_lib_slice_0_apk.apk@classes.dex: Permission denied
+11-19 11:07:52.526 17618-17618/? I/dex2oat: dex2oat took 10.779ms (threads: 4) 
+11-19 11:07:52.529 17602-17602/com.cbs.app W/art: Failed execv(/system/bin/dex2oat --runtime-arg -classpath --runtime-arg  --debuggable --instruction-set=x86 --instruction-set-features=smp,ssse3,sse4.1,sse4.2,-avx,-avx2 --runtime-arg -Xrelocate --boot-image=/system/framework/boot.art --runtime-arg -Xms64m --runtime-arg -Xmx512m --instruction-set-variant=dalvik.vm.isa.x86.features=default --dex-file=/data/app/com.cbs.app-1/split_lib_slice_0_apk.apk --oat-file=/data/dalvik-cache/x86/data@app@com.cbs.app-1@split_lib_slice_0_apk.apk@classes.dex) because non-0 exit status
+11-19 11:07:52.538 17620-17620/? W/dex2oat: Unexpected CPU variant for X86 using defaults: dalvik.vm.isa.x86.features=default
+11-19 11:07:52.538 17620-17620/? W/dex2oat: Mismatch between dex2oat instruction set features (ISA: X86 Feature string: smp,-ssse3,-sse4.1,-sse4.2,-avx,-avx2) and those of dex2oat executable (ISA: X86 Feature string: smp,ssse3,sse4.1,sse4.2,-avx,-avx2) for the command line:
+11-19 11:07:52.538 17620-17620/? W/dex2oat: /system/bin/dex2oat --runtime-arg -classpath --runtime-arg  --debuggable --instruction-set=x86 --instruction-set-features=smp,ssse3,sse4.1,sse4.2,-avx,-avx2 --runtime-arg -Xrelocate --boot-image=/system/framework/boot.art --runtime-arg -Xms64m --runtime-arg -Xmx512m --instruction-set-variant=dalvik.vm.isa.x86.features=default --dex-file=/data/app/com.cbs.app-1/split_lib_slice_1_apk.apk --oat-file=/data/dalvik-cache/x86/data@app@com.cbs.app-1@split_lib_slice_1_apk.apk@classes.dex
+11-19 11:07:52.538 17620-17620/? E/dex2oat: Failed to create oat file: /data/dalvik-cache/x86/data@app@com.cbs.app-1@split_lib_slice_1_apk.apk@classes.dex: Permission denied
+11-19 11:07:52.538 17620-17620/? I/dex2oat: dex2oat took 136.823us (threads: 4) 
+11-19 11:07:52.538 17602-17602/com.cbs.app W/art: Failed execv(/system/bin/dex2oat --runtime-arg -classpath --runtime-arg  --debuggable --instruction-set=x86 --instruction-set-features=smp,ssse3,sse4.1,sse4.2,-avx,-avx2 --runtime-arg -Xrelocate --boot-image=/system/framework/boot.art --runtime-arg -Xms64m --runtime-arg -Xmx512m --instruction-set-variant=dalvik.vm.isa.x86.features=default --dex-file=/data/app/com.cbs.app-1/split_lib_slice_1_apk.apk --oat-file=/data/dalvik-cache/x86/data@app@com.cbs.app-1@split_lib_slice_1_apk.apk@classes.dex) because non-0 exit status
+11-19 11:07:52.548 17623-17623/? W/dex2oat: Unexpected CPU variant for X86 using defaults: dalvik.vm.isa.x86.features=default
+11-19 11:07:52.548 17623-17623/? W/dex2oat: Mismatch between dex2oat instruction set features (ISA: X86 Feature string: smp,-ssse3,-sse4.1,-sse4.2,-avx,-avx2) and those of dex2oat executable (ISA: X86 Feature string: smp,ssse3,sse4.1,sse4.2,-avx,-avx2) for the command line:
+11-19 11:07:52.548 17623-17623/? W/dex2oat: /system/bin/dex2oat --runtime-arg -classpath --runtime-arg  --debuggable --instruction-set=x86 --instruction-set-features=smp,ssse3,sse4.1,sse4.2,-avx,-avx2 --runtime-arg -Xrelocate --boot-image=/system/framework/boot.art --runtime-arg -Xms64m --runtime-arg -Xmx512m --instruction-set-variant=dalvik.vm.isa.x86.features=default --dex-file=/data/app/com.cbs.app-1/split_lib_slice_2_apk.apk --oat-file=/data/dalvik-cache/x86/data@app@com.cbs.app-1@split_lib_slice_2_apk.apk@classes.dex
+11-19 11:07:52.548 17623-17623/? E/dex2oat: Failed to create oat file: /data/dalvik-cache/x86/data@app@com.cbs.app-1@split_lib_slice_2_apk.apk@classes.dex: Permission denied
+11-19 11:07:52.549 17623-17623/? I/dex2oat: dex2oat took 281.619us (threads: 4) 
+11-19 11:07:52.549 17602-17602/com.cbs.app W/art: Failed execv(/system/bin/dex2oat --runtime-arg -classpath --runtime-arg  --debuggable --instruction-set=x86 --instruction-set-features=smp,ssse3,sse4.1,sse4.2,-avx,-avx2 --runtime-arg -Xrelocate --boot-image=/system/framework/boot.art --runtime-arg -Xms64m --runtime-arg -Xmx512m --instruction-set-variant=dalvik.vm.isa.x86.features=default --dex-file=/data/app/com.cbs.app-1/split_lib_slice_2_apk.apk --oat-file=/data/dalvik-cache/x86/data@app@com.cbs.app-1@split_lib_slice_2_apk.apk@classes.dex) because non-0 exit status
+11-19 11:07:52.553 3047-3117/com.android.launcher3 D/EGL_emulation: eglMakeCurrent: 0x7fa7f5469c20: ver 2 0 (tinfo 0x7fa7f3ad02e0)
+11-19 11:07:52.553 3047-3117/com.android.launcher3 E/Surface: getSlotFromBufferLocked: unknown buffer: 0x7fa7e86083c0
+11-19 11:07:52.567 17626-17626/? W/dex2oat: Unexpected CPU variant for X86 using defaults: dalvik.vm.isa.x86.features=default
+11-19 11:07:52.567 17626-17626/? W/dex2oat: Mismatch between dex2oat instruction set features (ISA: X86 Feature string: smp,-ssse3,-sse4.1,-sse4.2,-avx,-avx2) and those of dex2oat executable (ISA: X86 Feature string: smp,ssse3,sse4.1,sse4.2,-avx,-avx2) for the command line:
+11-19 11:07:52.567 17626-17626/? W/dex2oat: /system/bin/dex2oat --runtime-arg -classpath --runtime-arg  --debuggable --instruction-set=x86 --instruction-set-features=smp,ssse3,sse4.1,sse4.2,-avx,-avx2 --runtime-arg -Xrelocate --boot-image=/system/framework/boot.art --runtime-arg -Xms64m --runtime-arg -Xmx512m --instruction-set-variant=dalvik.vm.isa.x86.features=default --dex-file=/data/app/com.cbs.app-1/split_lib_slice_3_apk.apk --oat-file=/data/dalvik-cache/x86/data@app@com.cbs.app-1@split_lib_slice_3_apk.apk@classes.dex
+11-19 11:07:52.567 17626-17626/? E/dex2oat: Failed to create oat file: /data/dalvik-cache/x86/data@app@com.cbs.app-1@split_lib_slice_3_apk.apk@classes.dex: Permission denied
+11-19 11:07:52.567 17626-17626/? I/dex2oat: dex2oat took 334.478us (threads: 4) 
+11-19 11:07:52.568 17602-17602/com.cbs.app W/art: Failed execv(/system/bin/dex2oat --runtime-arg -classpath --runtime-arg  --debuggable --instruction-set=x86 --instruction-set-features=smp,ssse3,sse4.1,sse4.2,-avx,-avx2 --runtime-arg -Xrelocate --boot-image=/system/framework/boot.art --runtime-arg -Xms64m --runtime-arg -Xmx512m --instruction-set-variant=dalvik.vm.isa.x86.features=default --dex-file=/data/app/com.cbs.app-1/split_lib_slice_3_apk.apk --oat-file=/data/dalvik-cache/x86/data@app@com.cbs.app-1@split_lib_slice_3_apk.apk@classes.dex) because non-0 exit status
+11-19 11:07:52.585 17628-17628/? W/dex2oat: Unexpected CPU variant for X86 using defaults: dalvik.vm.isa.x86.features=default
+11-19 11:07:52.585 17628-17628/? W/dex2oat: Mismatch between dex2oat instruction set features (ISA: X86 Feature string: smp,-ssse3,-sse4.1,-sse4.2,-avx,-avx2) and those of dex2oat executable (ISA: X86 Feature string: smp,ssse3,sse4.1,sse4.2,-avx,-avx2) for the command line:
+11-19 11:07:52.585 17628-17628/? W/dex2oat: /system/bin/dex2oat --runtime-arg -classpath --runtime-arg  --debuggable --instruction-set=x86 --instruction-set-features=smp,ssse3,sse4.1,sse4.2,-avx,-avx2 --runtime-arg -Xrelocate --boot-image=/system/framework/boot.art --runtime-arg -Xms64m --runtime-arg -Xmx512m --instruction-set-variant=dalvik.vm.isa.x86.features=default --dex-file=/data/app/com.cbs.app-1/split_lib_slice_4_apk.apk --oat-file=/data/dalvik-cache/x86/data@app@com.cbs.app-1@split_lib_slice_4_apk.apk@classes.dex
+11-19 11:07:52.585 17628-17628/? E/dex2oat: Failed to create oat file: /data/dalvik-cache/x86/data@app@com.cbs.app-1@split_lib_slice_4_apk.apk@classes.dex: Permission denied
+11-19 11:07:52.585 17628-17628/? I/dex2oat: dex2oat took 219.995us (threads: 4) 
+11-19 11:07:52.593 17602-17602/com.cbs.app W/art: Failed execv(/system/bin/dex2oat --runtime-arg -classpath --runtime-arg  --debuggable --instruction-set=x86 --instruction-set-features=smp,ssse3,sse4.1,sse4.2,-avx,-avx2 --runtime-arg -Xrelocate --boot-image=/system/framework/boot.art --runtime-arg -Xms64m --runtime-arg -Xmx512m --instruction-set-variant=dalvik.vm.isa.x86.features=default --dex-file=/data/app/com.cbs.app-1/split_lib_slice_4_apk.apk --oat-file=/data/dalvik-cache/x86/data@app@com.cbs.app-1@split_lib_slice_4_apk.apk@classes.dex) because non-0 exit status
+11-19 11:07:52.610 17630-17630/? W/dex2oat: Unexpected CPU variant for X86 using defaults: dalvik.vm.isa.x86.features=default
+11-19 11:07:52.611 17630-17630/? W/dex2oat: Mismatch between dex2oat instruction set features (ISA: X86 Feature string: smp,-ssse3,-sse4.1,-sse4.2,-avx,-avx2) and those of dex2oat executable (ISA: X86 Feature string: smp,ssse3,sse4.1,sse4.2,-avx,-avx2) for the command line:
+11-19 11:07:52.611 17630-17630/? W/dex2oat: /system/bin/dex2oat --runtime-arg -classpath --runtime-arg  --debuggable --instruction-set=x86 --instruction-set-features=smp,ssse3,sse4.1,sse4.2,-avx,-avx2 --runtime-arg -Xrelocate --boot-image=/system/framework/boot.art --runtime-arg -Xms64m --runtime-arg -Xmx512m --instruction-set-variant=dalvik.vm.isa.x86.features=default --dex-file=/data/app/com.cbs.app-1/split_lib_slice_5_apk.apk --oat-file=/data/dalvik-cache/x86/data@app@com.cbs.app-1@split_lib_slice_5_apk.apk@classes.dex
+11-19 11:07:52.611 17630-17630/? E/dex2oat: Failed to create oat file: /data/dalvik-cache/x86/data@app@com.cbs.app-1@split_lib_slice_5_apk.apk@classes.dex: Permission denied
+11-19 11:07:52.611 17630-17630/? I/dex2oat: dex2oat took 1.103ms (threads: 4) 
+11-19 11:07:52.617 17602-17602/com.cbs.app W/art: Failed execv(/system/bin/dex2oat --runtime-arg -classpath --runtime-arg  --debuggable --instruction-set=x86 --instruction-set-features=smp,ssse3,sse4.1,sse4.2,-avx,-avx2 --runtime-arg -Xrelocate --boot-image=/system/framework/boot.art --runtime-arg -Xms64m --runtime-arg -Xmx512m --instruction-set-variant=dalvik.vm.isa.x86.features=default --dex-file=/data/app/com.cbs.app-1/split_lib_slice_5_apk.apk --oat-file=/data/dalvik-cache/x86/data@app@com.cbs.app-1@split_lib_slice_5_apk.apk@classes.dex) because non-0 exit status
+11-19 11:07:52.645 17632-17632/? W/dex2oat: Unexpected CPU variant for X86 using defaults: dalvik.vm.isa.x86.features=default
+11-19 11:07:52.645 17632-17632/? W/dex2oat: Mismatch between dex2oat instruction set features (ISA: X86 Feature string: smp,-ssse3,-sse4.1,-sse4.2,-avx,-avx2) and those of dex2oat executable (ISA: X86 Feature string: smp,ssse3,sse4.1,sse4.2,-avx,-avx2) for the command line:
+11-19 11:07:52.645 17632-17632/? W/dex2oat: /system/bin/dex2oat --runtime-arg -classpath --runtime-arg  --debuggable --instruction-set=x86 --instruction-set-features=smp,ssse3,sse4.1,sse4.2,-avx,-avx2 --runtime-arg -Xrelocate --boot-image=/system/framework/boot.art --runtime-arg -Xms64m --runtime-arg -Xmx512m --instruction-set-variant=dalvik.vm.isa.x86.features=default --dex-file=/data/app/com.cbs.app-1/split_lib_slice_7_apk.apk --oat-file=/data/dalvik-cache/x86/data@app@com.cbs.app-1@split_lib_slice_7_apk.apk@classes.dex
+11-19 11:07:52.645 17632-17632/? E/dex2oat: Failed to create oat file: /data/dalvik-cache/x86/data@app@com.cbs.app-1@split_lib_slice_7_apk.apk@classes.dex: Permission denied
+11-19 11:07:52.646 17632-17632/? I/dex2oat: dex2oat took 1.794ms (threads: 4) 
+11-19 11:07:52.647 17602-17602/com.cbs.app W/art: Failed execv(/system/bin/dex2oat --runtime-arg -classpath --runtime-arg  --debuggable --instruction-set=x86 --instruction-set-features=smp,ssse3,sse4.1,sse4.2,-avx,-avx2 --runtime-arg -Xrelocate --boot-image=/system/framework/boot.art --runtime-arg -Xms64m --runtime-arg -Xmx512m --instruction-set-variant=dalvik.vm.isa.x86.features=default --dex-file=/data/app/com.cbs.app-1/split_lib_slice_7_apk.apk --oat-file=/data/dalvik-cache/x86/data@app@com.cbs.app-1@split_lib_slice_7_apk.apk@classes.dex) because non-0 exit status
+11-19 11:07:52.663 17634-17634/? W/dex2oat: Unexpected CPU variant for X86 using defaults: dalvik.vm.isa.x86.features=default
+11-19 11:07:52.663 17634-17634/? W/dex2oat: Mismatch between dex2oat instruction set features (ISA: X86 Feature string: smp,-ssse3,-sse4.1,-sse4.2,-avx,-avx2) and those of dex2oat executable (ISA: X86 Feature string: smp,ssse3,sse4.1,sse4.2,-avx,-avx2) for the command line:
+11-19 11:07:52.663 17634-17634/? W/dex2oat: /system/bin/dex2oat --runtime-arg -classpath --runtime-arg  --debuggable --instruction-set=x86 --instruction-set-features=smp,ssse3,sse4.1,sse4.2,-avx,-avx2 --runtime-arg -Xrelocate --boot-image=/system/framework/boot.art --runtime-arg -Xms64m --runtime-arg -Xmx512m --instruction-set-variant=dalvik.vm.isa.x86.features=default --dex-file=/data/app/com.cbs.app-1/split_lib_slice_9_apk.apk --oat-file=/data/dalvik-cache/x86/data@app@com.cbs.app-1@split_lib_slice_9_apk.apk@classes.dex
+11-19 11:07:52.663 17634-17634/? E/dex2oat: Failed to create oat file: /data/dalvik-cache/x86/data@app@com.cbs.app-1@split_lib_slice_9_apk.apk@classes.dex: Permission denied
+11-19 11:07:52.663 17634-17634/? I/dex2oat: dex2oat took 244.237us (threads: 4) 
+11-19 11:07:52.685 17602-17602/com.cbs.app W/art: Failed execv(/system/bin/dex2oat --runtime-arg -classpath --runtime-arg  --debuggable --instruction-set=x86 --instruction-set-features=smp,ssse3,sse4.1,sse4.2,-avx,-avx2 --runtime-arg -Xrelocate --boot-image=/system/framework/boot.art --runtime-arg -Xms64m --runtime-arg -Xmx512m --instruction-set-variant=dalvik.vm.isa.x86.features=default --dex-file=/data/app/com.cbs.app-1/split_lib_slice_9_apk.apk --oat-file=/data/dalvik-cache/x86/data@app@com.cbs.app-1@split_lib_slice_9_apk.apk@classes.dex) because non-0 exit status
+11-19 11:07:52.690 17602-17602/com.cbs.app I/InstantRun: starting instant run server: is main process
+11-19 11:07:52.721 17602-17602/com.cbs.app W/art: Before Android 4.1, method android.graphics.PorterDuffColorFilter android.support.graphics.drawable.VectorDrawableCompat.updateTintFilter(android.graphics.PorterDuffColorFilter, android.content.res.ColorStateList, android.graphics.PorterDuff$Mode) would have incorrectly overridden the package-private method in android.graphics.drawable.Drawable
+    
+    --------- beginning of crash
+11-19 11:07:52.770 17602-17602/com.cbs.app A/libc: Fatal signal 11 (SIGSEGV), code 1, fault addr 0x1 in tid 17602 (com.cbs.app)
+11-19 11:07:52.821 1679-1679/? A/DEBUG: *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ***
+11-19 11:07:52.821 1679-1679/? A/DEBUG: Build fingerprint: 'Android/sdk_google_phone_x86_64/generic_x86_64:6.0/MASTER/4931947:userdebug/test-keys'
+11-19 11:07:52.821 1679-1679/? A/DEBUG: Revision: '0'
+11-19 11:07:52.821 1679-1679/? A/DEBUG: ABI: 'x86'
+11-19 11:07:52.821 1679-1679/? A/DEBUG: pid: 17602, tid: 17602, name: com.cbs.app  >>> com.cbs.app <<<
+11-19 11:07:52.821 1679-1679/? A/DEBUG: signal 11 (SIGSEGV), code 1 (SEGV_MAPERR), fault addr 0x1
+11-19 11:07:52.823 1679-1679/? A/DEBUG:     eax 00000001  ebx e996ae84  ecx 00000001  edx e9b8b100
+11-19 11:07:52.823 1679-1679/? A/DEBUG:     esi 00000039  edi ffdaab4c
+11-19 11:07:52.823 1679-1679/? A/DEBUG:     xcs 00000023  xds 0000002b  xes 0000002b  xfs 00000007  xss 0000002b
+11-19 11:07:52.823 1679-1679/? A/DEBUG:     eip f72c5a33  ebp ffdaab88  esp ffdaaae0  flags 00210202
+11-19 11:07:52.824 1679-1679/? A/DEBUG: backtrace:
+11-19 11:07:52.825 1679-1679/? A/DEBUG:     #00 pc 00082a33  /system/lib/libc.so (pthread_mutex_lock+11)
+11-19 11:07:52.825 1679-1679/? A/DEBUG:     #01 pc 0002f9d3  /data/app/com.cbs.app-1/lib/x86/libcomScore.so
+11-19 11:07:52.825 1679-1679/? A/DEBUG:     #02 pc 00012a28  /data/app/com.cbs.app-1/lib/x86/libcomScore.so
+11-19 11:07:52.825 1679-1679/? A/DEBUG:     #03 pc 00012ace  /data/app/com.cbs.app-1/lib/x86/libcomScore.so (Java_com_comscore_streaming_PlaybackSession_containsLabelNative+109)
+11-19 11:07:52.825 1679-1679/? A/DEBUG:     #04 pc 0013d887  /system/lib/libart.so (art_quick_generic_jni_trampoline+71)
+11-19 11:07:52.825 1679-1679/? A/DEBUG:     #05 pc 00137a42  /system/lib/libart.so (art_quick_invoke_stub+338)
+11-19 11:07:52.825 1679-1679/? A/DEBUG:     #06 pc 00143584  /system/lib/libart.so (art::ArtMethod::Invoke(art::Thread*, unsigned int*, unsigned int, art::JValue*, char const*)+212)
+11-19 11:07:52.825 1679-1679/? A/DEBUG:     #07 pc 005e048e  /system/lib/libart.so (artInterpreterToCompiledCodeBridge+190)
+11-19 11:07:52.825 1679-1679/? A/DEBUG:     #08 pc 0032894d  /system/lib/libart.so (bool art::interpreter::DoCall<false, false>(art::ArtMethod*, art::Thread*, art::ShadowFrame&, art::Instruction const*, unsigned short, art::JValue*)+445)
+11-19 11:07:52.825 1679-1679/? A/DEBUG:     #09 pc 0032e9e9  /system/lib/libart.so (bool art::interpreter::DoInvoke<(art::InvokeType)2, false, false>(art::Thread*, art::ShadowFrame&, art::Instruction const*, unsigned short, art::JValue*)+297)
+11-19 11:07:52.825 1679-1679/? A/DEBUG:     #10 pc 000fc915  /system/lib/libart.so (art::JValue art::interpreter::ExecuteGotoImpl<false, false>(art::Thread*, art::DexFile::CodeItem const*, art::ShadowFrame&, art::JValue)+30485)
+11-19 11:07:52.825 1679-1679/? A/DEBUG:     #11 pc 003008e7  /system/lib/libart.so (artInterpreterToInterpreterBridge+188)
+11-19 11:07:52.825 1679-1679/? A/DEBUG:     #12 pc 0032894d  /system/lib/libart.so (bool art::interpreter::DoCall<false, false>(art::ArtMethod*, art::Thread*, art::ShadowFrame&, art::Instruction const*, unsigned short, art::JValue*)+445)
+11-19 11:07:52.825 1679-1679/? A/DEBUG:     #13 pc 0032e9e9  /system/lib/libart.so (bool art::interpreter::DoInvoke<(art::InvokeType)2, false, false>(art::Thread*, art::ShadowFrame&, art::Instruction const*, unsigned short, art::JValue*)+297)
+11-19 11:07:52.825 1679-1679/? A/DEBUG:     #14 pc 000fc915  /system/lib/libart.so (art::JValue art::interpreter::ExecuteGotoImpl<false, false>(art::Thread*, art::DexFile::CodeItem const*, art::ShadowFrame&, art::JValue)+30485)
+11-19 11:07:52.825 1679-1679/? A/DEBUG:     #15 pc 003004f0  /system/lib/libart.so (art::interpreter::EnterInterpreterFromEntryPoint(art::Thread*, art::DexFile::CodeItem const*, art::ShadowFrame*)+128)
+11-19 11:07:52.825 1679-1679/? A/DEBUG:     #16 pc 00667a23  /system/lib/libart.so (artQuickToInterpreterBridge+808)
+11-19 11:07:52.825 1679-1679/? A/DEBUG:     #17 pc 0013d94d  /system/lib/libart.so (art_quick_to_interpreter_bridge+77)
+11-19 11:07:52.825 1679-1679/? A/DEBUG:     #18 pc 740e1737  /data/dalvik-cache/x86/system@framework@boot.oat (offset 0x1eb2000)
+11-19 11:07:52.825 1679-1679/? A/DEBUG:     #19 pc 8413079e  <unknown>
+11-19 11:07:52.825 1679-1679/? A/DEBUG:     #20 pc 83df9d3d  <unknown>
+11-19 11:07:52.857 1679-1679/? A/DEBUG: Tombstone written to: /data/tombstones/tombstone_08
+11-19 11:07:52.857 1679-1679/? E/DEBUG: AM write failed: Broken pipe
+11-19 11:07:52.857 1962-1981/system_process I/BootReceiver: Copying /data/tombstones/tombstone_08 to DropBox (SYSTEM_TOMBSTONE)
+11-19 11:07:52.857 1962-17643/system_process W/ActivityManager:   Force finishing activity com.cbs.app/.MainActivity
+11-19 11:07:52.858 1273-3129/? D/gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 1019904
+11-19 11:07:52.865 1273-1273/? E/EGL_emulation: tid 1273: eglCreateSyncKHR(1881): error 0x3004 (EGL_BAD_ATTRIBUTE)
+11-19 11:07:52.870 1962-17643/system_process E/JavaBinder: !!! FAILED BINDER TRANSACTION !!!  (parcel size = 112)
+11-19 11:07:52.870 1962-17643/system_process W/ActivityManager: Exception thrown during pause
+    android.os.DeadObjectException: Transaction failed on small parcel; remote process probably died
+        at android.os.BinderProxy.transactNative(Native Method)
+        at android.os.BinderProxy.transact(Binder.java:503)
+        at android.app.ApplicationThreadProxy.schedulePauseActivity(ApplicationThreadNative.java:727)
+        at com.android.server.am.ActivityStack.startPausingLocked(ActivityStack.java:867)
+        at com.android.server.am.ActivityStack.finishActivityLocked(ActivityStack.java:2907)
+        at com.android.server.am.ActivityStack.finishTopRunningActivityLocked(ActivityStack.java:2763)
+        at com.android.server.am.ActivityStackSupervisor.finishTopRunningActivityLocked(ActivityStackSupervisor.java:2755)
+        at com.android.server.am.ActivityManagerService.handleAppCrashLocked(ActivityManagerService.java:11971)
+        at com.android.server.am.ActivityManagerService.makeAppCrashingLocked(ActivityManagerService.java:11867)
+        at com.android.server.am.ActivityManagerService.crashApplication(ActivityManagerService.java:12556)
+        at com.android.server.am.ActivityManagerService.handleApplicationCrashInner(ActivityManagerService.java:12063)
+        at com.android.server.am.NativeCrashListener$NativeCrashReporter.run(NativeCrashListener.java:86)
+11-19 11:07:52.871 1271-1271/? E/lowmemorykiller: Error writing /proc/17602/oom_score_adj; errno=22
+11-19 11:07:52.892 1962-1973/system_process I/AccountManagerService: getTypesVisibleToCaller: isPermitted? true
+11-19 11:07:52.895 1962-2201/system_process I/AccountManagerService: getTypesVisibleToCaller: isPermitted? true
+11-19 11:07:52.895 1962-3649/system_process I/AccountManagerService: getTypesVisibleToCaller: isPermitted? true
+11-19 11:07:52.901 1962-3650/system_process I/AccountManagerService: getTypesVisibleToCaller: isPermitted? true
+11-19 11:07:52.905 1962-7407/system_process I/AccountManagerService: getTypesVisibleToCaller: isPermitted? true
+11-19 11:07:52.906 1962-2204/system_process I/AccountManagerService: getTypesVisibleToCaller: isPermitted? true
+11-19 11:07:52.910 1687-1687/? I/Zygote: Process 17602 exited due to signal (11)
+11-19 11:07:52.911 1962-2201/system_process I/ActivityManager: Process com.cbs.app (pid 17602) has died
+11-19 11:07:52.914 2681-2681/com.google.android.googlequicksearchbox:search I/BackgroundMemoryTrimmer: Trimming objects from memory, since app is in the background.
+11-19 11:07:52.915 1962-4209/system_process D/EGL_emulation: eglMakeCurrent: 0x7fa7e4b6f9a0: ver 2 0 (tinfo 0x7fa7e4cbe5c0)
+11-19 11:07:52.935 3047-3117/com.android.launcher3 D/EGL_emulation: eglMakeCurrent: 0x7fa7f5469c20: ver 2 0 (tinfo 0x7fa7f3ad02e0)
+11-19 11:07:52.971 1962-4209/system_process D/EGL_emulation: eglMakeCurrent: 0x7fa7e4b6f9a0: ver 2 0 (tinfo 0x7fa7e4cbe5c0)
+11-19 11:07:53.488 3047-3117/com.android.launcher3 W/OpenGLRenderer: Incorrectly called buildLayer on View: ShortcutAndWidgetContainer, destroying layer...
+11-19 11:07:53.488 3047-3117/com.android.launcher3 W/OpenGLRenderer: Incorrectly called buildLayer on View: ShortcutAndWidgetContainer, destroying layer...
+11-19 11:07:53.875 1962-4209/system_process D/EGL_emulation: eglMakeCurrent: 0x7fa7e4b6f9a0: ver 2 0 (tinfo 0x7fa7e4cbe5c0)
+11-19 11:08:00.054 1273-1330/? D/hwcomposer: hw_composer sent 81 syncs in 60s

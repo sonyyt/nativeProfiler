@@ -1,0 +1,38 @@
+11-19 10:49:14.239 16374-16374/com.crunchyroll.crunchyroid A/libc: Fatal signal 11 (SIGSEGV), code 1, fault addr 0x5 in tid 16374 (oll.crunchyroid)
+11-19 10:49:14.289 1679-1679/? A/DEBUG: *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ***
+11-19 10:49:14.289 1679-1679/? A/DEBUG: Build fingerprint: 'Android/sdk_google_phone_x86_64/generic_x86_64:6.0/MASTER/4931947:userdebug/test-keys'
+11-19 10:49:14.289 1679-1679/? A/DEBUG: Revision: '0'
+11-19 10:49:14.289 1679-1679/? A/DEBUG: ABI: 'x86'
+11-19 10:49:14.289 1679-1679/? A/DEBUG: pid: 16374, tid: 16374, name: oll.crunchyroid  >>> com.crunchyroll.crunchyroid <<<
+11-19 10:49:14.290 1679-1679/? A/DEBUG: signal 11 (SIGSEGV), code 1 (SEGV_MAPERR), fault addr 0x5
+11-19 10:49:14.292 1679-1679/? A/DEBUG:     eax f4019ae0  ebx e996cebc  ecx daa589c0  edx 00000001
+11-19 10:49:14.292 1679-1679/? A/DEBUG:     esi f4019ae0  edi ffdaab78
+11-19 10:49:14.292 1679-1679/? A/DEBUG:     xcs 00000023  xds 0000002b  xes 0000002b  xfs 00000007  xss 0000002b
+11-19 10:49:14.292 1679-1679/? A/DEBUG:     eip e99470d7  ebp ffdaab98  esp ffdaab40  flags 00210202
+11-19 10:49:14.295 1679-1679/? A/DEBUG: backtrace:
+11-19 10:49:14.295 1679-1679/? A/DEBUG:     #00 pc 000070d7  /data/app/com.crunchyroll.crunchyroid-1/lib/x86/libjniPdfium.so
+11-19 10:49:14.295 1679-1679/? A/DEBUG:     #01 pc 00007862  /data/app/com.crunchyroll.crunchyroid-1/lib/x86/libjniPdfium.so (Java_com_shockwave_pdfium_PdfiumCore_nativeLoadPages+98)
+11-19 10:49:14.295 1679-1679/? A/DEBUG:     #02 pc 0013d887  /system/lib/libart.so (art_quick_generic_jni_trampoline+71)
+11-19 10:49:14.295 1679-1679/? A/DEBUG:     #03 pc 00137a42  /system/lib/libart.so (art_quick_invoke_stub+338)
+11-19 10:49:14.295 1679-1679/? A/DEBUG:     #04 pc 00143584  /system/lib/libart.so (art::ArtMethod::Invoke(art::Thread*, unsigned int*, unsigned int, art::JValue*, char const*)+212)
+11-19 10:49:14.295 1679-1679/? A/DEBUG:     #05 pc 005e048e  /system/lib/libart.so (artInterpreterToCompiledCodeBridge+190)
+11-19 10:49:14.295 1679-1679/? A/DEBUG:     #06 pc 0032894d  /system/lib/libart.so (bool art::interpreter::DoCall<false, false>(art::ArtMethod*, art::Thread*, art::ShadowFrame&, art::Instruction const*, unsigned short, art::JValue*)+445)
+11-19 10:49:14.295 1679-1679/? A/DEBUG:     #07 pc 0032e9e9  /system/lib/libart.so (bool art::interpreter::DoInvoke<(art::InvokeType)2, false, false>(art::Thread*, art::ShadowFrame&, art::Instruction const*, unsigned short, art::JValue*)+297)
+11-19 10:49:14.295 1679-1679/? A/DEBUG:     #08 pc 000fc915  /system/lib/libart.so (art::JValue art::interpreter::ExecuteGotoImpl<false, false>(art::Thread*, art::DexFile::CodeItem const*, art::ShadowFrame&, art::JValue)+30485)
+11-19 10:49:14.295 1679-1679/? A/DEBUG:     #09 pc 003008e7  /system/lib/libart.so (artInterpreterToInterpreterBridge+188)
+11-19 10:49:14.295 1679-1679/? A/DEBUG:     #10 pc 0032894d  /system/lib/libart.so (bool art::interpreter::DoCall<false, false>(art::ArtMethod*, art::Thread*, art::ShadowFrame&, art::Instruction const*, unsigned short, art::JValue*)+445)
+11-19 10:49:14.295 1679-1679/? A/DEBUG:     #11 pc 0032e9e9  /system/lib/libart.so (bool art::interpreter::DoInvoke<(art::InvokeType)2, false, false>(art::Thread*, art::ShadowFrame&, art::Instruction const*, unsigned short, art::JValue*)+297)
+11-19 10:49:14.295 1679-1679/? A/DEBUG:     #12 pc 000fc915  /system/lib/libart.so (art::JValue art::interpreter::ExecuteGotoImpl<false, false>(art::Thread*, art::DexFile::CodeItem const*, art::ShadowFrame&, art::JValue)+30485)
+11-19 10:49:14.295 1679-1679/? A/DEBUG:     #13 pc 003004f0  /system/lib/libart.so (art::interpreter::EnterInterpreterFromEntryPoint(art::Thread*, art::DexFile::CodeItem const*, art::ShadowFrame*)+128)
+11-19 10:49:14.295 1679-1679/? A/DEBUG:     #14 pc 00667a23  /system/lib/libart.so (artQuickToInterpreterBridge+808)
+11-19 10:49:14.295 1679-1679/? A/DEBUG:     #15 pc 0013d94d  /system/lib/libart.so (art_quick_to_interpreter_bridge+77)
+11-19 10:49:14.295 1679-1679/? A/DEBUG:     #16 pc 740e1737  /data/dalvik-cache/x86/system@framework@boot.oat (offset 0x1eb2000)
+11-19 10:49:14.295 1679-1679/? A/DEBUG:     #17 pc 8413079e  <unknown>
+11-19 10:49:14.295 1679-1679/? A/DEBUG:     #18 pc 83df9d3d  <unknown>
+11-19 10:49:14.335 1679-1679/? A/DEBUG: Tombstone written to: /data/tombstones/tombstone_04
+11-19 10:49:14.335 1679-1679/? E/DEBUG: AM write failed: Broken pipe
+11-19 10:49:14.335 1962-1981/system_process I/BootReceiver: Copying /data/tombstones/tombstone_04 to DropBox (SYSTEM_TOMBSTONE)
+11-19 10:49:14.335 1962-16413/system_process W/ActivityManager:   Force finishing activity com.crunchyroll.crunchyroid/.MainActivity
+11-19 10:49:14.336 1273-3129/? D/gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 1019904
+11-19 10:49:14.340 1273-1273/? E/EGL_emulation: tid 1273: eglCreateSyncKHR(1881): error 0x3004 (EGL_BAD_ATTRIBUTE)
+11-19 10:49:14.345 1962-16413/system_process E/JavaBinder: !!! FAILED BINDER TRANSACTION !!!  (parcel size = 112)
