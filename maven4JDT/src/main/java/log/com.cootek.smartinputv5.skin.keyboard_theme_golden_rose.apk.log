@@ -1,0 +1,20 @@
+-25 10:40:49.102 32541-32541/? D/Daemon: start try to lock file >> file_dir_tobefilled_later <<
+11-25 10:40:49.102 32541-32541/? E/Daemon: lock file failed >> file_dir_tobefilled_later <<
+11-25 10:40:49.102 32541-32541/? D/Daemon: Persistent lock myself failed and try again as 1 times
+11-25 10:40:49.112 32541-32541/? D/Daemon: start try to lock file >> file_dir_tobefilled_later <<
+11-25 10:40:49.112 32541-32541/? E/Daemon: lock file failed >> file_dir_tobefilled_later <<
+11-25 10:40:49.112 32541-32541/? D/Daemon: Persistent lock myself failed and try again as 2 times
+11-25 10:40:49.122 32541-32541/? D/Daemon: start try to lock file >> file_dir_tobefilled_later <<
+11-25 10:40:49.122 32541-32541/? E/Daemon: lock file failed >> file_dir_tobefilled_later <<
+11-25 10:40:49.122 32541-32541/? D/Daemon: Persistent lock myself failed and try again as 3 times
+11-25 10:40:49.133 32541-32541/? E/Daemon: Persistent lock myself failed and exit
+11-25 10:40:49.133 32541-32541/? D/Daemon: start try to lock file >> test <<
+11-25 10:40:49.133 32541-32541/? E/Daemon: lock file failed >> test <<
+11-25 10:40:49.133 32541-32541/? D/Daemon: Persistent lock myself failed and try again as 1 times
+11-25 10:40:49.143 32541-32541/? D/Daemon: start try to lock file >> test <<
+11-25 10:40:49.143 32541-32541/? E/Daemon: lock file failed >> test <<
+11-25 10:40:49.143 32541-32541/? D/Daemon: Persistent lock myself failed and try again as 2 times
+11-25 10:40:49.153 32541-32541/? D/Daemon: start try to lock file >> test <<
+11-25 10:40:49.153 32541-32541/? E/Daemon: lock file failed >> test <<
+11-25 10:40:49.153 32541-32541/? D/Daemon: Persistent lock myself failed and try again as 3 times
+11-25 10:40:49.163 32541-32541/? E/Daemon: Persistent lock myself failed and exit

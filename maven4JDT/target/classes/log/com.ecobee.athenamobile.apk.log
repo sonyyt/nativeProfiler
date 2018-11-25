@@ -1,0 +1,193 @@
+execution time: 1ms
+
+
+11-25 16:56:46.795 4313-4313/? D/AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 0 <<<<<<
+11-25 16:56:46.797 4313-4313/? D/AndroidRuntime: CheckJNI is ON
+11-25 16:56:46.809 4311-4311/? D/AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 0 <<<<<<
+11-25 16:56:46.810 4311-4311/? D/AndroidRuntime: CheckJNI is ON
+11-25 16:56:46.823 4313-4313/? D/ICU: No timezone override file found: /data/misc/zoneinfo/current/icu/icu_tzdata.dat
+11-25 16:56:46.830 4311-4311/? D/ICU: No timezone override file found: /data/misc/zoneinfo/current/icu/icu_tzdata.dat
+11-25 16:56:46.845 4313-4313/? E/memtrack: Couldn't load memtrack module (No such file or directory)
+11-25 16:56:46.845 4313-4313/? E/android.os.Debug: failed to load memtrack module: -2
+11-25 16:56:46.846 4313-4313/? I/Radio-JNI: register_android_hardware_Radio DONE
+11-25 16:56:46.847 4311-4311/? E/memtrack: Couldn't load memtrack module (No such file or directory)
+11-25 16:56:46.847 4311-4311/? E/android.os.Debug: failed to load memtrack module: -2
+11-25 16:56:46.847 4311-4311/? I/Radio-JNI: register_android_hardware_Radio DONE
+11-25 16:56:46.852 4313-4313/? D/AndroidRuntime: Calling main entry com.android.commands.pm.Pm
+11-25 16:56:46.859 4313-4313/? I/art: System.exit called, status: 0
+11-25 16:56:46.859 4313-4313/? I/AndroidRuntime: VM exiting with result code 0.
+11-25 16:56:46.868 4311-4311/? D/AndroidRuntime: Calling main entry com.android.commands.wm.Wm
+11-25 16:56:46.869 4311-4311/? D/AndroidRuntime: Shutting down VM
+11-25 16:56:47.010 4330-4330/? D/AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 0 <<<<<<
+11-25 16:56:47.011 4330-4330/? D/AndroidRuntime: CheckJNI is ON
+11-25 16:56:47.020 4330-4330/? D/ICU: No timezone override file found: /data/misc/zoneinfo/current/icu/icu_tzdata.dat
+11-25 16:56:47.031 4330-4330/? E/memtrack: Couldn't load memtrack module (No such file or directory)
+11-25 16:56:47.031 4330-4330/? E/android.os.Debug: failed to load memtrack module: -2
+11-25 16:56:47.032 4330-4330/? I/Radio-JNI: register_android_hardware_Radio DONE
+11-25 16:56:47.037 4330-4330/? D/AndroidRuntime: Calling main entry com.android.commands.pm.Pm
+11-25 16:56:47.039 1684-1684/? I/installd: free_cache(50473) avail 1787846656
+11-25 16:56:47.042 4330-4330/? I/art: System.exit called, status: 0
+11-25 16:56:47.042 4330-4330/? I/AndroidRuntime: VM exiting with result code 0.
+11-25 16:56:47.149 4347-4347/? D/AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 0 <<<<<<
+11-25 16:56:47.149 4347-4347/? D/AndroidRuntime: CheckJNI is ON
+11-25 16:56:47.157 4347-4347/? D/ICU: No timezone override file found: /data/misc/zoneinfo/current/icu/icu_tzdata.dat
+11-25 16:56:47.168 4347-4347/? E/memtrack: Couldn't load memtrack module (No such file or directory)
+11-25 16:56:47.168 4347-4347/? E/android.os.Debug: failed to load memtrack module: -2
+11-25 16:56:47.168 4347-4347/? I/Radio-JNI: register_android_hardware_Radio DONE
+11-25 16:56:47.173 4347-4347/? D/AndroidRuntime: Calling main entry com.android.commands.pm.Pm
+11-25 16:56:47.175 1684-1684/? I/installd: free_cache(477078) avail 1787797504
+11-25 16:56:47.201 4347-4347/? I/art: System.exit called, status: 0
+11-25 16:56:47.201 4347-4347/? I/AndroidRuntime: VM exiting with result code 0.
+11-25 16:56:47.314 4358-4358/? D/AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 0 <<<<<<
+11-25 16:56:47.315 4358-4358/? D/AndroidRuntime: CheckJNI is ON
+11-25 16:56:47.323 4358-4358/? D/ICU: No timezone override file found: /data/misc/zoneinfo/current/icu/icu_tzdata.dat
+11-25 16:56:47.338 4358-4358/? E/memtrack: Couldn't load memtrack module (No such file or directory)
+11-25 16:56:47.338 4358-4358/? E/android.os.Debug: failed to load memtrack module: -2
+11-25 16:56:47.339 4358-4358/? I/Radio-JNI: register_android_hardware_Radio DONE
+11-25 16:56:47.344 4358-4358/? D/AndroidRuntime: Calling main entry com.android.commands.pm.Pm
+    
+    --------- beginning of system
+11-25 16:56:47.375 1962-1998/system_process D/PackageInstaller: Inherited files: [/data/app/com.ecobee.athenamobile-2/split_lib_dependencies_apk.apk, /data/app/com.ecobee.athenamobile-2/split_lib_slice_0_apk.apk, /data/app/com.ecobee.athenamobile-2/split_lib_slice_2_apk.apk, /data/app/com.ecobee.athenamobile-2/split_lib_slice_3_apk.apk, /data/app/com.ecobee.athenamobile-2/split_lib_slice_4_apk.apk, /data/app/com.ecobee.athenamobile-2/split_lib_slice_5_apk.apk, /data/app/com.ecobee.athenamobile-2/split_lib_slice_6_apk.apk, /data/app/com.ecobee.athenamobile-2/split_lib_slice_7_apk.apk, /data/app/com.ecobee.athenamobile-2/split_lib_slice_8_apk.apk, /data/app/com.ecobee.athenamobile-2/split_lib_slice_9_apk.apk, /data/app/com.ecobee.athenamobile-2/oat/x86/base.odex]
+11-25 16:56:47.376 1962-1998/system_process D/PackageInstaller: Linked 11 files into /data/app/vmdl1361945697.tmp
+11-25 16:56:47.428 1962-1976/system_process I/ActivityManager: Force stopping com.ecobee.athenamobile appid=10083 user=-1: uninstall pkg
+11-25 16:56:47.437 1962-1988/system_process I/PackageManager: Package com.ecobee.athenamobile codePath changed from /data/app/com.ecobee.athenamobile-2 to /data/app/com.ecobee.athenamobile-1; Retaining data and using new
+11-25 16:56:47.438 1962-1988/system_process W/PackageManager: Code path for com.ecobee.athenamobile changing from /data/app/com.ecobee.athenamobile-2 to /data/app/com.ecobee.athenamobile-1
+11-25 16:56:47.438 1962-1988/system_process W/PackageManager: Resource path for com.ecobee.athenamobile changing from /data/app/com.ecobee.athenamobile-2 to /data/app/com.ecobee.athenamobile-1
+11-25 16:56:47.438 1962-1976/system_process I/ActivityManager: Force stopping com.ecobee.athenamobile appid=10083 user=-1: replace pkg
+11-25 16:56:47.456 1962-1988/system_process W/Settings: Setting install_non_market_apps has moved from android.provider.Settings.Global to android.provider.Settings.Secure, returning read-only value.
+11-25 16:56:47.456 1962-1988/system_process I/art: Waiting for a blocking GC Explicit
+11-25 16:56:47.460 1962-1988/system_process I/art: Starting a blocking GC Explicit
+11-25 16:56:47.469 1962-1988/system_process I/art: Explicit concurrent mark sweep GC freed 19603(1006KB) AllocSpace objects, 3(68KB) LOS objects, 29% free, 9MB/13MB, paused 238us total 9.280ms
+11-25 16:56:47.472 1962-1988/system_process W/PackageManager: Couldn't remove dex file for package:  at location /data/app/com.ecobee.athenamobile-2/base.apk, retcode=-1
+11-25 16:56:47.472 1962-1988/system_process W/PackageManager: Couldn't remove dex file for package:  at location /data/app/com.ecobee.athenamobile-2/split_lib_dependencies_apk.apk, retcode=-1
+11-25 16:56:47.472 1962-1988/system_process W/PackageManager: Couldn't remove dex file for package:  at location /data/app/com.ecobee.athenamobile-2/split_lib_slice_0_apk.apk, retcode=-1
+11-25 16:56:47.472 1962-1988/system_process W/PackageManager: Couldn't remove dex file for package:  at location /data/app/com.ecobee.athenamobile-2/split_lib_slice_1_apk.apk, retcode=-1
+11-25 16:56:47.472 1962-1988/system_process W/PackageManager: Couldn't remove dex file for package:  at location /data/app/com.ecobee.athenamobile-2/split_lib_slice_2_apk.apk, retcode=-1
+11-25 16:56:47.473 1962-1988/system_process W/PackageManager: Couldn't remove dex file for package:  at location /data/app/com.ecobee.athenamobile-2/split_lib_slice_3_apk.apk, retcode=-1
+11-25 16:56:47.473 1962-1988/system_process W/PackageManager: Couldn't remove dex file for package:  at location /data/app/com.ecobee.athenamobile-2/split_lib_slice_4_apk.apk, retcode=-1
+11-25 16:56:47.473 1962-1988/system_process W/PackageManager: Couldn't remove dex file for package:  at location /data/app/com.ecobee.athenamobile-2/split_lib_slice_5_apk.apk, retcode=-1
+11-25 16:56:47.473 1962-1988/system_process W/PackageManager: Couldn't remove dex file for package:  at location /data/app/com.ecobee.athenamobile-2/split_lib_slice_6_apk.apk, retcode=-1
+11-25 16:56:47.473 1962-1988/system_process W/PackageManager: Couldn't remove dex file for package:  at location /data/app/com.ecobee.athenamobile-2/split_lib_slice_7_apk.apk, retcode=-1
+11-25 16:56:47.473 1962-1988/system_process W/PackageManager: Couldn't remove dex file for package:  at location /data/app/com.ecobee.athenamobile-2/split_lib_slice_8_apk.apk, retcode=-1
+11-25 16:56:47.473 1962-1988/system_process W/PackageManager: Couldn't remove dex file for package:  at location /data/app/com.ecobee.athenamobile-2/split_lib_slice_9_apk.apk, retcode=-1
+11-25 16:56:47.473 1684-1684/? E/installd: Couldn't opendir /data/app/vmdl1361945697.tmp: No such file or directory
+11-25 16:56:47.474 1962-1988/system_process I/ActivityManager: Force stopping com.ecobee.athenamobile appid=10083 user=0: pkg removed
+11-25 16:56:47.479 4358-4358/? I/art: System.exit called, status: 0
+11-25 16:56:47.479 4358-4358/? I/AndroidRuntime: VM exiting with result code 0.
+11-25 16:56:47.481 1962-1962/system_process D/JobSchedulerService: Receieved: android.intent.action.PACKAGE_REMOVED
+11-25 16:56:47.482 1962-2010/system_process I/InputReader: Reconfiguring input devices.  changes=0x00000010
+11-25 16:56:47.483 1962-2010/system_process I/InputReader: Reconfiguring input devices.  changes=0x00000010
+11-25 16:56:47.483 1962-2010/system_process I/InputReader: Reconfiguring input devices.  changes=0x00000010
+11-25 16:56:47.502 591-591/com.android.keychain W/ContextImpl: Calling a method in the system process without a qualified user: android.app.ContextImpl.startService:1221 android.content.ContextWrapper.startService:581 android.content.ContextWrapper.startService:581 com.android.keychain.KeyChainBroadcastReceiver.onReceive:12 android.app.ActivityThread.handleReceiver:2725 
+11-25 16:56:47.504 2405-2405/com.android.phone D/CarrierServiceBindHelper: Receive action: android.intent.action.PACKAGE_REMOVED
+11-25 16:56:47.515 3328-3380/com.android.documentsui D/Documents: Update found 7 roots in 33ms
+11-25 16:56:47.515 3328-3401/com.android.documentsui D/Documents: Update found 7 roots in 31ms
+11-25 16:56:47.521 2894-4379/com.google.android.gms I/Auth: [SupervisedAccountIntentOperation] onHandleIntent(): android.intent.action.PACKAGE_ADDED
+11-25 16:56:47.521 2894-4379/com.google.android.gms I/Auth: [SupervisedAccountIntentOperation] This operation is disabled
+11-25 16:56:47.523 2894-4378/com.google.android.gms I/ChromeSync: [Sync,SyncIntentOperation] Handling the intent: Intent { act=android.intent.action.PACKAGE_ADDED dat=package:com.ecobee.athenamobile flg=0x4000010 cmp=com.google.android.gms/.chimera.GmsIntentOperationService (has extras) }.
+11-25 16:56:47.536 2405-2405/com.android.phone D/CarrierServiceBindHelper: Receive action: android.intent.action.PACKAGE_ADDED
+11-25 16:56:47.538 2405-2405/com.android.phone D/CarrierServiceBindHelper: Receive action: android.intent.action.PACKAGE_REPLACED
+11-25 16:56:47.539 2405-2405/com.android.phone D/CarrierServiceBindHelper: mHandler: 3
+11-25 16:56:47.539 2405-2405/com.android.phone D/CarrierServiceBindHelper: mHandler: 3
+11-25 16:56:47.539 2405-2405/com.android.phone D/CarrierServiceBindHelper: mHandler: 3
+11-25 16:56:47.539 2405-2405/com.android.phone D/CarrierConfigLoader: mHandler: 9 phoneId: 0
+11-25 16:56:47.542 4047-4385/com.google.android.googlequicksearchbox:search I/UpdateIcingCorporaServi: Updating corpora: APPS=com.ecobee.athenamobile, CONTACTS=MAYBE
+11-25 16:56:47.572 2894-4378/com.google.android.gms I/FontsPackageChangeOp: Package com.ecobee.athenamobile has no metadata
+11-25 16:56:47.579 2894-4370/com.google.android.gms I/PeopleContactsSync: triggerPendingContactsCleanup: no accounts
+11-25 16:56:47.588 2894-3160/com.google.android.gms I/Icing: IndexChimeraService.getServiceInterface callingPackage=com.google.android.googlequicksearchbox componentName=null serviceId=36
+11-25 16:56:47.593 2894-3005/com.google.android.gms I/Icing: IndexChimeraService.getServiceInterface callingPackage=com.google.android.gms componentName=AppsCorpus serviceId=36
+11-25 16:56:47.593 2894-3007/com.google.android.gms I/Icing: IndexChimeraService.getServiceInterface callingPackage=com.google.android.gms componentName=AppsCorpus serviceId=32
+11-25 16:56:47.622 2894-4390/com.google.android.gms I/Icing: Usage reports ok 1, Failed Usage reports 0, indexed 0, rejected 0, imm upload false
+11-25 16:56:47.627 2894-4390/com.google.android.gms I/Icing: Usage reports ok 0, Failed Usage reports 0, indexed 0, rejected 0, imm upload true
+11-25 16:56:47.634 2894-4390/com.google.android.gms I/Icing: Usage reports ok 0, Failed Usage reports 0, indexed 0, rejected 0, imm upload false
+11-25 16:56:47.638 4047-4385/com.google.android.googlequicksearchbox:search I/UpdateIcingCorporaServi: UpdateCorporaTask done [took 95 ms] updated apps [took 95 ms] 
+11-25 16:56:47.645 2894-3160/com.google.android.gms I/Icing: IndexChimeraService.getServiceInterface callingPackage=com.google.android.gms componentName=AppsCorpus serviceId=36
+11-25 16:56:47.645 2894-3005/com.google.android.gms I/Icing: IndexChimeraService.getServiceInterface callingPackage=com.google.android.gms componentName=AppsCorpus serviceId=32
+11-25 16:56:47.655 2894-4390/com.google.android.gms I/Icing: Usage reports ok 0, Failed Usage reports 0, indexed 0, rejected 0, imm upload false
+11-25 16:56:47.659 2894-4390/com.google.android.gms I/Icing: Usage reports ok 0, Failed Usage reports 0, indexed 0, rejected 0, imm upload false
+11-25 16:56:47.701 4388-4388/? D/AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 0 <<<<<<
+11-25 16:56:47.701 4388-4388/? D/AndroidRuntime: CheckJNI is ON
+11-25 16:56:47.709 4388-4388/? D/ICU: No timezone override file found: /data/misc/zoneinfo/current/icu/icu_tzdata.dat
+11-25 16:56:47.719 4388-4388/? E/memtrack: Couldn't load memtrack module (No such file or directory)
+11-25 16:56:47.719 4388-4388/? E/android.os.Debug: failed to load memtrack module: -2
+11-25 16:56:47.720 4388-4388/? I/Radio-JNI: register_android_hardware_Radio DONE
+11-25 16:56:47.723 4388-4388/? D/AndroidRuntime: Calling main entry com.android.commands.am.Am
+11-25 16:56:47.725 1962-3649/system_process I/ActivityManager: START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 cmp=com.ecobee.athenamobile/.MainActivity} from uid 0 on display 0
+11-25 16:56:47.731 4388-4388/? D/AndroidRuntime: Shutting down VM
+11-25 16:56:47.733 4400-4400/? I/art: Not late-enabling -Xcheck:jni (already on)
+11-25 16:56:47.741 1962-2205/system_process I/ActivityManager: Start proc 4400:com.ecobee.athenamobile/u0a83 for activity com.ecobee.athenamobile/.MainActivity
+11-25 16:56:47.762 1273-1326/? D/gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 8294400
+11-25 16:56:47.782 4413-4413/? W/dex2oat: Unexpected CPU variant for X86 using defaults: dalvik.vm.isa.x86.features=default
+11-25 16:56:47.782 4413-4413/? W/dex2oat: Mismatch between dex2oat instruction set features (ISA: X86 Feature string: smp,-ssse3,-sse4.1,-sse4.2,-avx,-avx2) and those of dex2oat executable (ISA: X86 Feature string: smp,ssse3,sse4.1,sse4.2,-avx,-avx2) for the command line:
+11-25 16:56:47.782 4413-4413/? W/dex2oat: /system/bin/dex2oat --runtime-arg -classpath --runtime-arg  --debuggable --instruction-set=x86 --instruction-set-features=smp,ssse3,sse4.1,sse4.2,-avx,-avx2 --runtime-arg -Xrelocate --boot-image=/system/framework/boot.art --runtime-arg -Xms64m --runtime-arg -Xmx512m --instruction-set-variant=dalvik.vm.isa.x86.features=default --dex-file=/data/app/com.ecobee.athenamobile-1/split_lib_dependencies_apk.apk --oat-file=/data/dalvik-cache/x86/data@app@com.ecobee.athenamobile-1@split_lib_dependencies_apk.apk@classes.dex
+11-25 16:56:47.783 4413-4413/? E/dex2oat: Failed to create oat file: /data/dalvik-cache/x86/data@app@com.ecobee.athenamobile-1@split_lib_dependencies_apk.apk@classes.dex: Permission denied
+11-25 16:56:47.783 4413-4413/? I/dex2oat: dex2oat took 1.063ms (threads: 4) 
+11-25 16:56:47.784 4400-4400/com.ecobee.athenamobile W/art: Failed execv(/system/bin/dex2oat --runtime-arg -classpath --runtime-arg  --debuggable --instruction-set=x86 --instruction-set-features=smp,ssse3,sse4.1,sse4.2,-avx,-avx2 --runtime-arg -Xrelocate --boot-image=/system/framework/boot.art --runtime-arg -Xms64m --runtime-arg -Xmx512m --instruction-set-variant=dalvik.vm.isa.x86.features=default --dex-file=/data/app/com.ecobee.athenamobile-1/split_lib_dependencies_apk.apk --oat-file=/data/dalvik-cache/x86/data@app@com.ecobee.athenamobile-1@split_lib_dependencies_apk.apk@classes.dex) because non-0 exit status
+11-25 16:56:47.795 3047-3117/com.android.launcher3 D/EGL_emulation: eglMakeCurrent: 0x7fa7f5469c20: ver 2 0 (tinfo 0x7fa7f3ad02e0)
+11-25 16:56:47.795 3047-3117/com.android.launcher3 E/Surface: getSlotFromBufferLocked: unknown buffer: 0x7fa7e860b8e0
+11-25 16:56:47.835 4416-4416/? W/dex2oat: Unexpected CPU variant for X86 using defaults: dalvik.vm.isa.x86.features=default
+11-25 16:56:47.835 4416-4416/? W/dex2oat: Mismatch between dex2oat instruction set features (ISA: X86 Feature string: smp,-ssse3,-sse4.1,-sse4.2,-avx,-avx2) and those of dex2oat executable (ISA: X86 Feature string: smp,ssse3,sse4.1,sse4.2,-avx,-avx2) for the command line:
+11-25 16:56:47.835 4416-4416/? W/dex2oat: /system/bin/dex2oat --runtime-arg -classpath --runtime-arg  --debuggable --instruction-set=x86 --instruction-set-features=smp,ssse3,sse4.1,sse4.2,-avx,-avx2 --runtime-arg -Xrelocate --boot-image=/system/framework/boot.art --runtime-arg -Xms64m --runtime-arg -Xmx512m --instruction-set-variant=dalvik.vm.isa.x86.features=default --dex-file=/data/app/com.ecobee.athenamobile-1/split_lib_slice_0_apk.apk --oat-file=/data/dalvik-cache/x86/data@app@com.ecobee.athenamobile-1@split_lib_slice_0_apk.apk@classes.dex
+11-25 16:56:47.835 4416-4416/? E/dex2oat: Failed to create oat file: /data/dalvik-cache/x86/data@app@com.ecobee.athenamobile-1@split_lib_slice_0_apk.apk@classes.dex: Permission denied
+11-25 16:56:47.835 4416-4416/? I/dex2oat: dex2oat took 292.320us (threads: 4) 
+11-25 16:56:47.836 4400-4400/com.ecobee.athenamobile W/art: Failed execv(/system/bin/dex2oat --runtime-arg -classpath --runtime-arg  --debuggable --instruction-set=x86 --instruction-set-features=smp,ssse3,sse4.1,sse4.2,-avx,-avx2 --runtime-arg -Xrelocate --boot-image=/system/framework/boot.art --runtime-arg -Xms64m --runtime-arg -Xmx512m --instruction-set-variant=dalvik.vm.isa.x86.features=default --dex-file=/data/app/com.ecobee.athenamobile-1/split_lib_slice_0_apk.apk --oat-file=/data/dalvik-cache/x86/data@app@com.ecobee.athenamobile-1@split_lib_slice_0_apk.apk@classes.dex) because non-0 exit status
+11-25 16:56:47.843 4419-4419/? W/dex2oat: Unexpected CPU variant for X86 using defaults: dalvik.vm.isa.x86.features=default
+11-25 16:56:47.843 4419-4419/? W/dex2oat: Mismatch between dex2oat instruction set features (ISA: X86 Feature string: smp,-ssse3,-sse4.1,-sse4.2,-avx,-avx2) and those of dex2oat executable (ISA: X86 Feature string: smp,ssse3,sse4.1,sse4.2,-avx,-avx2) for the command line:
+11-25 16:56:47.843 4419-4419/? W/dex2oat: /system/bin/dex2oat --runtime-arg -classpath --runtime-arg  --debuggable --instruction-set=x86 --instruction-set-features=smp,ssse3,sse4.1,sse4.2,-avx,-avx2 --runtime-arg -Xrelocate --boot-image=/system/framework/boot.art --runtime-arg -Xms64m --runtime-arg -Xmx512m --instruction-set-variant=dalvik.vm.isa.x86.features=default --dex-file=/data/app/com.ecobee.athenamobile-1/split_lib_slice_1_apk.apk --oat-file=/data/dalvik-cache/x86/data@app@com.ecobee.athenamobile-1@split_lib_slice_1_apk.apk@classes.dex
+11-25 16:56:47.843 4419-4419/? E/dex2oat: Failed to create oat file: /data/dalvik-cache/x86/data@app@com.ecobee.athenamobile-1@split_lib_slice_1_apk.apk@classes.dex: Permission denied
+11-25 16:56:47.843 4419-4419/? I/dex2oat: dex2oat took 185.400us (threads: 4) 
+11-25 16:56:47.844 4400-4400/com.ecobee.athenamobile W/art: Failed execv(/system/bin/dex2oat --runtime-arg -classpath --runtime-arg  --debuggable --instruction-set=x86 --instruction-set-features=smp,ssse3,sse4.1,sse4.2,-avx,-avx2 --runtime-arg -Xrelocate --boot-image=/system/framework/boot.art --runtime-arg -Xms64m --runtime-arg -Xmx512m --instruction-set-variant=dalvik.vm.isa.x86.features=default --dex-file=/data/app/com.ecobee.athenamobile-1/split_lib_slice_1_apk.apk --oat-file=/data/dalvik-cache/x86/data@app@com.ecobee.athenamobile-1@split_lib_slice_1_apk.apk@classes.dex) because non-0 exit status
+11-25 16:56:47.852 4422-4422/? W/dex2oat: Unexpected CPU variant for X86 using defaults: dalvik.vm.isa.x86.features=default
+11-25 16:56:47.852 4422-4422/? W/dex2oat: Mismatch between dex2oat instruction set features (ISA: X86 Feature string: smp,-ssse3,-sse4.1,-sse4.2,-avx,-avx2) and those of dex2oat executable (ISA: X86 Feature string: smp,ssse3,sse4.1,sse4.2,-avx,-avx2) for the command line:
+11-25 16:56:47.852 4422-4422/? W/dex2oat: /system/bin/dex2oat --runtime-arg -classpath --runtime-arg  --debuggable --instruction-set=x86 --instruction-set-features=smp,ssse3,sse4.1,sse4.2,-avx,-avx2 --runtime-arg -Xrelocate --boot-image=/system/framework/boot.art --runtime-arg -Xms64m --runtime-arg -Xmx512m --instruction-set-variant=dalvik.vm.isa.x86.features=default --dex-file=/data/app/com.ecobee.athenamobile-1/split_lib_slice_2_apk.apk --oat-file=/data/dalvik-cache/x86/data@app@com.ecobee.athenamobile-1@split_lib_slice_2_apk.apk@classes.dex
+11-25 16:56:47.853 4422-4422/? E/dex2oat: Failed to create oat file: /data/dalvik-cache/x86/data@app@com.ecobee.athenamobile-1@split_lib_slice_2_apk.apk@classes.dex: Permission denied
+11-25 16:56:47.853 4422-4422/? I/dex2oat: dex2oat took 209.910us (threads: 4) 
+11-25 16:56:47.853 4400-4400/com.ecobee.athenamobile W/art: Failed execv(/system/bin/dex2oat --runtime-arg -classpath --runtime-arg  --debuggable --instruction-set=x86 --instruction-set-features=smp,ssse3,sse4.1,sse4.2,-avx,-avx2 --runtime-arg -Xrelocate --boot-image=/system/framework/boot.art --runtime-arg -Xms64m --runtime-arg -Xmx512m --instruction-set-variant=dalvik.vm.isa.x86.features=default --dex-file=/data/app/com.ecobee.athenamobile-1/split_lib_slice_2_apk.apk --oat-file=/data/dalvik-cache/x86/data@app@com.ecobee.athenamobile-1@split_lib_slice_2_apk.apk@classes.dex) because non-0 exit status
+11-25 16:56:47.861 4432-4432/? W/dex2oat: Unexpected CPU variant for X86 using defaults: dalvik.vm.isa.x86.features=default
+11-25 16:56:47.861 4432-4432/? W/dex2oat: Mismatch between dex2oat instruction set features (ISA: X86 Feature string: smp,-ssse3,-sse4.1,-sse4.2,-avx,-avx2) and those of dex2oat executable (ISA: X86 Feature string: smp,ssse3,sse4.1,sse4.2,-avx,-avx2) for the command line:
+11-25 16:56:47.861 4432-4432/? W/dex2oat: /system/bin/dex2oat --runtime-arg -classpath --runtime-arg  --debuggable --instruction-set=x86 --instruction-set-features=smp,ssse3,sse4.1,sse4.2,-avx,-avx2 --runtime-arg -Xrelocate --boot-image=/system/framework/boot.art --runtime-arg -Xms64m --runtime-arg -Xmx512m --instruction-set-variant=dalvik.vm.isa.x86.features=default --dex-file=/data/app/com.ecobee.athenamobile-1/split_lib_slice_3_apk.apk --oat-file=/data/dalvik-cache/x86/data@app@com.ecobee.athenamobile-1@split_lib_slice_3_apk.apk@classes.dex
+11-25 16:56:47.861 4432-4432/? E/dex2oat: Failed to create oat file: /data/dalvik-cache/x86/data@app@com.ecobee.athenamobile-1@split_lib_slice_3_apk.apk@classes.dex: Permission denied
+11-25 16:56:47.861 4432-4432/? I/dex2oat: dex2oat took 274.270us (threads: 4) 
+11-25 16:56:47.861 4400-4400/com.ecobee.athenamobile W/art: Failed execv(/system/bin/dex2oat --runtime-arg -classpath --runtime-arg  --debuggable --instruction-set=x86 --instruction-set-features=smp,ssse3,sse4.1,sse4.2,-avx,-avx2 --runtime-arg -Xrelocate --boot-image=/system/framework/boot.art --runtime-arg -Xms64m --runtime-arg -Xmx512m --instruction-set-variant=dalvik.vm.isa.x86.features=default --dex-file=/data/app/com.ecobee.athenamobile-1/split_lib_slice_3_apk.apk --oat-file=/data/dalvik-cache/x86/data@app@com.ecobee.athenamobile-1@split_lib_slice_3_apk.apk@classes.dex) because non-0 exit status
+11-25 16:56:47.869 4435-4435/? W/dex2oat: Unexpected CPU variant for X86 using defaults: dalvik.vm.isa.x86.features=default
+11-25 16:56:47.869 4435-4435/? W/dex2oat: Mismatch between dex2oat instruction set features (ISA: X86 Feature string: smp,-ssse3,-sse4.1,-sse4.2,-avx,-avx2) and those of dex2oat executable (ISA: X86 Feature string: smp,ssse3,sse4.1,sse4.2,-avx,-avx2) for the command line:
+11-25 16:56:47.869 4435-4435/? W/dex2oat: /system/bin/dex2oat --runtime-arg -classpath --runtime-arg  --debuggable --instruction-set=x86 --instruction-set-features=smp,ssse3,sse4.1,sse4.2,-avx,-avx2 --runtime-arg -Xrelocate --boot-image=/system/framework/boot.art --runtime-arg -Xms64m --runtime-arg -Xmx512m --instruction-set-variant=dalvik.vm.isa.x86.features=default --dex-file=/data/app/com.ecobee.athenamobile-1/split_lib_slice_4_apk.apk --oat-file=/data/dalvik-cache/x86/data@app@com.ecobee.athenamobile-1@split_lib_slice_4_apk.apk@classes.dex
+11-25 16:56:47.869 4435-4435/? E/dex2oat: Failed to create oat file: /data/dalvik-cache/x86/data@app@com.ecobee.athenamobile-1@split_lib_slice_4_apk.apk@classes.dex: Permission denied
+11-25 16:56:47.869 4435-4435/? I/dex2oat: dex2oat took 231.450us (threads: 4) 
+11-25 16:56:47.870 4400-4400/com.ecobee.athenamobile W/art: Failed execv(/system/bin/dex2oat --runtime-arg -classpath --runtime-arg  --debuggable --instruction-set=x86 --instruction-set-features=smp,ssse3,sse4.1,sse4.2,-avx,-avx2 --runtime-arg -Xrelocate --boot-image=/system/framework/boot.art --runtime-arg -Xms64m --runtime-arg -Xmx512m --instruction-set-variant=dalvik.vm.isa.x86.features=default --dex-file=/data/app/com.ecobee.athenamobile-1/split_lib_slice_4_apk.apk --oat-file=/data/dalvik-cache/x86/data@app@com.ecobee.athenamobile-1@split_lib_slice_4_apk.apk@classes.dex) because non-0 exit status
+11-25 16:56:47.877 4438-4438/? W/dex2oat: Unexpected CPU variant for X86 using defaults: dalvik.vm.isa.x86.features=default
+11-25 16:56:47.877 4438-4438/? W/dex2oat: Mismatch between dex2oat instruction set features (ISA: X86 Feature string: smp,-ssse3,-sse4.1,-sse4.2,-avx,-avx2) and those of dex2oat executable (ISA: X86 Feature string: smp,ssse3,sse4.1,sse4.2,-avx,-avx2) for the command line:
+11-25 16:56:47.877 4438-4438/? W/dex2oat: /system/bin/dex2oat --runtime-arg -classpath --runtime-arg  --debuggable --instruction-set=x86 --instruction-set-features=smp,ssse3,sse4.1,sse4.2,-avx,-avx2 --runtime-arg -Xrelocate --boot-image=/system/framework/boot.art --runtime-arg -Xms64m --runtime-arg -Xmx512m --instruction-set-variant=dalvik.vm.isa.x86.features=default --dex-file=/data/app/com.ecobee.athenamobile-1/split_lib_slice_5_apk.apk --oat-file=/data/dalvik-cache/x86/data@app@com.ecobee.athenamobile-1@split_lib_slice_5_apk.apk@classes.dex
+11-25 16:56:47.877 4438-4438/? E/dex2oat: Failed to create oat file: /data/dalvik-cache/x86/data@app@com.ecobee.athenamobile-1@split_lib_slice_5_apk.apk@classes.dex: Permission denied
+11-25 16:56:47.877 4438-4438/? I/dex2oat: dex2oat took 219.010us (threads: 4) 
+11-25 16:56:47.878 4400-4400/com.ecobee.athenamobile W/art: Failed execv(/system/bin/dex2oat --runtime-arg -classpath --runtime-arg  --debuggable --instruction-set=x86 --instruction-set-features=smp,ssse3,sse4.1,sse4.2,-avx,-avx2 --runtime-arg -Xrelocate --boot-image=/system/framework/boot.art --runtime-arg -Xms64m --runtime-arg -Xmx512m --instruction-set-variant=dalvik.vm.isa.x86.features=default --dex-file=/data/app/com.ecobee.athenamobile-1/split_lib_slice_5_apk.apk --oat-file=/data/dalvik-cache/x86/data@app@com.ecobee.athenamobile-1@split_lib_slice_5_apk.apk@classes.dex) because non-0 exit status
+11-25 16:56:47.884 4440-4440/? W/dex2oat: Unexpected CPU variant for X86 using defaults: dalvik.vm.isa.x86.features=default
+11-25 16:56:47.884 4440-4440/? W/dex2oat: Mismatch between dex2oat instruction set features (ISA: X86 Feature string: smp,-ssse3,-sse4.1,-sse4.2,-avx,-avx2) and those of dex2oat executable (ISA: X86 Feature string: smp,ssse3,sse4.1,sse4.2,-avx,-avx2) for the command line:
+11-25 16:56:47.884 4440-4440/? W/dex2oat: /system/bin/dex2oat --runtime-arg -classpath --runtime-arg  --debuggable --instruction-set=x86 --instruction-set-features=smp,ssse3,sse4.1,sse4.2,-avx,-avx2 --runtime-arg -Xrelocate --boot-image=/system/framework/boot.art --runtime-arg -Xms64m --runtime-arg -Xmx512m --instruction-set-variant=dalvik.vm.isa.x86.features=default --dex-file=/data/app/com.ecobee.athenamobile-1/split_lib_slice_6_apk.apk --oat-file=/data/dalvik-cache/x86/data@app@com.ecobee.athenamobile-1@split_lib_slice_6_apk.apk@classes.dex
+11-25 16:56:47.884 4440-4440/? E/dex2oat: Failed to create oat file: /data/dalvik-cache/x86/data@app@com.ecobee.athenamobile-1@split_lib_slice_6_apk.apk@classes.dex: Permission denied
+11-25 16:56:47.884 4440-4440/? I/dex2oat: dex2oat took 196.210us (threads: 4) 
+11-25 16:56:47.885 4400-4400/com.ecobee.athenamobile W/art: Failed execv(/system/bin/dex2oat --runtime-arg -classpath --runtime-arg  --debuggable --instruction-set=x86 --instruction-set-features=smp,ssse3,sse4.1,sse4.2,-avx,-avx2 --runtime-arg -Xrelocate --boot-image=/system/framework/boot.art --runtime-arg -Xms64m --runtime-arg -Xmx512m --instruction-set-variant=dalvik.vm.isa.x86.features=default --dex-file=/data/app/com.ecobee.athenamobile-1/split_lib_slice_6_apk.apk --oat-file=/data/dalvik-cache/x86/data@app@com.ecobee.athenamobile-1@split_lib_slice_6_apk.apk@classes.dex) because non-0 exit status
+11-25 16:56:47.891 4442-4442/? W/dex2oat: Unexpected CPU variant for X86 using defaults: dalvik.vm.isa.x86.features=default
+11-25 16:56:47.891 4442-4442/? W/dex2oat: Mismatch between dex2oat instruction set features (ISA: X86 Feature string: smp,-ssse3,-sse4.1,-sse4.2,-avx,-avx2) and those of dex2oat executable (ISA: X86 Feature string: smp,ssse3,sse4.1,sse4.2,-avx,-avx2) for the command line:
+11-25 16:56:47.891 4442-4442/? W/dex2oat: /system/bin/dex2oat --runtime-arg -classpath --runtime-arg  --debuggable --instruction-set=x86 --instruction-set-features=smp,ssse3,sse4.1,sse4.2,-avx,-avx2 --runtime-arg -Xrelocate --boot-image=/system/framework/boot.art --runtime-arg -Xms64m --runtime-arg -Xmx512m --instruction-set-variant=dalvik.vm.isa.x86.features=default --dex-file=/data/app/com.ecobee.athenamobile-1/split_lib_slice_7_apk.apk --oat-file=/data/dalvik-cache/x86/data@app@com.ecobee.athenamobile-1@split_lib_slice_7_apk.apk@classes.dex
+11-25 16:56:47.891 4442-4442/? E/dex2oat: Failed to create oat file: /data/dalvik-cache/x86/data@app@com.ecobee.athenamobile-1@split_lib_slice_7_apk.apk@classes.dex: Permission denied
+11-25 16:56:47.891 4442-4442/? I/dex2oat: dex2oat took 198.620us (threads: 4) 
+11-25 16:56:47.892 4400-4400/com.ecobee.athenamobile W/art: Failed execv(/system/bin/dex2oat --runtime-arg -classpath --runtime-arg  --debuggable --instruction-set=x86 --instruction-set-features=smp,ssse3,sse4.1,sse4.2,-avx,-avx2 --runtime-arg -Xrelocate --boot-image=/system/framework/boot.art --runtime-arg -Xms64m --runtime-arg -Xmx512m --instruction-set-variant=dalvik.vm.isa.x86.features=default --dex-file=/data/app/com.ecobee.athenamobile-1/split_lib_slice_7_apk.apk --oat-file=/data/dalvik-cache/x86/data@app@com.ecobee.athenamobile-1@split_lib_slice_7_apk.apk@classes.dex) because non-0 exit status
+11-25 16:56:47.894 4400-4400/com.ecobee.athenamobile I/InstantRun: starting instant run server: is main process
+11-25 16:56:47.922 4400-4400/com.ecobee.athenamobile W/art: Before Android 4.1, method android.graphics.PorterDuffColorFilter android.support.graphics.drawable.VectorDrawableCompat.updateTintFilter(android.graphics.PorterDuffColorFilter, android.content.res.ColorStateList, android.graphics.PorterDuff$Mode) would have incorrectly overridden the package-private method in android.graphics.drawable.Drawable
+11-25 16:56:47.978 4400-4400/com.ecobee.athenamobile D/TIME TEST: 1
+11-25 16:56:47.984 1273-1328/? E/SurfaceFlinger: ro.sf.lcd_density must be defined as a build property
+11-25 16:56:47.985 4400-4445/com.ecobee.athenamobile D/OpenGLRenderer: Use EGL_SWAP_BEHAVIOR_PRESERVED: true
+11-25 16:56:48.016 4400-4445/com.ecobee.athenamobile I/OpenGLRenderer: Initialized EGL, version 1.4
+11-25 16:56:48.016 4400-4445/com.ecobee.athenamobile W/OpenGLRenderer: Failed to choose config with EGL_SWAP_BEHAVIOR_PRESERVED, retrying without...
+11-25 16:56:48.047 4400-4445/com.ecobee.athenamobile D/EGL_emulation: eglCreateContext: 0xe9b8c6c0: maj 2 min 0 rcv 2
+11-25 16:56:48.049 4400-4445/com.ecobee.athenamobile D/EGL_emulation: eglMakeCurrent: 0xe9b8c6c0: ver 2 0 (tinfo 0xe9b8fd10)
+11-25 16:56:48.064 4400-4445/com.ecobee.athenamobile D/EGL_emulation: eglMakeCurrent: 0xe9b8c6c0: ver 2 0 (tinfo 0xe9b8fd10)
+11-25 16:56:48.096 4400-4400/com.ecobee.athenamobile W/art: Before Android 4.1, method int android.support.v7.widget.DropDownListView.lookForSelectablePosition(int, boolean) would have incorrectly overridden the package-private method in android.widget.ListView
+11-25 16:56:48.182 1962-1983/system_process I/ActivityManager: Displayed com.ecobee.athenamobile/.MainActivity: +450ms
+11-25 16:56:48.679 2894-3317/com.google.android.gms I/Icing: Indexing com.google.android.gms-apps from com.google.android.gms
+11-25 16:56:48.697 2894-3317/com.google.android.gms I/Icing: Indexing com.google.android.googlequicksearchbox-applications_uri from com.google.android.googlequicksearchbox
+11-25 16:56:48.706 2894-3317/com.google.android.gms I/Icing: Indexing done com.google.android.gms-apps
+11-25 16:56:48.711 2894-3317/com.google.android.gms I/Icing: Indexing done com.google.android.googlequicksearchbox-applications_uri
+11-25 16:56:52.610 2894-4374/com.google.android.gms W/art: No such thread id for suspend: 37
+11-25 16:57:00.044 1273-1330/? D/hwcomposer: hw_composer sent 87 syncs in 60s

@@ -117,14 +117,14 @@ public class nativeInvocationGenerator{
 				};
 		}
 		if(type.equals("boolean[]"))returnStrArr = new String[] {"new boolean[]{\"true\",\"true\"}","new boolean[]{\"false\",\"true\"}","new boolean[]{\"false\",\"false\"}"};
-		if(type.equals("short[]"))returnStrArr = new String[] {"new short[]{\"1\",\"0\",\"-1\"}","new short[]{\"-1\",\"0\",\"1\"}","new short[]{\"255\",\"461\",\"-123\"}"};
-		if(type.equals("long[]"))returnStrArr = new String[] {"new long[]{\"1\",\"0\",\"-1\"}","new long[]{\"-1\",\"0\",\"1\"}","new long[]{\"255\",\"461\",\"-123\"}"};
+		if(type.equals("short[]"))returnStrArr = new String[] {"new short[]{1,0,-1}","new short[]{-1,0,1}","new short[]{255,461,-123}"};
+		if(type.equals("long[]"))returnStrArr = new String[] {"new long[]{1,0,-1}","new long[]{-1,0,1}","new long[]{255,461,-123}"};
 		if(type.equals("float[]"))returnStrArr = new String[] {"new float[]{\"1\",\"0\",\"-1\"}","new float[]{\"-1\",\"0\",\"1\"}","new float[]{\"255\",\"461\",\"-123\"}"};
 		if(type.equals("double[]"))returnStrArr = new String[] {"new double[]{\"1.0\",\"0.0\",\"-1.0\"}","new double[]{\"-1.0\",\"0.0\",\"1\"}","new double[]{\"255.0\",\"461.0\",\"-123.0\"}"};
 		if(type.equals("byte[]"))returnStrArr = new String[] {"\"Any String you want\".getBytes()","new byte[]{ (byte)0x80, 0x53, 0x1c," + 
 				" (byte)0x87, (byte)0xa0, 0x42, 0x69, 0x10, (byte)0xa2, (byte)0xea, 0x08," + 
 				" 0x00, 0x2b, 0x30, 0x30, (byte)0x9d }"};
-		if(type.equals("char[]"))returnStrArr = new String[] {"\"abcdefg\"","\"test char array\""};
+		if(type.equals("char[]"))returnStrArr = new String[] {"\"abcdefg\".toCharArray()","\"test char array\".toCharArray()"};
 		
 		return returnStrArr;
 	}

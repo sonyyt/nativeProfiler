@@ -1,0 +1,9 @@
+11-25 17:33:24.757 7081-7081/? I/CRAB-NA: C++ 函数 native 接口函数 -> nClearVarParams
+11-25 17:33:24.757 7081-7081/? I/CRAB-NA: C++ 函数 native 接口函数 -> nSetLogcatLineCount
+11-25 17:33:24.757 7081-7081/? I/CRAB-NA: C++ 函数 native 接口函数 -> nSetLogcatLineCount
+11-25 17:33:24.757 7081-7081/? I/CRAB-NA: The line count 0 lt 1,we will use defaul 200.
+11-25 17:33:24.757 7081-7081/? I/CRAB-NA: C++ 函数 native 接口函数 -> nSetLogcatLineCount
+11-25 17:33:24.757 7081-7081/? I/CRAB-NA: The line count -1 gt max 1000,we will use max count.
+11-25 17:33:24.757 7081-7081/? I/CRAB-NA: C++ 函数 native 接口函数 -> nRequiredVarParams
+11-25 17:33:24.757 7081-7081/? I/CRAB-NA: C++ 函数 native 接口函数 -> nRequiredVarParams
+11-25 17:33:24.757 7081-7081/? I/CRAB-NA: C++ 函数 native 接口函数 -> nRequiredVarParams

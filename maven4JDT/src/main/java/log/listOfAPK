@@ -1,0 +1,95 @@
+com.myquest.apk
+
+com.netflix.mediaclient.apk|x86 .so files are not included in the package!
+
+com.facebook.mlite.apk|x86 .so files are not included in the package!
+
+forqan.tech.babypuzzles.ads.apk|no native library detected. 
+
+us.gold.teeth.photo.editor.apk| cannot find class. 
+
+com.fat.burning.fitness.workout.apk|no native lib detected. 
+onInstallConversionDataLoadedNative    (the libary related to this causes no native library .so failure!)
+
+
+com.sleepmate.calm.meditation.apk|works. 
+
+forqan.tech.babypuzzles_fruits.ads.apk|no native library
+
+com.muzmatch.muzmatchapp.apk |nativeInit (parameter, Ljava/lang/Object;) refer back to java class. 
+
+com.MakeuP.TutoRial.apk  | won't work, facebook GiF
+
+man.healthy.fitness.abs.muscle.workout.apk | no native library detected. 
+
+com.roku.remote.apk| cannot process Ojbect in parameter. 
+
+com.qianxun.comic.apk|no .x86 so
+
+com.buyvia.foodcoupons.apk| works. sequence. refer back to java object. 
+
+com.kdanmobile.android.pdfreader.google.pad.apk|no .86 so
+
+com.amitech.alleventsorg.apk | may work. 
+
+best.photo.app.weddinghairstyles2018.apk | no .x86
+
+com.ecobee.athenamobile.apk | works
+
+com.viber.voip.apk | refer back to java class
+
+mobi.mgeek.TunnyBrowser.apk|no .x86
+
+com.realbyteapps.moneymanagerfree.apk | no native lib detected. 
+
+com.dena.mj.apk|lack of java class
+
+deezer.android.app.apk| wrong input value
+
+com.rebelvox.voxer.apk|works |wrong input value. 
+
+com.HousePlanMinimalist.huudro.apk | won't work, facebook GiF
+
+
+com.ksmobile.cb.apk  | no x86.so
+
+com.EricBROU.Natte_Tresse_Femme_Enfant.apk | no native lib. 
+
+com.mashaapps.Happy.Birthday.songs.NamePhotooncake.apk | no x86.so
+
+com.messdev.dobretwinswallpaperhd.apk | won't work, facebook GiF
+
+com.science.yarnapp.apk | no native lib. 
+
+com.wwm.nightowlx.apk | no x86.so 
+
+com.mathrawk.calleridfaker.apk | no native lib. 
+
+com.kakao.talk.apk (4500) | no x86.so 
+
+Com.infokombinat.multiply.apk
+Able to process 子类
+反调的java 类不存在，在ART检验的时候会出错？
+
+De.appfiction.yocutiegoogle.apk  反响调用的JAVA类不存在。只initial依然会报错。 
+
+
+
+
+no native.lib!
+com.bellyfat.absworkout.fitness.flat.apk  (dynamic download apk at runtime???)
+/data/apks/gplay/loseweight.my.fitness.day.homeworkout.apk 
+
+
+
+
+Com.appvisionaire.phla.habit.apk
+return type cannot be processed:null !!! 需要处理这里！！！
+
+
+Com.cootek.smartinputv5.skin.keyboard_theme_golden_rose.apk 
+Execution success. 
+Require file name as input: 
+
+
+

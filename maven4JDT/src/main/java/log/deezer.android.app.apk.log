@@ -1,0 +1,33 @@
+11-25 15:40:00.259 3155-3155/deezer.android.app A/libc: Fatal signal 11 (SIGSEGV), code 1, fault addr 0x5d in tid 3155 (zer.android.app)
+11-25 15:40:00.360 1679-1679/? A/DEBUG: *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ***
+11-25 15:40:00.360 1679-1679/? A/DEBUG: Build fingerprint: 'Android/sdk_google_phone_x86_64/generic_x86_64:6.0/MASTER/4931947:userdebug/test-keys'
+11-25 15:40:00.360 1679-1679/? A/DEBUG: Revision: '0'
+11-25 15:40:00.360 1679-1679/? A/DEBUG: ABI: 'x86'
+11-25 15:40:00.360 1679-1679/? A/DEBUG: pid: 3155, tid: 3155, name: zer.android.app  >>> deezer.android.app <<<
+11-25 15:40:00.360 1679-1679/? A/DEBUG: signal 11 (SIGSEGV), code 1 (SEGV_MAPERR), fault addr 0x5d
+11-25 15:40:00.362 1679-1679/? A/DEBUG:     eax 00000001  ebx e20b16b0  ecx daa589c0  edx ffdaabf0
+11-25 15:40:00.362 1679-1679/? A/DEBUG:     esi 00000001  edi 00000001
+11-25 15:40:00.362 1679-1679/? A/DEBUG:     xcs 00000023  xds 0000002b  xes 0000002b  xfs 00000007  xss 0000002b
+11-25 15:40:00.362 1679-1679/? A/DEBUG:     eip e204091b  ebp ffdaabb8  esp ffdaab80  flags 00210292
+11-25 15:40:00.364 1679-1679/? A/DEBUG: backtrace:
+11-25 15:40:00.364 1679-1679/? A/DEBUG:     #00 pc 0001791b  /data/app/deezer.android.app-2/lib/x86/libACRCloudEngine.so (acrcloud::acr_S_D::~acr_S_D()+27)
+11-25 15:40:00.364 1679-1679/? A/DEBUG:     #01 pc 0002ce4d  /data/app/deezer.android.app-2/lib/x86/libACRCloudEngine.so (Java_com_acrcloud_rec_engine_ACRCloudRecognizeEngine_native_1engine_1finalizer+45)
+11-25 15:40:00.364 1679-1679/? A/DEBUG:     #02 pc 0013d887  /system/lib/libart.so (art_quick_generic_jni_trampoline+71)
+11-25 15:40:00.364 1679-1679/? A/DEBUG:     #03 pc 00137a42  /system/lib/libart.so (art_quick_invoke_stub+338)
+11-25 15:40:00.364 1679-1679/? A/DEBUG:     #04 pc 00143584  /system/lib/libart.so (art::ArtMethod::Invoke(art::Thread*, unsigned int*, unsigned int, art::JValue*, char const*)+212)
+11-25 15:40:00.364 1679-1679/? A/DEBUG:     #05 pc 005e048e  /system/lib/libart.so (artInterpreterToCompiledCodeBridge+190)
+11-25 15:40:00.364 1679-1679/? A/DEBUG:     #06 pc 0032894d  /system/lib/libart.so (bool art::interpreter::DoCall<false, false>(art::ArtMethod*, art::Thread*, art::ShadowFrame&, art::Instruction const*, unsigned short, art::JValue*)+445)
+11-25 15:40:00.364 1679-1679/? A/DEBUG:     #07 pc 0032e9e9  /system/lib/libart.so (bool art::interpreter::DoInvoke<(art::InvokeType)2, false, false>(art::Thread*, art::ShadowFrame&, art::Instruction const*, unsigned short, art::JValue*)+297)
+11-25 15:40:00.364 1679-1679/? A/DEBUG:     #08 pc 000fc915  /system/lib/libart.so (art::JValue art::interpreter::ExecuteGotoImpl<false, false>(art::Thread*, art::DexFile::CodeItem const*, art::ShadowFrame&, art::JValue)+30485)
+11-25 15:40:00.364 1679-1679/? A/DEBUG:     #09 pc 003008e7  /system/lib/libart.so (artInterpreterToInterpreterBridge+188)
+11-25 15:40:00.364 1679-1679/? A/DEBUG:     #10 pc 0032894d  /system/lib/libart.so (bool art::interpreter::DoCall<false, false>(art::ArtMethod*, art::Thread*, art::ShadowFrame&, art::Instruction const*, unsigned short, art::JValue*)+445)
+11-25 15:40:00.364 1679-1679/? A/DEBUG:     #11 pc 0032e9e9  /system/lib/libart.so (bool art::interpreter::DoInvoke<(art::InvokeType)2, false, false>(art::Thread*, art::ShadowFrame&, art::Instruction const*, unsigned short, art::JValue*)+297)
+11-25 15:40:00.364 1679-1679/? A/DEBUG:     #12 pc 000fc915  /system/lib/libart.so (art::JValue art::interpreter::ExecuteGotoImpl<false, false>(art::Thread*, art::DexFile::CodeItem const*, art::ShadowFrame&, art::JValue)+30485)
+11-25 15:40:00.364 1679-1679/? A/DEBUG:     #13 pc 003004f0  /system/lib/libart.so (art::interpreter::EnterInterpreterFromEntryPoint(art::Thread*, art::DexFile::CodeItem const*, art::ShadowFrame*)+128)
+11-25 15:40:00.364 1679-1679/? A/DEBUG:     #14 pc 00667a23  /system/lib/libart.so (artQuickToInterpreterBridge+808)
+11-25 15:40:00.364 1679-1679/? A/DEBUG:     #15 pc 0013d94d  /system/lib/libart.so (art_quick_to_interpreter_bridge+77)
+11-25 15:40:00.364 1679-1679/? A/DEBUG:     #16 pc 740e1737  /data/dalvik-cache/x86/system@framework@boot.oat (offset 0x1eb2000)
+11-25 15:40:00.364 1679-1679/? A/DEBUG:     #17 pc 8413079e  <unknown>
+11-25 15:40:00.364 1679-1679/? A/DEBUG:     #18 pc 83df9d3d  <unknown>
+11-25 15:40:00.404 1679-1679/? A/DEBUG: Tombstone written to: /data/tombstones/tombstone_04
+11-25 15:40:00.404 1679-1679/? E/DEBUG: AM write failed: Broken pipe

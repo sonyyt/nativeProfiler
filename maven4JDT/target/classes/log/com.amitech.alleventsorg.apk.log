@@ -1,0 +1,50 @@
+ run: 
+ 
+ 		BuggyLogs BuggyLogsHandler = new BuggyLogs();
+		makeLogTag makeLogTagHandler = new makeLogTag();
+		makeLogTagHandler.stringFromPlay(0);
+		
+won't lead to crash. 
+
+--------------
+androguard log:
+
+public isInteger (Z)Ljava/lang/String;
+public getStringToInt (I)Ljava/lang/String;
+public stringFromPlay (I)Ljava/lang/String;
+
+  
+  
+  --------- beginning of crash
+11-25 16:59:50.582 4542-4542/com.amitech.alleventsorg E/AndroidRuntime: FATAL EXCEPTION: main
+    Process: com.amitech.alleventsorg, PID: 4542
+    java.lang.UnsatisfiedLinkError: No implementation found for java.lang.String com.amitech.allevents.organizer.helpers.BuggyLogs.getStringToInt(int) (tried Java_com_amitech_allevents_organizer_helpers_BuggyLogs_getStringToInt and Java_com_amitech_allevents_organizer_helpers_BuggyLogs_getStringToInt__I)
+        at com.amitech.allevents.organizer.helpers.BuggyLogs.getStringToInt(Native Method)
+        at com.amitech.alleventsorg.MainActivity.runTestCases(MainActivity.java:24)
+        at com.amitech.alleventsorg.MainActivity.onCreate(MainActivity.java:16)
+        at android.app.Activity.performCreate(Activity.java:6237)
+        at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1107)
+        at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2369)
+        at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:2476)
+        at android.app.ActivityThread.-wrap11(ActivityThread.java)
+        at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1344)
+        at android.os.Handler.dispatchMessage(Handler.java:102)
+        at android.os.Looper.loop(Looper.java:148)
+        at android.app.ActivityThread.main(ActivityThread.java:5417)
+        at java.lang.reflect.Method.invoke(Native Method)
+        at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:726)
+        at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:616)
+11-25 16:59:50.583 1962-2204/system_process W/ActivityManager:   Force finishing activity com.amitech.alleventsorg/.MainActivity
+11-25 16:59:50.884 1962-2204/system_process I/WindowManager: Screenshot max retries 4 of Token{cd0118c ActivityRecord{d616bf u0 com.amitech.alleventsorg/.MainActivity t106 f}} appWin=Window{d150624 u0 Starting com.amitech.alleventsorg} drawState=3
+11-25 16:59:50.884 1962-1962/system_process W/art: Long monitor contention event with owner method=void com.android.server.am.ActivityManagerService.crashApplication(com.android.server.am.ProcessRecord, android.app.ApplicationErrorReport$CrashInfo) from ActivityManagerService.java:12502 waiters=0 for 300ms
+11-25 16:59:50.904 1962-2130/system_process I/AccountManagerService: getTypesVisibleToCaller: isPermitted? true
+11-25 16:59:50.904 1962-1974/system_process I/AccountManagerService: getTypesVisibleToCaller: isPermitted? true
+11-25 16:59:50.908 1962-2205/system_process I/AccountManagerService: getTypesVisibleToCaller: isPermitted? true
+11-25 16:59:50.917 1962-4209/system_process I/OpenGLRenderer: Initialized EGL, version 1.4
+11-25 16:59:50.951 1962-4209/system_process D/EGL_emulation: eglCreateContext: 0x7fa7e4b6f9a0: maj 2 min 0 rcv 2
+11-25 16:59:50.952 1962-4209/system_process D/EGL_emulation: eglMakeCurrent: 0x7fa7e4b6f9a0: ver 2 0 (tinfo 0x7fa7e4cbe5c0)
+11-25 16:59:50.963 1962-4209/system_process D/EGL_emulation: eglMakeCurrent: 0x7fa7e4b6f9a0: ver 2 0 (tinfo 0x7fa7e4cbe5c0)
+11-25 16:59:51.385 1962-1976/system_process W/ActivityManager: Activity pause timeout for ActivityRecord{d616bf u0 com.amitech.alleventsorg/.MainActivity t106 f}
+11-25 16:59:53.630 1683-2025/? W/audio_hw_generic: Not supplying enough data to HAL, expected position 11174135 , only wrote 11037378
+11-25 17:00:00.041 1273-1330/? D/hwcomposer: hw_composer sent 144 syncs in 60s
+11-25 17:00:01.410 1962-1976/system_process W/ActivityManager: Activity destroy timeout for ActivityRecord{d616bf u0 com.amitech.alleventsorg/.MainActivity t106 f}

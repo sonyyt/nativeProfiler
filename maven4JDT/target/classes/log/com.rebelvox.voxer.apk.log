@@ -1,0 +1,61 @@
+1. original: 
+
+11-25 15:28:52.076 2554-2554/com.rebelvox.voxer A/libc: Fatal signal 11 (SIGSEGV), code 1, fault addr 0x0 in tid 2554 (.rebelvox.voxer)
+11-25 15:28:52.127 1679-1679/? A/DEBUG: *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ***
+11-25 15:28:52.127 1679-1679/? A/DEBUG: Build fingerprint: 'Android/sdk_google_phone_x86_64/generic_x86_64:6.0/MASTER/4931947:userdebug/test-keys'
+11-25 15:28:52.127 1679-1679/? A/DEBUG: Revision: '0'
+11-25 15:28:52.127 1679-1679/? A/DEBUG: ABI: 'x86'
+11-25 15:28:52.127 1679-1679/? A/DEBUG: pid: 2554, tid: 2554, name: .rebelvox.voxer  >>> com.rebelvox.voxer <<<
+11-25 15:28:52.127 1679-1679/? A/DEBUG: signal 11 (SIGSEGV), code 1 (SEGV_MAPERR), fault addr 0x0
+11-25 15:28:52.129 1679-1679/? A/DEBUG:     eax 00000000  ebx ea292ff4  ecx ebb239a8  edx ea293190
+11-25 15:28:52.130 1679-1679/? A/DEBUG:     esi e97f1700  edi 00000000
+11-25 15:28:52.130 1679-1679/? A/DEBUG:     xcs 00000023  xds 0000002b  xes 0000002b  xfs 00000007  xss 0000002b
+11-25 15:28:52.130 1679-1679/? A/DEBUG:     eip 00000000  ebp ea29318c  esp ffdaab0c  flags 00210202
+11-25 15:28:52.130 1679-1679/? A/DEBUG: backtrace:
+11-25 15:28:52.130 1679-1679/? A/DEBUG:     #00 pc 00000000  <unknown>
+11-25 15:28:52.164 1679-1679/? A/DEBUG: Tombstone written to: /data/tombstones/tombstone_02
+11-25 15:28:52.164 1679-1679/? E/DEBUG: AM write failed: Broken pipe
+11-25 15:28:52.165 1962-1981/system_process I/BootReceiver: Copying /data/tombstones/tombstone_02 to DropBox (SYSTEM_TOMBSTONE)
+11-25 15:28:52.165 1962-2602/system_process W/ActivityManager:   Force finishing activity com.rebelvox.voxer/.MainActivity
+11-25 15:28:52.168 1273-2722/? D/gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 1019904
+11-25 15:28:52.172 1273-1273/? E/EGL_emulation: tid 1273: eglCreateSyncKHR(1881): error 0x3004 (EGL_BAD_ATTRIBUTE)
+11-25 15:28:52.178 1962-2602/system_process E/JavaBinder: !!! FAILED BINDER TRANSACTION !!!  (parcel size = 112)
+
+
+
+
+
+2. init first, then encode and uninit: (parameter range!)
+
+11-25 15:18:16.363 2341-2341/com.rebelvox.voxer E/AndroidRuntime: FATAL EXCEPTION: main
+    Process: com.rebelvox.voxer, PID: 2341
+    java.lang.RuntimeException: Unable to start activity ComponentInfo{com.rebelvox.voxer/com.rebelvox.voxer.MainActivity}: java.lang.IllegalArgumentException: Unsupported sample depth. Only 16 bits per sample is supported
+        at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2416)
+        at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:2476)
+        at android.app.ActivityThread.-wrap11(ActivityThread.java)
+        at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1344)
+        at android.os.Handler.dispatchMessage(Handler.java:102)
+        at android.os.Looper.loop(Looper.java:148)
+        at android.app.ActivityThread.main(ActivityThread.java:5417)
+        at java.lang.reflect.Method.invoke(Native Method)
+        at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:726)
+        at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:616)
+     Caused by: java.lang.IllegalArgumentException: Unsupported sample depth. Only 16 bits per sample is supported
+        at com.todoroo.aacenc.AACEncoder.init(Native Method)
+        at com.rebelvox.voxer.MainActivity.runTestCases(MainActivity.java:21)
+        at com.rebelvox.voxer.MainActivity.onCreate(MainActivity.java:15)
+        at android.app.Activity.performCreate(Activity.java:6237)
+        at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1107)
+        at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2369)
+        at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:2476) 
+        at android.app.ActivityThread.-wrap11(ActivityThread.java) 
+        at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1344) 
+        at android.os.Handler.dispatchMessage(Handler.java:102) 
+        at android.os.Looper.loop(Looper.java:148) 
+        at android.app.ActivityThread.main(ActivityThread.java:5417) 
+        at java.lang.reflect.Method.invoke(Native Method) 
+        at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:726) 
+        at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:616) 
+11-25 15:18:16.364 1962-3650/system_process W/ActivityManager:   Force finishing activity com.rebelvox.voxer/.MainActivity
+11-25 15:18:16.365 1273-3129/? D/gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 1019904
+11-25 15:18:16.368 1273-1273/? E/EGL_emulation: tid 1273: eglCreateSyncKHR(1881): error 0x3004 (EGL_BAD_ATTRIBUTE)

@@ -53,7 +53,7 @@ public class nativeInterface{
 	public boolean set(String cname, String interfaceName, String[] parameterTypes, String[] parameterIDs, String rtType){
 		classNameWithPackage = cname;
 		String[] tmp = classNameWithPackage.split("\\.");
-		String className = tmp[tmp.length-1]; // why?
+		String className = tmp[tmp.length-1];
 		objectHandler = className+"Handler";
 		
 		funcName = interfaceName;

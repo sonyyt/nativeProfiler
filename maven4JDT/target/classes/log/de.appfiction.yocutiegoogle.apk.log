@@ -1,0 +1,445 @@
+11-25 10:20:07.060 30592-30592/de.appfiction.yocutiegoogle E/AdColony: JNI_OnLoad
+11-25 10:20:07.065 30592-30592/de.appfiction.yocutiegoogle A/art: art/runtime/java_vm_ext.cc:410] JNI DETECTED ERROR IN APPLICATION: JNI NewGlobalRef called with pending exception java.lang.ClassNotFoundException: Didn't find class "com.adcolony.sdk.ADCNative" on path: DexPathList[[zip file "/data/app/de.appfiction.yocutiegoogle-1/base.apk"],nativeLibraryDirectories=[/data/app/de.appfiction.yocutiegoogle-1/lib/x86, /data/app/de.appfiction.yocutiegoogle-1/base.apk!/lib/x86, /vendor/lib, /system/lib]]
+11-25 10:20:07.065 30592-30592/de.appfiction.yocutiegoogle A/art: art/runtime/java_vm_ext.cc:410]   at java.lang.Class dalvik.system.BaseDexClassLoader.findClass(java.lang.String) (BaseDexClassLoader.java:56)
+11-25 10:20:07.065 30592-30592/de.appfiction.yocutiegoogle A/art: art/runtime/java_vm_ext.cc:410]   at java.lang.Class java.lang.ClassLoader.loadClass(java.lang.String, boolean) (ClassLoader.java:511)
+11-25 10:20:07.065 30592-30592/de.appfiction.yocutiegoogle A/art: art/runtime/java_vm_ext.cc:410]   at java.lang.Class java.lang.ClassLoader.loadClass(java.lang.String) (ClassLoader.java:469)
+11-25 10:20:07.065 30592-30592/de.appfiction.yocutiegoogle A/art: art/runtime/java_vm_ext.cc:410]   at java.lang.String java.lang.Runtime.nativeLoad(java.lang.String, java.lang.ClassLoader, java.lang.String) (Runtime.java:-2)
+11-25 10:20:07.065 30592-30592/de.appfiction.yocutiegoogle A/art: art/runtime/java_vm_ext.cc:410]   at java.lang.String java.lang.Runtime.doLoad(java.lang.String, java.lang.ClassLoader) (Runtime.java:435)
+11-25 10:20:07.065 30592-30592/de.appfiction.yocutiegoogle A/art: art/runtime/java_vm_ext.cc:410]   at void java.lang.Runtime.loadLibrary(java.lang.String, java.lang.ClassLoader) (Runtime.java:370)
+11-25 10:20:07.065 30592-30592/de.appfiction.yocutiegoogle A/art: art/runtime/java_vm_ext.cc:410]   at void java.lang.System.loadLibrary(java.lang.String) (System.java:1076)
+11-25 10:20:07.065 30592-30592/de.appfiction.yocutiegoogle A/art: art/runtime/java_vm_ext.cc:410]   at void com.adcolony.sdk.ADCCrashReportManager.<clinit>() (ADCCrashReportManager.java:5)
+11-25 10:20:07.065 30592-30592/de.appfiction.yocutiegoogle A/art: art/runtime/java_vm_ext.cc:410]   at void de.appfiction.yocutiegoogle.MainActivity.runTestCases() (MainActivity.java:20)
+11-25 10:20:07.065 30592-30592/de.appfiction.yocutiegoogle A/art: art/runtime/java_vm_ext.cc:410]   at void de.appfiction.yocutiegoogle.MainActivity.onCreate(android.os.Bundle) (MainActivity.java:17)
+11-25 10:20:07.065 30592-30592/de.appfiction.yocutiegoogle A/art: art/runtime/java_vm_ext.cc:410]   at void android.app.Activity.performCreate(android.os.Bundle) (Activity.java:6237)
+11-25 10:20:07.065 30592-30592/de.appfiction.yocutiegoogle A/art: art/runtime/java_vm_ext.cc:410]   at void android.app.Instrumentation.callActivityOnCreate(android.app.Activity, android.os.Bundle) (Instrumentation.java:1107)
+11-25 10:20:07.065 30592-30592/de.appfiction.yocutiegoogle A/art: art/runtime/java_vm_ext.cc:410]   at android.app.Activity android.app.ActivityThread.performLaunchActivity(android.app.ActivityThread$ActivityClientRecord, android.content.Intent) (ActivityThread.java:2369)
+11-25 10:20:07.065 30592-30592/de.appfiction.yocutiegoogle A/art: art/runtime/java_vm_ext.cc:410]   at void android.app.ActivityThread.handleLaunchActivity(android.app.ActivityThread$ActivityClientRecord, android.content.Intent) (ActivityThread.java:2476)
+11-25 10:20:07.065 30592-30592/de.appfiction.yocutiegoogle A/art: art/runtime/java_vm_ext.cc:410]   at void android.app.ActivityThread.-wrap11(android.app.ActivityThread, android.app.ActivityThread$ActivityClientRecord, android.content.Intent) (ActivityThread.java:-1)
+11-25 10:20:07.065 30592-30592/de.appfiction.yocutiegoogle A/art: art/runtime/java_vm_ext.cc:410]   at void android.app.ActivityThread$H.handleMessage(android.os.Message) (ActivityThread.java:1344)
+11-25 10:20:07.065 30592-30592/de.appfiction.yocutiegoogle A/art: art/runtime/java_vm_ext.cc:410]   at void android.os.Handler.dispatchMessage(android.os.Message) (Handler.java:102)
+11-25 10:20:07.065 30592-30592/de.appfiction.yocutiegoogle A/art: art/runtime/java_vm_ext.cc:410]   at void android.os.Looper.loop() (Looper.java:148)
+11-25 10:20:07.065 30592-30592/de.appfiction.yocutiegoogle A/art: art/runtime/java_vm_ext.cc:410]   at void android.app.ActivityThread.main(java.lang.String[]) (ActivityThread.java:5417)
+11-25 10:20:07.065 30592-30592/de.appfiction.yocutiegoogle A/art: art/runtime/java_vm_ext.cc:410]   at java.lang.Object java.lang.reflect.Method.invoke!(java.lang.Object, java.lang.Object[]) (Method.java:-2)
+11-25 10:20:07.065 30592-30592/de.appfiction.yocutiegoogle A/art: art/runtime/java_vm_ext.cc:410]   at void com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run() (ZygoteInit.java:726)
+11-25 10:20:07.065 30592-30592/de.appfiction.yocutiegoogle A/art: art/runtime/java_vm_ext.cc:410]   at void com.android.internal.os.ZygoteInit.main(java.lang.String[]) (ZygoteInit.java:616)
+11-25 10:20:07.065 30592-30592/de.appfiction.yocutiegoogle A/art: art/runtime/java_vm_ext.cc:410] 
+11-25 10:20:07.065 30592-30592/de.appfiction.yocutiegoogle A/art: art/runtime/java_vm_ext.cc:410]     in call to NewGlobalRef
+11-25 10:20:07.065 30592-30592/de.appfiction.yocutiegoogle A/art: art/runtime/java_vm_ext.cc:410]     from java.lang.String java.lang.Runtime.nativeLoad(java.lang.String, java.lang.ClassLoader, java.lang.String)
+11-25 10:20:07.065 30592-30592/de.appfiction.yocutiegoogle A/art: art/runtime/java_vm_ext.cc:410] "main" prio=5 tid=1 Runnable
+11-25 10:20:07.065 30592-30592/de.appfiction.yocutiegoogle A/art: art/runtime/java_vm_ext.cc:410]   | group="main" sCount=0 dsCount=0 obj=0x75454258 self=0xf4034500
+11-25 10:20:07.065 30592-30592/de.appfiction.yocutiegoogle A/art: art/runtime/java_vm_ext.cc:410]   | sysTid=30592 nice=0 cgrp=default sched=0/0 handle=0xf76fdc00
+11-25 10:20:07.065 30592-30592/de.appfiction.yocutiegoogle A/art: art/runtime/java_vm_ext.cc:410]   | state=R schedstat=( 0 0 0 ) utm=2 stm=0 core=1 HZ=100
+11-25 10:20:07.065 30592-30592/de.appfiction.yocutiegoogle A/art: art/runtime/java_vm_ext.cc:410]   | stack=0xff5ae000-0xff5b0000 stackSize=8MB
+11-25 10:20:07.065 30592-30592/de.appfiction.yocutiegoogle A/art: art/runtime/java_vm_ext.cc:410]   | held mutexes= "mutator lock"(shared held)
+11-25 10:20:07.065 30592-30592/de.appfiction.yocutiegoogle A/art: art/runtime/java_vm_ext.cc:410]   native: #00 pc 0058bae2  /system/lib/libart.so (art::DumpNativeStack(std::__1::basic_ostream<char, std::__1::char_traits<char> >&, int, char const*, art::ArtMethod*, void*)+226)
+11-25 10:20:07.065 30592-30592/de.appfiction.yocutiegoogle A/art: art/runtime/java_vm_ext.cc:410]   native: #01 pc 0055172e  /system/lib/libart.so (art::Thread::Dump(std::__1::basic_ostream<char, std::__1::char_traits<char> >&) const+286)
+11-25 10:20:07.065 30592-30592/de.appfiction.yocutiegoogle A/art: art/runtime/java_vm_ext.cc:410]   native: #02 pc 003a461f  /system/lib/libart.so (art::JavaVMExt::JniAbort(char const*, char const*)+1247)
+11-25 10:20:07.065 30592-30592/de.appfiction.yocutiegoogle A/art: art/runtime/java_vm_ext.cc:410]   native: #03 pc 003a5c9c  /system/lib/libart.so (art::JavaVMExt::JniAbortV(char const*, char const*, char*)+116)
+11-25 10:20:07.065 30592-30592/de.appfiction.yocutiegoogle A/art: art/runtime/java_vm_ext.cc:410]   native: #04 pc 00163950  /system/lib/libart.so (art::ScopedCheck::AbortF(char const*, ...)+62)
+11-25 10:20:07.065 30592-30592/de.appfiction.yocutiegoogle A/art: art/runtime/java_vm_ext.cc:410]   native: #05 pc 0016d912  /system/lib/libart.so (art::ScopedCheck::CheckThread(_JNIEnv*)+1890)
+11-25 10:20:07.065 30592-30592/de.appfiction.yocutiegoogle A/art: art/runtime/java_vm_ext.cc:410]   native: #06 pc 0016e421  /system/lib/libart.so (art::ScopedCheck::Check(art::ScopedObjectAccess&, bool, char const*, art::JniValueType*) (.constprop.114)+1489)
+11-25 10:20:07.065 30592-30592/de.appfiction.yocutiegoogle A/art: art/runtime/java_vm_ext.cc:410]   native: #07 pc 0017680a  /system/lib/libart.so (art::CheckJNI::NewRef(char const*, _JNIEnv*, _jobject*, art::IndirectRefKind)+602)
+11-25 10:20:07.065 30592-30592/de.appfiction.yocutiegoogle A/art: art/runtime/java_vm_ext.cc:410]   native: #08 pc 00176b49  /system/lib/libart.so (art::CheckJNI::NewGlobalRef(_JNIEnv*, _jobject*)+52)
+11-25 10:20:07.065 30592-30592/de.appfiction.yocutiegoogle A/art: art/runtime/java_vm_ext.cc:410]   native: #09 pc 00003755  /data/app/de.appfiction.yocutiegoogle-1/lib/x86/libadcolony.so (JNI_OnLoad+149)
+11-25 10:20:07.065 30592-30592/de.appfiction.yocutiegoogle A/art: art/runtime/java_vm_ext.cc:410]   native: #10 pc 003a6356  /system/lib/libart.so (art::JavaVMExt::LoadNativeLibrary(_JNIEnv*, std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&, _jobject*, std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >*)+1494)
+11-25 10:20:07.065 30592-30592/de.appfiction.yocutiegoogle A/art: art/runtime/java_vm_ext.cc:410]   native: #11 pc 00470b4d  /system/lib/libart.so (art::Runtime_nativeLoad(_JNIEnv*, _jclass*, _jstring*, _jobject*, _jstring*)+301)
+11-25 10:20:07.065 30592-30592/de.appfiction.yocutiegoogle A/art: art/runtime/java_vm_ext.cc:410]   native: #12 pc 002c26ce  /data/dalvik-cache/x86/system@framework@boot.oat (Java_java_lang_Runtime_nativeLoad__Ljava_lang_String_2Ljava_lang_ClassLoader_2Ljava_lang_String_2+194)
+11-25 10:20:07.065 30592-30592/de.appfiction.yocutiegoogle A/art: art/runtime/java_vm_ext.cc:410]   native: #13 pc 00641453  /dev/ashmem/dalvik-main space 1 (deleted) (???)
+11-25 10:20:07.065 30592-30592/de.appfiction.yocutiegoogle A/art: art/runtime/java_vm_ext.cc:410]   at java.lang.Runtime.nativeLoad(Native method)
+11-25 10:20:07.065 30592-30592/de.appfiction.yocutiegoogle A/art: art/runtime/java_vm_ext.cc:410]   at java.lang.Runtime.doLoad(Runtime.java:435)
+11-25 10:20:07.065 30592-30592/de.appfiction.yocutiegoogle A/art: art/runtime/java_vm_ext.cc:410]   - locked <0x00a71efa> (a java.lang.Runtime)
+11-25 10:20:07.065 30592-30592/de.appfiction.yocutiegoogle A/art: art/runtime/java_vm_ext.cc:410]   at java.lang.Runtime.loadLibrary(Runtime.java:370)
+11-25 10:20:07.065 30592-30592/de.appfiction.yocutiegoogle A/art: art/runtime/java_vm_ext.cc:410]   at java.lang.System.loadLibrary(System.java:1076)
+11-25 10:20:07.065 30592-30592/de.appfiction.yocutiegoogle A/art: art/runtime/java_vm_ext.cc:410]   at com.adcolony.sdk.ADCCrashReportManager.<clinit>(ADCCrashReportManager.java:5)
+11-25 10:20:07.065 30592-30592/de.appfiction.yocutiegoogle A/art: art/runtime/java_vm_ext.cc:410]   at de.appfiction.yocutiegoogle.MainActivity.runTestCases(MainActivity.java:20)
+11-25 10:20:07.065 30592-30592/de.appfiction.yocutiegoogle A/art: art/runtime/java_vm_ext.cc:410]   at de.appfiction.yocutiegoogle.MainActivity.onCreate(MainActivity.java:17)
+11-25 10:20:07.065 30592-30592/de.appfiction.yocutiegoogle A/art: art/runtime/java_vm_ext.cc:410]   at android.app.Activity.performCreate(Activity.java:6237)
+11-25 10:20:07.065 30592-30592/de.appfiction.yocutiegoogle A/art: art/runtime/java_vm_ext.cc:410]   at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1107)
+11-25 10:20:07.065 30592-30592/de.appfiction.yocutiegoogle A/art: art/runtime/java_vm_ext.cc:410]   at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2369)
+11-25 10:20:07.065 30592-30592/de.appfiction.yocutiegoogle A/art: art/runtime/java_vm_ext.cc:410]   at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:2476)
+11-25 10:20:07.065 30592-30592/de.appfiction.yocutiegoogle A/art: art/runtime/java_vm_ext.cc:410]   at android.app.ActivityThread.-wrap11(ActivityThread.java:-1)
+11-25 10:20:07.065 30592-30592/de.appfiction.yocutiegoogle A/art: art/runtime/java_vm_ext.cc:410]   at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1344)
+11-25 10:20:07.065 30592-30592/de.appfiction.yocutiegoogle A/art: art/runtime/java_vm_ext.cc:410]   at android.os.Handler.dispatchMessage(Handler.java:102)
+11-25 10:20:07.065 30592-30592/de.appfiction.yocutiegoogle A/art: art/runtime/java_vm_ext.cc:410]   at android.os.Looper.loop(Looper.java:148)
+11-25 10:20:07.065 30592-30592/de.appfiction.yocutiegoogle A/art: art/runtime/java_vm_ext.cc:410]   at android.app.ActivityThread.main(ActivityThread.java:5417)
+11-25 10:20:07.065 30592-30592/de.appfiction.yocutiegoogle A/art: art/runtime/java_vm_ext.cc:410]   at java.lang.reflect.Method.invoke!(Native method)
+11-25 10:20:07.065 30592-30592/de.appfiction.yocutiegoogle A/art: art/runtime/java_vm_ext.cc:410]   at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:726)
+11-25 10:20:07.065 30592-30592/de.appfiction.yocutiegoogle A/art: art/runtime/java_vm_ext.cc:410]   at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:616)
+11-25 10:20:07.065 30592-30592/de.appfiction.yocutiegoogle A/art: art/runtime/java_vm_ext.cc:410] 
+11-25 10:20:07.071 1962-2009/system_process I/InputDispatcher: Dropping event because there is no touchable window at (894, 1479).
+11-25 10:20:07.090 3047-3117/com.android.launcher3 D/EGL_emulation: eglMakeCurrent: 0x7fa7f5469c20: ver 2 0 (tinfo 0x7fa7f3ad02e0)
+11-25 10:20:07.090 3047-3117/com.android.launcher3 E/Surface: getSlotFromBufferLocked: unknown buffer: 0x7fa7e860b3e0
+11-25 10:20:07.103 30592-30592/de.appfiction.yocutiegoogle A/art: art/runtime/runtime.cc:366] Runtime aborting...
+11-25 10:20:07.103 30592-30592/de.appfiction.yocutiegoogle A/art: art/runtime/runtime.cc:366] Aborting thread:
+11-25 10:20:07.103 30592-30592/de.appfiction.yocutiegoogle A/art: art/runtime/runtime.cc:366] "main" prio=5 tid=1 Native
+11-25 10:20:07.103 30592-30592/de.appfiction.yocutiegoogle A/art: art/runtime/runtime.cc:366]   | group="" sCount=0 dsCount=0 obj=0x75454258 self=0xf4034500
+11-25 10:20:07.103 30592-30592/de.appfiction.yocutiegoogle A/art: art/runtime/runtime.cc:366]   | sysTid=30592 nice=0 cgrp=default sched=0/0 handle=0xf76fdc00
+11-25 10:20:07.103 30592-30592/de.appfiction.yocutiegoogle A/art: art/runtime/runtime.cc:366]   | state=R schedstat=( 0 0 0 ) utm=2 stm=0 core=1 HZ=100
+11-25 10:20:07.103 30592-30592/de.appfiction.yocutiegoogle A/art: art/runtime/runtime.cc:366]   | stack=0xff5ae000-0xff5b0000 stackSize=8MB
+11-25 10:20:07.103 30592-30592/de.appfiction.yocutiegoogle A/art: art/runtime/runtime.cc:366]   | held mutexes= "abort lock"
+11-25 10:20:07.103 30592-30592/de.appfiction.yocutiegoogle A/art: art/runtime/runtime.cc:366]   native: #00 pc 0058bae2  /system/lib/libart.so (art::DumpNativeStack(std::__1::basic_ostream<char, std::__1::char_traits<char> >&, int, char const*, art::ArtMethod*, void*)+226)
+11-25 10:20:07.103 30592-30592/de.appfiction.yocutiegoogle A/art: art/runtime/runtime.cc:366]   native: #01 pc 0055172e  /system/lib/libart.so (art::Thread::Dump(std::__1::basic_ostream<char, std::__1::char_traits<char> >&) const+286)
+11-25 10:20:07.103 30592-30592/de.appfiction.yocutiegoogle A/art: art/runtime/runtime.cc:366]   native: #02 pc 005174de  /system/lib/libart.so (art::Runtime::Abort()+1164)
+11-25 10:20:07.103 30592-30592/de.appfiction.yocutiegoogle A/art: art/runtime/runtime.cc:366]   native: #03 pc 0014d933  /system/lib/libart.so (art::LogMessage::~LogMessage()+1343)
+11-25 10:20:07.103 30592-30592/de.appfiction.yocutiegoogle A/art: art/runtime/runtime.cc:366]   native: #04 pc 003a5042  /system/lib/libart.so (art::JavaVMExt::JniAbort(char const*, char const*)+3842)
+11-25 10:20:07.103 30592-30592/de.appfiction.yocutiegoogle A/art: art/runtime/runtime.cc:366]   native: #05 pc 003a5c9c  /system/lib/libart.so (art::JavaVMExt::JniAbortV(char const*, char const*, char*)+116)
+11-25 10:20:07.103 30592-30592/de.appfiction.yocutiegoogle A/art: art/runtime/runtime.cc:366]   native: #06 pc 00163950  /system/lib/libart.so (art::ScopedCheck::AbortF(char const*, ...)+62)
+11-25 10:20:07.103 30592-30592/de.appfiction.yocutiegoogle A/art: art/runtime/runtime.cc:366]   native: #07 pc 0016d912  /system/lib/libart.so (art::ScopedCheck::CheckThread(_JNIEnv*)+1890)
+11-25 10:20:07.103 30592-30592/de.appfiction.yocutiegoogle A/art: art/runtime/runtime.cc:366]   native: #08 pc 0016e421  /system/lib/libart.so (art::ScopedCheck::Check(art::ScopedObjectAccess&, bool, char const*, art::JniValueType*) (.constprop.114)+1489)
+11-25 10:20:07.103 30592-30592/de.appfiction.yocutiegoogle A/art: art/runtime/runtime.cc:366]   native: #09 pc 0017680a  /system/lib/libart.so (art::CheckJNI::NewRef(char const*, _JNIEnv*, _jobject*, art::IndirectRefKind)+602)
+11-25 10:20:07.103 30592-30592/de.appfiction.yocutiegoogle A/art: art/runtime/runtime.cc:366]   native: #10 pc 00176b49  /system/lib/libart.so (art::CheckJNI::NewGlobalRef(_JNIEnv*, _jobject*)+52)
+11-25 10:20:07.103 30592-30592/de.appfiction.yocutiegoogle A/art: art/runtime/runtime.cc:366]   native: #11 pc 00003755  /data/app/de.appfiction.yocutiegoogle-1/lib/x86/libadcolony.so (JNI_OnLoad+149)
+11-25 10:20:07.103 30592-30592/de.appfiction.yocutiegoogle A/art: art/runtime/runtime.cc:366]   native: #12 pc 003a6356  /system/lib/libart.so (art::JavaVMExt::LoadNativeLibrary(_JNIEnv*, std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&, _jobject*, std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >*)+1494)
+11-25 10:20:07.103 30592-30592/de.appfiction.yocutiegoogle A/art: art/runtime/runtime.cc:366]   native: #13 pc 00470b4d  /system/lib/libart.so (art::Runtime_nativeLoad(_JNIEnv*, _jclass*, _jstring*, _jobject*, _jstring*)+301)
+11-25 10:20:07.103 30592-30592/de.appfiction.yocutiegoogle A/art: art/runtime/runtime.cc:366]   native: #14 pc 002c26ce  /data/dalvik-cache/x86/system@framework@boot.oat (???)
+11-25 10:20:07.103 30592-30592/de.appfiction.yocutiegoogle A/art: art/runtime/runtime.cc:366]   native: #15 pc 00641453  /dev/ashmem/dalvik-main space 1 (deleted) (???)
+11-25 10:20:07.103 30592-30592/de.appfiction.yocutiegoogle A/art: art/runtime/runtime.cc:366]   at java.lang.Runtime.nativeLoad(Native method)
+11-25 10:20:07.103 30592-30592/de.appfiction.yocutiegoogle A/art: art/runtime/runtime.cc:366]   at java.lang.Runtime.doLoad(Runtime.java:435)
+11-25 10:20:07.103 30592-30592/de.appfiction.yocutiegoogle A/art: art/runtime/runtime.cc:366]   - locked <0x00a71efa> (a java.lang.Runtime)
+11-25 10:20:07.103 30592-30592/de.appfiction.yocutiegoogle A/art: art/runtime/runtime.cc:366]   at java.lang.Runtime.loadLibrary(Runtime.java:370)
+11-25 10:20:07.103 30592-30592/de.appfiction.yocutiegoogle A/art: art/runtime/runtime.cc:366]   at java.lang.System.loadLibrary(System.java:1076)
+11-25 10:20:07.103 30592-30592/de.appfiction.yocutiegoogle A/art: art/runtime/runtime.cc:366]   at com.adcolony.sdk.ADCCrashReportManager.<clinit>(ADCCrashReportManager.java:5)
+11-25 10:20:07.103 30592-30592/de.appfiction.yocutiegoogle A/art: art/runtime/runtime.cc:366]   at de.appfiction.yocutiegoogle.MainActivity.runTestCases(MainActivity.java:20)
+11-25 10:20:07.103 30592-30592/de.appfiction.yocutiegoogle A/art: art/runtime/runtime.cc:366]   at de.appfiction.yocutiegoogle.MainActivity.onCreate(MainActivity.java:17)
+11-25 10:20:07.103 30592-30592/de.appfiction.yocutiegoogle A/art: art/runtime/runtime.cc:366]   at android.app.Activity.performCreate(Activity.java:6237)
+11-25 10:20:07.103 30592-30592/de.appfiction.yocutiegoogle A/art: art/runtime/runtime.cc:366]   at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1107)
+11-25 10:20:07.103 30592-30592/de.appfiction.yocutiegoogle A/art: art/runtime/runtime.cc:366]   at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2369)
+11-25 10:20:07.103 30592-30592/de.appfiction.yocutiegoogle A/art: art/runtime/runtime.cc:366]   at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:2476)
+11-25 10:20:07.103 30592-30592/de.appfiction.yocutiegoogle A/art: art/runtime/runtime.cc:366]   at android.app.ActivityThread.-wrap11(ActivityThread.java:-1)
+11-25 10:20:07.103 30592-30592/de.appfiction.yocutiegoogle A/art: art/runtime/runtime.cc:366]   at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1344)
+11-25 10:20:07.103 30592-30592/de.appfiction.yocutiegoogle A/art: art/runtime/runtime.cc:366]   at android.os.Handler.dispatchMessage(Handler.java:102)
+11-25 10:20:07.103 30592-30592/de.appfiction.yocutiegoogle A/art: art/runtime/runtime.cc:366]   at android.os.Looper.loop(Looper.java:148)
+11-25 10:20:07.103 30592-30592/de.appfiction.yocutiegoogle A/art: art/runtime/runtime.cc:366]   at android.app.ActivityThread.main(ActivityThread.java:5417)
+11-25 10:20:07.103 30592-30592/de.appfiction.yocutiegoogle A/art: art/runtime/runtime.cc:366]   at java.lang.reflect.Method.invoke!(Native method)
+11-25 10:20:07.103 30592-30592/de.appfiction.yocutiegoogle A/art: art/runtime/runtime.cc:366]   at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:726)
+11-25 10:20:07.103 30592-30592/de.appfiction.yocutiegoogle A/art: art/runtime/runtime.cc:366]   at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:616)
+11-25 10:20:07.103 30592-30592/de.appfiction.yocutiegoogle A/art: art/runtime/runtime.cc:366] Pending exception java.lang.ClassNotFoundException: Didn't find class "com.adcolony.sdk.ADCNative" on path: DexPathList[[zip file "/data/app/de.appfiction.yocutiegoogle-1/base.apk"],nativeLibraryDirectories=[/data/app/de.appfiction.yocutiegoogle-1/lib/x86, /data/app/de.appfiction.yocutiegoogle-1/base.apk!/lib/x86, /vendor/lib, /system/lib]]
+11-25 10:20:07.103 30592-30592/de.appfiction.yocutiegoogle A/art: art/runtime/runtime.cc:366]   at java.lang.Class dalvik.system.BaseDexClassLoader.findClass(java.lang.String) (BaseDexClassLoader.java:56)
+11-25 10:20:07.103 30592-30592/de.appfiction.yocutiegoogle A/art: art/runtime/runtime.cc:366]   at java.lang.Class java.lang.ClassLoader.loadClass(java.lang.String, boolean) (ClassLoader.java:511)
+11-25 10:20:07.103 30592-30592/de.appfiction.yocutiegoogle A/art: art/runtime/runtime.cc:366]   at java.lang.Class java.lang.ClassLoader.loadClass(java.lang.String) (ClassLoader.java:469)
+11-25 10:20:07.103 30592-30592/de.appfiction.yocutiegoogle A/art: art/runtime/runtime.cc:366]   at java.lang.String java.lang.Runtime.nativeLoad(java.lang.String, java.lang.ClassLoader, java.lang.String) (Runtime.java:-2)
+11-25 10:20:07.103 30592-30592/de.appfiction.yocutiegoogle A/art: art/runtime/runtime.cc:366]   at java.lang.String java.lang.Runtime.doLoad(java.lang.String, java.lang.ClassLoader) (Runtime.java:435)
+11-25 10:20:07.103 30592-30592/de.appfiction.yocutiegoogle A/art: art/runtime/runtime.cc:366]   at void java.lang.Runtime.loadLibrary(java.lang.String, java.lang.ClassLoader) (Runtime.java:370)
+11-25 10:20:07.103 30592-30592/de.appfiction.yocutiegoogle A/art: art/runtime/runtime.cc:366]   at void java.lang.System.loadLibrary(java.lang.String) (System.java:1076)
+11-25 10:20:07.103 30592-30592/de.appfiction.yocutiegoogle A/art: art/runtime/runtime.cc:366]   at void com.adcolony.sdk.ADCCrashReportManager.<clinit>() (ADCCrashReportManager.java:5)
+11-25 10:20:07.103 30592-30592/de.appfiction.yocutiegoogle A/art: art/runtime/runtime.cc:366]   at void de.appfiction.yocutiegoogle.MainActivity.runTestCases() (MainActivity.java:20)
+11-25 10:20:07.103 30592-30592/de.appfiction.yocutiegoogle A/art: art/runtime/runtime.cc:366]   at void de.appfiction.yocutiegoogle.MainActivity.onCreate(android.os.Bundle) (MainActivity.java:17)
+11-25 10:20:07.103 30592-30592/de.appfiction.yocutiegoogle A/art: art/runtime/runtime.cc:366]   at void android.app.Activity.performCreate(android.os.Bundle) (Activity.java:6237)
+11-25 10:20:07.103 30592-30592/de.appfiction.yocutiegoogle A/art: art/runtime/runtime.cc:366]   at void android.app.Instrumentation.callActivityOnCreate(android.app.Activity, android.os.Bundle) (Instrumentation.java:1107)
+11-25 10:20:07.103 30592-30592/de.appfiction.yocutiegoogle A/art: art/runtime/runtime.cc:366]   at android.app.Activity android.app.ActivityThread.performLaunchActivity(android.app.ActivityThread$ActivityClientRecord, android.content.Intent) (ActivityThread.java:2369)
+11-25 10:20:07.103 30592-30592/de.appfiction.yocutiegoogle A/art: art/runtime/runtime.cc:366]   at void android.app.ActivityThread.handleLaunchActivity(android.app.ActivityThread$ActivityClientRecord, android.content.Intent) (ActivityThread.java:2476)
+11-25 10:20:07.103 30592-30592/de.appfiction.yocutiegoogle A/art: art/runtime/runtime.cc:366]   at void android.app.ActivityThread.-wrap11(android.app.ActivityThread, android.app.ActivityThread$ActivityClientRecord, android.content.Intent) (ActivityThread.java:-1)
+11-25 10:20:07.103 30592-30592/de.appfiction.yocutiegoogle A/art: art/runtime/runtime.cc:366]   at void android.app.ActivityThread$H.handleMessage(android.os.Message) (ActivityThread.java:1344)
+11-25 10:20:07.103 30592-30592/de.appfiction.yocutiegoogle A/art: art/runtime/runtime.cc:366]   at void android.os.Handler.dispatchMessage(android.os.Message) (Handler.java:102)
+11-25 10:20:07.103 30592-30592/de.appfiction.yocutiegoogle A/art: art/runtime/runtime.cc:366]   at void android.os.Looper.loop() (Looper.java:148)
+11-25 10:20:07.103 30592-30592/de.appfiction.yocutiegoogle A/art: art/runtime/runtime.cc:366]   at void android.app.ActivityThread.main(java.lang.String[]) (ActivityThread.java:5417)
+11-25 10:20:07.103 30592-30592/de.appfiction.yocutiegoogle A/art: art/runtime/runtime.cc:366]   at java.lang.Object java.lang.reflect.Method.invoke!(java.lang.Object, java.lang.Object[]) (Method.java:-2)
+11-25 10:20:07.103 30592-30592/de.appfiction.yocutiegoogle A/art: art/runtime/runtime.cc:366]   at void com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run() (ZygoteInit.java:726)
+11-25 10:20:07.103 30592-30592/de.appfiction.yocutiegoogle A/art: art/runtime/runtime.cc:366]   at void com.android.internal.os.ZygoteInit.main(java.lang.String[]) (ZygoteInit.java:616)
+11-25 10:20:07.103 30592-30592/de.appfiction.yocutiegoogle A/art: art/runtime/runtime.cc:366] Dumping all threads without appropriate locks held: thread list lock mutator lock
+11-25 10:20:07.103 30592-30592/de.appfiction.yocutiegoogle A/art: art/runtime/runtime.cc:366] All threads:
+11-25 10:20:07.103 30592-30592/de.appfiction.yocutiegoogle A/art: art/runtime/runtime.cc:366] DALVIK THREADS (9):
+11-25 10:20:07.103 30592-30592/de.appfiction.yocutiegoogle A/art: art/runtime/runtime.cc:366] "main" prio=5 tid=1 Runnable
+11-25 10:20:07.103 30592-30592/de.appfiction.yocutiegoogle A/art: art/runtime/runtime.cc:366]   | group="" sCount=0 dsCount=0 obj=0x75454258 self=0xf4034500
+11-25 10:20:07.103 30592-30592/de.appfiction.yocutiegoogle A/art: art/runtime/runtime.cc:366]   | sysTid=30592 nice=0 cgrp=default sched=0/0 handle=0xf76fdc00
+11-25 10:20:07.103 30592-30592/de.appfiction.yocutiegoogle A/art: art/runtime/runtime.cc:366]   | state=R schedstat=( 0 0 0 ) utm=3 stm=0 core=1 HZ=100
+11-25 10:20:07.103 30592-30592/de.appfiction.yocutiegoogle A/art: art/runtime/runtime.cc:366]   | stack=0xff5ae000-0xff5b0000 stackSize=8MB
+11-25 10:20:07.103 30592-30592/de.appfiction.yocutiegoogle A/art: art/runtime/runtime.cc:366]   | held mutexes= "abort lock" "mutator lock"(shared held)
+11-25 10:20:07.103 30592-30592/de.appfiction.yocutiegoogle A/art: art/runtime/runtime.cc:366]   native: #00 pc 0058bae2  /system/lib/libart.so (art::DumpNativeStack(std::__1::basic_ostream<char, std::__1::char_traits<char> >&, int, char const*, art::ArtMethod*, void*)+226)
+11-25 10:20:07.103 30592-30592/de.appfiction.yocutiegoogle A/art: art/runtime/runtime.cc:366]   native: #01 pc 0055172e  /system/lib/libart.so (art::Thread::Dump(std::__1::basic_ostream<char, std::__1::char_traits<char> >&) const+286)
+11-25 10:20:07.103 30592-30592/de.appfiction.yocutiegoogle A/art: art/runtime/runtime.cc:366]   native: #02 pc 0055c03b  /system/lib/libart.so (art::DumpCheckpoint::Run(art::Thread*)+923)
+11-25 10:20:07.103 30592-30592/de.appfiction.yocutiegoogle A/art: art/runtime/runtime.cc:366]   native: #03 pc 0055ebdd  /system/lib/libart.so (art::ThreadList::RunCheckpoint(art::Closure*)+301)
+11-25 10:20:07.103 30592-30592/de.appfiction.yocutiegoogle A/art: art/runtime/runtime.cc:366]   native: #04 pc 0055fed3  /system/lib/libart.so (art::ThreadList::Dump(std::__1::basic_ostream<char, std::__1::char_traits<char> >&)+243)
+11-25 10:20:07.103 30592-30592/de.appfiction.yocutiegoogle A/art: art/runtime/runtime.cc:366]   native: #05 pc 00517348  /system/lib/libart.so (art::Runtime::Abort()+758)
+11-25 10:20:07.103 30592-30592/de.appfiction.yocutiegoogle A/art: art/runtime/runtime.cc:366]   native: #06 pc 0014d933  /system/lib/libart.so (art::LogMessage::~LogMessage()+1343)
+11-25 10:20:07.103 30592-30592/de.appfiction.yocutiegoogle A/art: art/runtime/runtime.cc:366]   native: #07 pc 003a5042  /system/lib/libart.so (art::JavaVMExt::JniAbort(char const*, char const*)+3842)
+11-25 10:20:07.103 30592-30592/de.appfiction.yocutiegoogle A/art: art/runtime/runtime.cc:366]   native: #08 pc 003a5c9c  /system/lib/libart.so (art::JavaVMExt::JniAbortV(char const*, char const*, char*)+116)
+11-25 10:20:07.103 30592-30592/de.appfiction.yocutiegoogle A/art: art/runtime/runtime.cc:366]   native: #09 pc 00163950  /system/lib/libart.so (art::ScopedCheck::AbortF(char const*, ...)+62)
+11-25 10:20:07.103 30592-30592/de.appfiction.yocutiegoogle A/art: art/runtime/runtime.cc:366]   native: #10 pc 0016d912  /system/lib/libart.so (art::ScopedCheck::CheckThread(_JNIEnv*)+1890)
+11-25 10:20:07.103 30592-30592/de.appfiction.yocutiegoogle A/art: art/runtime/runtime.cc:366]   native: #11 pc 0016e421  /system/lib/libart.so (art::ScopedCheck::Check(art::ScopedObjectAccess&, bool, char const*, art::JniValueType*) (.constprop.114)+1489)
+11-25 10:20:07.103 30592-30592/de.appfiction.yocutiegoogle A/art: art/runtime/runtime.cc:366]   native: #12 pc 0017680a  /system/lib/libart.so (art::CheckJNI::NewRef(char const*, _JNIEnv*, _jobject*, art::IndirectRefKind)+602)
+11-25 10:20:07.103 30592-30592/de.appfiction.yocutiegoogle A/art: art/runtime/runtime.cc:366]   native: #13 pc 00176b49  /system/lib/libart.so (art::CheckJNI::NewGlobalRef(_JNIEnv*, _jobject*)+52)
+11-25 10:20:07.103 30592-30592/de.appfiction.yocutiegoogle A/art: art/runtime/runtime.cc:366]   native: #14 pc 00003755  /data/app/de.appfiction.yocutiegoogle-1/lib/x86/libadcolony.so (JNI_OnLoad+149)
+11-25 10:20:07.103 30592-30592/de.appfiction.yocutiegoogle A/art: art/runtime/runtime.cc:366]   native: #15 pc 003a6356  /system/lib/libart.so (art::JavaVMExt::LoadNativeLibrary(_JNIEnv*, std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&, _jobject*, std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >*)+1494)
+11-25 10:20:07.103 30592-30592/de.appfiction.yocutiegoogle A/art: art/runtime/runtime.cc:366]   native: #16 pc 00470b4d  /system/lib/libart.so (art::Runtime_nativeLoad(_JNIEnv*, _jclass*, _jstring*, _jobject*, _jstring*)+301)
+11-25 10:20:07.103 30592-30592/de.appfiction.yocutiegoogle A/art: art/runtime/runtime.cc:366]   native: #17 pc 002c26ce  /data/dalvik-cache/x86/system@framework@boot.oat (Java_java_lang_Runtime_nativeLoad__Ljava_lang_String_2Ljava_lang_ClassLoader_2Ljava_lang_String_2+194)
+11-25 10:20:07.103 30592-30592/de.appfiction.yocutiegoogle A/art: art/runtime/runtime.cc:366]   native: #18 pc 00641453  /dev/ashmem/dalvik-main space 1 (deleted) (???)
+11-25 10:20:07.103 30592-30592/de.appfiction.yocutiegoogle A/art: art/runtime/runtime.cc:366]   at java.lang.Runtime.nativeLoad(Native method)
+11-25 10:20:07.103 30592-30592/de.appfiction.yocutiegoogle A/art: art/runtime/runtime.cc:366]   at java.lang.Runtime.doLoad(Runtime.java:435)
+11-25 10:20:07.103 30592-30592/de.appfiction.yocutiegoogle A/art: art/runtime/runtime.cc:366]   - locked <0x00a71efa> (a java.lang.Runtime)
+11-25 10:20:07.103 30592-30592/de.appfiction.yocutiegoogle A/art: art/runtime/runtime.cc:366]   at java.lang.Runtime.loadLibrary(Runtime.java:370)
+11-25 10:20:07.103 30592-30592/de.appfiction.yocutiegoogle A/art: art/runtime/runtime.cc:366]   at java.lang.System.loadLibrary(System.java:1076)
+11-25 10:20:07.103 30592-30592/de.appfiction.yocutiegoogle A/art: art/runtime/runtime.cc:366]   at com.adcolony.sdk.ADCCrashReportManager.<clinit>(ADCCrashReportManager.java:5)
+11-25 10:20:07.103 30592-30592/de.appfiction.yocutiegoogle A/art: art/runtime/runtime.cc:366]   at de.appfiction.yocutiegoogle.MainActivity.runTestCases(MainActivity.java:20)
+11-25 10:20:07.103 30592-30592/de.appfiction.yocutiegoogle A/art: art/runtime/runtime.cc:366]   at de.appfiction.yocutiegoogle.MainActivity.onCreate(MainActivity.java:17)
+11-25 10:20:07.103 30592-30592/de.appfiction.yocutiegoogle A/art: art/runtime/runtime.cc:366]   at android.app.Activity.performCreate(Activity.java:6237)
+11-25 10:20:07.103 30592-30592/de.appfiction.yocutiegoogle A/art: art/runtime/runtime.cc:366]   at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1107)
+11-25 10:20:07.103 30592-30592/de.appfiction.yocutiegoogle A/art: art/runtime/runtime.cc:366]   at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2369)
+11-25 10:20:07.103 30592-30592/de.appfiction.yocutiegoogle A/art: art/runtime/runtime.cc:366]   at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:2476)
+11-25 10:20:07.103 30592-30592/de.appfiction.yocutiegoogle A/art: art/runtime/runtime.cc:366]   at android.app.ActivityThread.-wrap11(ActivityThread.java:-1)
+11-25 10:20:07.103 30592-30592/de.appfiction.yocutiegoogle A/art: art/runtime/runtime.cc:366]   at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1344)
+11-25 10:20:07.103 30592-30592/de.appfiction.yocutiegoogle A/art: art/runtime/runtime.cc:366]   at android.os.Handler.dispatchMessage(Handler.java:102)
+11-25 10:20:07.103 30592-30592/de.appfiction.yocutiegoogle A/art: art/runtime/runtime.cc:366]   at android.os.Looper.loop(Looper.java:148)
+11-25 10:20:07.103 30592-30592/de.appfiction.yocutiegoogle A/art: art/runtime/runtime.cc:366]   at android.app.ActivityThread.main(ActivityThread.java:5417)
+11-25 10:20:07.103 30592-30592/de.appfiction.yocutiegoogle A/art: art/runtime/runtime.cc:366]   at java.lang.reflect.Method.invoke!(Native method)
+11-25 10:20:07.103 30592-30592/de.appfiction.yocutiegoogle A/art: art/runtime/runtime.cc:366]   at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:726)
+11-25 10:20:07.103 30592-30592/de.appfiction.yocutiegoogle A/art: art/runtime/runtime.cc:366]   at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:616)
+11-25 10:20:07.103 30592-30592/de.appfiction.yocutiegoogle A/art: art/runtime/runtime.cc:366] 
+11-25 10:20:07.103 30592-30592/de.appfiction.yocutiegoogle A/art: art/runtime/runtime.cc:366] "Signal Catcher" prio=5 tid=2 WaitingInMainSignalCatcherLoop
+11-25 10:20:07.103 30592-30592/de.appfiction.yocutiegoogle A/art: art/runtime/runtime.cc:366]   | group="" sCount=1 dsCount=0 obj=0x12c650a0 self=0xea22d500
+11-25 10:20:07.103 30592-30592/de.appfiction.yocutiegoogle A/art: art/runtime/runtime.cc:366]   | sysTid=30595 nice=0 cgrp=default sched=0/0 handle=0xf3431930
+11-25 10:20:07.103 30592-30592/de.appfiction.yocutiegoogle A/art: art/runtime/runtime.cc:366]   | state=S schedstat=( 0 0 0 ) utm=0 stm=0 core=2 HZ=100
+11-25 10:20:07.103 30592-30592/de.appfiction.yocutiegoogle A/art: art/runtime/runtime.cc:366]   | stack=0xf3335000-0xf3337000 stackSize=1014KB
+11-25 10:20:07.103 30592-30592/de.appfiction.yocutiegoogle A/art: art/runtime/runtime.cc:366]   | held mutexes=
+11-25 10:20:07.103 30592-30592/de.appfiction.yocutiegoogle A/art: art/runtime/runtime.cc:366]   kernel: do_sigtimedwait+0xe3/0x1b6
+11-25 10:20:07.103 30592-30592/de.appfiction.yocutiegoogle A/art: art/runtime/runtime.cc:366]   kernel: compat_SyS_rt_sigtimedwait+0x8f/0xc9
+11-25 10:20:07.103 30592-30592/de.appfiction.yocutiegoogle A/art: art/runtime/runtime.cc:366]   kernel: ia32_sysret+0x0/0x5
+11-25 10:20:07.103 30592-30592/de.appfiction.yocutiegoogle A/art: art/runtime/runtime.cc:366]   native: #00 pc 0008412b  /system/lib/libc.so (__rt_sigtimedwait+27)
+11-25 10:20:07.103 30592-30592/de.appfiction.yocutiegoogle A/art: art/runtime/runtime.cc:366]   native: #01 pc 00028e6c  /system/lib/libc.so (sigwait+69)
+11-25 10:20:07.103 30592-30592/de.appfiction.yocutiegoogle A/art: art/runtime/runtime.cc:366]   native: #02 pc 005229d6  /system/lib/libart.so (art::SignalCatcher::WaitForSignal(art::Thread*, art::SignalSet&)+118)
+11-25 10:20:07.103 30592-30592/de.appfiction.yocutiegoogle A/art: art/runtime/runtime.cc:366]   native: #03 pc 005261ce  /system/lib/libart.so (art::SignalCatcher::Run(void*)+302)
+11-25 10:20:07.103 30592-30592/de.appfiction.yocutiegoogle A/art: art/runtime/runtime.cc:366]   native: #04 pc 00081923  /system/lib/libc.so (__pthread_start(void*)+56)
+11-25 10:20:07.103 30592-30592/de.appfiction.yocutiegoogle A/art: art/runtime/runtime.cc:366]   native: #05 pc 000227f2  /system/lib/libc.so (__start_thread+25)
+11-25 10:20:07.103 30592-30592/de.appfiction.yocutiegoogle A/art: art/runtime/runtime.cc:366]   native: #06 pc 000170b6  /system/lib/libc.so (__bionic_clone+70)
+11-25 10:20:07.103 30592-30592/de.appfiction.yocutiegoogle A/art: art/runtime/runtime.cc:366]   (no managed stack frames)
+11-25 10:20:07.103 30592-30592/de.appfiction.yocutiegoogle A/art: art/runtime/runtime.cc:366] 
+11-25 10:20:07.103 30592-30592/de.appfiction.yocutiegoogle A/art: art/runtime/runtime.cc:366] "JDWP" prio=5 tid=3 WaitingInMainDebuggerLoop
+11-25 10:20:07.103 30592-30592/de.appfiction.yocutiegoogle A/art: art/runtime/runtime.cc:366]   | group="" sCount=1 dsCount=0 obj=0x12c680a0 self=0xebb6fd00
+11-25 10:20:07.103 30592-30592/de.appfiction.yocutiegoogle A/art: art/runtime/runtime.cc:366]   | sysTid=30597 nice=0 cgrp=default sched=0/0 handle=0xf332d930
+11-25 10:20:07.103 30592-30592/de.appfiction.yocutiegoogle A/art: art/runtime/runtime.cc:366]   | state=S schedstat=( 0 0 0 ) utm=0 stm=0 core=3 HZ=100
+11-25 10:20:07.103 30592-30592/de.appfiction.yocutiegoogle A/art: art/runtime/runtime.cc:366]   | stack=0xf3231000-0xf3233000 stackSize=1014KB
+11-25 10:20:07.103 30592-30592/de.appfiction.yocutiegoogle A/art: art/runtime/runtime.cc:366]   | held mutexes=
+11-25 10:20:07.103 30592-30592/de.appfiction.yocutiegoogle A/art: art/runtime/runtime.cc:366]   kernel: poll_schedule_timeout+0x56/0xae
+11-25 10:20:07.103 30592-30592/de.appfiction.yocutiegoogle A/art: art/runtime/runtime.cc:366]   kernel: do_select+0x52a/0x580
+11-25 10:20:07.103 30592-30592/de.appfiction.yocutiegoogle A/art: art/runtime/runtime.cc:366]   kernel: compat_core_sys_select+0x199/0x23c
+11-25 10:20:07.103 30592-30592/de.appfiction.yocutiegoogle A/art: art/runtime/runtime.cc:366]   kernel: compat_sys_pselect6+0x134/0x1ba
+11-25 10:20:07.103 30592-30592/de.appfiction.yocutiegoogle A/art: art/runtime/runtime.cc:366]   kernel: ia32_sysret+0x0/0x5
+11-25 10:20:07.103 30592-30592/de.appfiction.yocutiegoogle A/art: art/runtime/runtime.cc:366]   native: #00 pc 00084a45  /system/lib/libc.so (__pselect6+37)
+11-25 10:20:07.103 30592-30592/de.appfiction.yocutiegoogle A/art: art/runtime/runtime.cc:366]   native: #01 pc 0002738c  /system/lib/libc.so (select+173)
+11-25 10:20:07.103 30592-30592/de.appfiction.yocutiegoogle A/art: art/runtime/runtime.cc:366]   native: #02 pc 0066c7ac  /system/lib/libart.so (art::JDWP::JdwpAdbState::ProcessIncoming()+268)
+11-25 10:20:07.103 30592-30592/de.appfiction.yocutiegoogle A/art: art/runtime/runtime.cc:366]   native: #03 pc 003be852  /system/lib/libart.so (art::JDWP::JdwpState::Run()+386)
+11-25 10:20:07.103 30592-30592/de.appfiction.yocutiegoogle A/art: art/runtime/runtime.cc:366]   native: #04 pc 003c06a1  /system/lib/libart.so (art::JDWP::StartJdwpThread(void*)+32)
+11-25 10:20:07.103 30592-30592/de.appfiction.yocutiegoogle A/art: art/runtime/runtime.cc:366]   native: #05 pc 00081923  /system/lib/libc.so (__pthread_start(void*)+56)
+11-25 10:20:07.103 30592-30592/de.appfiction.yocutiegoogle A/art: art/runtime/runtime.cc:366]   native: #06 pc 000227f2  /system/lib/libc.so (__start_thread+25)
+11-25 10:20:07.103 30592-30592/de.appfiction.yocutiegoogle A/art: art/runtime/runtime.cc:366]   native: #07 pc 000170b6  /system/lib/libc.so (__bionic_clone+70)
+11-25 10:20:07.103 30592-30592/de.appfiction.yocutiegoogle A/art: art/runtime/runtime.cc:366]   (no managed stack frames)
+11-25 10:20:07.103 30592-30592/de.appfiction.yocutiegoogle A/art: art/runtime/runtime.cc:366] 
+11-25 10:20:07.103 30592-30592/de.appfiction.yocutiegoogle A/art: art/runtime/runtime.cc:366] "ReferenceQueueDaemon" prio=5 tid=4 Waiting
+11-25 10:20:07.103 30592-30592/de.appfiction.yocutiegoogle A/art: art/runtime/runtime.cc:366]   | group="" sCount=1 dsCount=0 obj=0x12c6a0a0 self=0xebb71100
+11-25 10:20:07.103 30592-30592/de.appfiction.yocutiegoogle A/art: art/runtime/runtime.cc:366]   | sysTid=30599 nice=0 cgrp=default sched=0/0 handle=0xf3227930
+11-25 10:20:07.103 30592-30592/de.appfiction.yocutiegoogle A/art: art/runtime/runtime.cc:366]   | state=S schedstat=( 0 0 0 ) utm=0 stm=0 core=0 HZ=100
+11-25 10:20:07.103 30592-30592/de.appfiction.yocutiegoogle A/art: art/runtime/runtime.cc:366]   | stack=0xf3125000-0xf3127000 stackSize=1038KB
+11-25 10:20:07.103 30592-30592/de.appfiction.yocutiegoogle A/art: art/runtime/runtime.cc:366]   | held mutexes=
+11-25 10:20:07.103 30592-30592/de.appfiction.yocutiegoogle A/art: art/runtime/runtime.cc:366]   kernel: futex_wait_queue_me+0xde/0x12f
+11-25 10:20:07.103 30592-30592/de.appfiction.yocutiegoogle A/art: art/runtime/runtime.cc:366]   kernel: futex_wait+0x113/0x22e
+11-25 10:20:07.103 30592-30592/de.appfiction.yocutiegoogle A/art: art/runtime/runtime.cc:366]   kernel: do_futex+0xc5/0x8a2
+11-25 10:20:07.103 30592-30592/de.appfiction.yocutiegoogle A/art: art/runtime/runtime.cc:366]   kernel: compat_SyS_futex+0xb7/0x129
+11-25 10:20:07.103 30592-30592/de.appfiction.yocutiegoogle A/art: art/runtime/runtime.cc:366]   kernel: ia32_sysret+0x0/0x5
+11-25 10:20:07.103 30592-30592/de.appfiction.yocutiegoogle A/art: art/runtime/runtime.cc:366]   native: #00 pc 000171e0  /system/lib/libc.so (syscall+32)
+11-25 10:20:07.103 30592-30592/de.appfiction.yocutiegoogle A/art: art/runtime/runtime.cc:366]   native: #01 pc 00154f74  /system/lib/libart.so (art::ConditionVariable::WaitHoldingLocks(art::Thread*)+772)
+11-25 10:20:07.103 30592-30592/de.appfiction.yocutiegoogle A/art: art/runtime/runtime.cc:366]   native: #02 pc 0044f301  /system/lib/libart.so (art::Monitor::Wait(art::Thread*, long long, int, bool, art::ThreadState)+1777)
+11-25 10:20:07.103 30592-30592/de.appfiction.yocutiegoogle A/art: art/runtime/runtime.cc:366]   native: #03 pc 00452f85  /system/lib/libart.so (art::Monitor::Wait(art::Thread*, art::mirror::Object*, long long, int, bool, art::ThreadState)+197)
+11-25 10:20:07.103 30592-30592/de.appfiction.yocutiegoogle A/art: art/runtime/runtime.cc:366]   native: #04 pc 00470899  /system/lib/libart.so (art::Object_wait(_JNIEnv*, _jobject*)+90)
+11-25 10:20:07.103 30592-30592/de.appfiction.yocutiegoogle A/art: art/runtime/runtime.cc:366]   native: #05 pc 00000494  /data/dalvik-cache/x86/system@framework@boot.oat (Java_java_lang_Object_wait__+104)
+11-25 10:20:07.103 30592-30592/de.appfiction.yocutiegoogle A/art: art/runtime/runtime.cc:366]   native: #06 pc 8b018b33  ???
+11-25 10:20:07.103 30592-30592/de.appfiction.yocutiegoogle A/art: art/runtime/runtime.cc:366]   at java.lang.Object.wait!(Native method)
+11-25 10:20:07.103 30592-30592/de.appfiction.yocutiegoogle A/art: art/runtime/runtime.cc:366]   - waiting on <0x01f48cab> (a java.lang.Class<java.lang.ref.ReferenceQueue>)
+11-25 10:20:07.103 30592-30592/de.appfiction.yocutiegoogle A/art: art/runtime/runtime.cc:366]   at java.lang.Daemons$ReferenceQueueDaemon.run(Daemons.java:147)
+11-25 10:20:07.103 30592-30592/de.appfiction.yocutiegoogle A/art: art/runtime/runtime.cc:366]   - locked <0x01f48cab> (a java.lang.Class<java.lang.ref.ReferenceQueue>)
+11-25 10:20:07.103 30592-30592/de.appfiction.yocutiegoogle A/art: art/runtime/runtime.cc:366]   at java.lang.Thread.run(Thread.java:818)
+11-25 10:20:07.103 30592-30592/de.appfiction.yocutiegoogle A/art: art/runtime/runtime.cc:366] 
+11-25 10:20:07.103 30592-30592/de.appfiction.yocutiegoogle A/art: art/runtime/runtime.cc:366] "FinalizerDaemon" prio=5 tid=5 Waiting
+11-25 10:20:07.103 30592-30592/de.appfiction.yocutiegoogle A/art: art/runtime/runtime.cc:366]   | group="" sCount=1 dsCount=0 obj=0x12c6a100 self=0xebb71600
+11-25 10:20:07.103 30592-30592/de.appfiction.yocutiegoogle A/art: art/runtime/runtime.cc:366]   | sysTid=30600 nice=0 cgrp=default sched=0/0 handle=0xf311d930
+11-25 10:20:07.103 30592-30592/de.appfiction.yocutiegoogle A/art: art/runtime/runtime.cc:366]   | state=S schedstat=( 0 0 0 ) utm=0 stm=0 core=2 HZ=100
+11-25 10:20:07.103 30592-30592/de.appfiction.yocutiegoogle A/art: art/runtime/runtime.cc:366]   | stack=0xf301b000-0xf301d000 stackSize=1038KB
+11-25 10:20:07.103 30592-30592/de.appfiction.yocutiegoogle A/art: art/runtime/runtime.cc:366]   | held mutexes=
+11-25 10:20:07.103 30592-30592/de.appfiction.yocutiegoogle A/art: art/runtime/runtime.cc:366]   kernel: futex_wait_queue_me+0xde/0x12f
+11-25 10:20:07.103 30592-30592/de.appfiction.yocutiegoogle A/art: art/runtime/runtime.cc:366]   kernel: futex_wait+0x113/0x22e
+11-25 10:20:07.103 30592-30592/de.appfiction.yocutiegoogle A/art: art/runtime/runtime.cc:366]   kernel: do_futex+0xc5/0x8a2
+11-25 10:20:07.103 30592-30592/de.appfiction.yocutiegoogle A/art: art/runtime/runtime.cc:366]   kernel: compat_SyS_futex+0xb7/0x129
+11-25 10:20:07.103 30592-30592/de.appfiction.yocutiegoogle A/art: art/runtime/runtime.cc:366]   kernel: ia32_sysret+0x0/0x5
+11-25 10:20:07.103 30592-30592/de.appfiction.yocutiegoogle A/art: art/runtime/runtime.cc:366]   native: #00 pc 000171e0  /system/lib/libc.so (syscall+32)
+11-25 10:20:07.103 30592-30592/de.appfiction.yocutiegoogle A/art: art/runtime/runtime.cc:366]   native: #01 pc 00154f74  /system/lib/libart.so (art::ConditionVariable::WaitHoldingLocks(art::Thread*)+772)
+11-25 10:20:07.103 30592-30592/de.appfiction.yocutiegoogle A/art: art/runtime/runtime.cc:366]   native: #02 pc 0044f301  /system/lib/libart.so (art::Monitor::Wait(art::Thread*, long long, int, bool, art::ThreadState)+1777)
+11-25 10:20:07.103 30592-30592/de.appfiction.yocutiegoogle A/art: art/runtime/runtime.cc:366]   native: #03 pc 00452f85  /system/lib/libart.so (art::Monitor::Wait(art::Thread*, art::mirror::Object*, long long, int, bool, art::ThreadState)+197)
+11-25 10:20:07.103 30592-30592/de.appfiction.yocutiegoogle A/art: art/runtime/runtime.cc:366]   native: #04 pc 004708fc  /system/lib/libart.so (art::Object_waitJI(_JNIEnv*, _jobject*, long long, int)+92)
+11-25 10:20:07.103 30592-30592/de.appfiction.yocutiegoogle A/art: art/runtime/runtime.cc:366]   native: #05 pc 00000704  /data/dalvik-cache/x86/system@framework@boot.oat (Java_java_lang_Object_wait__JI+136)
+11-25 10:20:07.103 30592-30592/de.appfiction.yocutiegoogle A/art: art/runtime/runtime.cc:366]   native: #06 pc 1c8009ef  /dev/ashmem/dalvik-main space 1 (deleted) (???)
+11-25 10:20:07.103 30592-30592/de.appfiction.yocutiegoogle A/art: art/runtime/runtime.cc:366]   native: #07 pc 1c8009d7  /dev/ashmem/dalvik-main space 1 (deleted) (???)
+11-25 10:20:07.103 30592-30592/de.appfiction.yocutiegoogle A/art: art/runtime/runtime.cc:366]   at java.lang.Object.wait!(Native method)
+11-25 10:20:07.103 30592-30592/de.appfiction.yocutiegoogle A/art: art/runtime/runtime.cc:366]   - waiting on <0x0f3e2f08> (a java.lang.ref.ReferenceQueue)
+11-25 10:20:07.103 30592-30592/de.appfiction.yocutiegoogle A/art: art/runtime/runtime.cc:366]   at java.lang.Object.wait(Object.java:423)
+11-25 10:20:07.103 30592-30592/de.appfiction.yocutiegoogle A/art: art/runtime/runtime.cc:366]   at java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:101)
+11-25 10:20:07.103 30592-30592/de.appfiction.yocutiegoogle A/art: art/runtime/runtime.cc:366]   - locked <0x0f3e2f08> (a java.lang.ref.ReferenceQueue)
+11-25 10:20:07.103 30592-30592/de.appfiction.yocutiegoogle A/art: art/runtime/runtime.cc:366]   at java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:72)
+11-25 10:20:07.103 30592-30592/de.appfiction.yocutiegoogle A/art: art/runtime/runtime.cc:366]   at java.lang.Daemons$FinalizerDaemon.run(Daemons.java:185)
+11-25 10:20:07.103 30592-30592/de.appfiction.yocutiegoogle A/art: art/runtime/runtime.cc:366]   at java.lang.Thread.run(Thread.java:818)
+11-25 10:20:07.103 30592-30592/de.appfiction.yocutiegoogle A/art: art/runtime/runtime.cc:366] 
+11-25 10:20:07.103 30592-30592/de.appfiction.yocutiegoogle A/art: art/runtime/runtime.cc:366] "FinalizerWatchdogDaemon" prio=5 tid=6 Waiting
+11-25 10:20:07.103 30592-30592/de.appfiction.yocutiegoogle A/art: art/runtime/runtime.cc:366]   | group="" sCount=1 dsCount=0 obj=0x12c6a160 self=0xebb71b00
+11-25 10:20:07.103 30592-30592/de.appfiction.yocutiegoogle A/art: art/runtime/runtime.cc:366]   | sysTid=30601 nice=0 cgrp=default sched=0/0 handle=0xf3013930
+11-25 10:20:07.103 30592-30592/de.appfiction.yocutiegoogle A/art: art/runtime/runtime.cc:366]   | state=S schedstat=( 0 0 0 ) utm=0 stm=0 core=1 HZ=100
+11-25 10:20:07.103 30592-30592/de.appfiction.yocutiegoogle A/art: art/runtime/runtime.cc:366]   | stack=0xf2f11000-0xf2f13000 stackSize=1038KB
+11-25 10:20:07.103 30592-30592/de.appfiction.yocutiegoogle A/art: art/runtime/runtime.cc:366]   | held mutexes=
+11-25 10:20:07.103 30592-30592/de.appfiction.yocutiegoogle A/art: art/runtime/runtime.cc:366]   kernel: futex_wait_queue_me+0xde/0x12f
+11-25 10:20:07.103 30592-30592/de.appfiction.yocutiegoogle A/art: art/runtime/runtime.cc:366]   kernel: futex_wait+0x113/0x22e
+11-25 10:20:07.103 30592-30592/de.appfiction.yocutiegoogle A/art: art/runtime/runtime.cc:366]   kernel: do_futex+0xc5/0x8a2
+11-25 10:20:07.103 30592-30592/de.appfiction.yocutiegoogle A/art: art/runtime/runtime.cc:366]   kernel: compat_SyS_futex+0xb7/0x129
+11-25 10:20:07.103 30592-30592/de.appfiction.yocutiegoogle A/art: art/runtime/runtime.cc:366]   kernel: ia32_sysret+0x0/0x5
+11-25 10:20:07.103 30592-30592/de.appfiction.yocutiegoogle A/art: art/runtime/runtime.cc:366]   native: #00 pc 000171e0  /system/lib/libc.so (syscall+32)
+11-25 10:20:07.103 30592-30592/de.appfiction.yocutiegoogle A/art: art/runtime/runtime.cc:366]   native: #01 pc 00154f74  /system/lib/libart.so (art::ConditionVariable::WaitHoldingLocks(art::Thread*)+772)
+11-25 10:20:07.103 30592-30592/de.appfiction.yocutiegoogle A/art: art/runtime/runtime.cc:366]   native: #02 pc 0044f301  /system/lib/libart.so (art::Monitor::Wait(art::Thread*, long long, int, bool, art::ThreadState)+1777)
+11-25 10:20:07.103 30592-30592/de.appfiction.yocutiegoogle A/art: art/runtime/runtime.cc:366]   native: #03 pc 00452f85  /system/lib/libart.so (art::Monitor::Wait(art::Thread*, art::mirror::Object*, long long, int, bool, art::ThreadState)+197)
+11-25 10:20:07.103 30592-30592/de.appfiction.yocutiegoogle A/art: art/runtime/runtime.cc:366]   native: #04 pc 00470899  /system/lib/libart.so (art::Object_wait(_JNIEnv*, _jobject*)+90)
+11-25 10:20:07.103 30592-30592/de.appfiction.yocutiegoogle A/art: art/runtime/runtime.cc:366]   native: #05 pc 00000494  /data/dalvik-cache/x86/system@framework@boot.oat (Java_java_lang_Object_wait__+104)
+11-25 10:20:07.103 30592-30592/de.appfiction.yocutiegoogle A/art: art/runtime/runtime.cc:366]   native: #06 pc 1c1b93ff  /dev/ashmem/dalvik-main space 1 (deleted) (???)
+11-25 10:20:07.103 30592-30592/de.appfiction.yocutiegoogle A/art: art/runtime/runtime.cc:366]   at java.lang.Object.wait!(Native method)
+11-25 10:20:07.103 30592-30592/de.appfiction.yocutiegoogle A/art: art/runtime/runtime.cc:366]   - waiting on <0x07fea6a1> (a java.lang.Daemons$FinalizerWatchdogDaemon)
+11-25 10:20:07.103 30592-30592/de.appfiction.yocutiegoogle A/art: art/runtime/runtime.cc:366]   at java.lang.Daemons$FinalizerWatchdogDaemon.waitForObject(Daemons.java:255)
+11-25 10:20:07.103 30592-30592/de.appfiction.yocutiegoogle A/art: art/runtime/runtime.cc:366]   - locked <0x07fea6a1> (a java.lang.Daemons$FinalizerWatchdogDaemon)
+11-25 10:20:07.103 30592-30592/de.appfiction.yocutiegoogle A/art: art/runtime/runtime.cc:366]   at java.lang.Daemons$FinalizerWatchdogDaemon.run(Daemons.java:227)
+11-25 10:20:07.103 30592-30592/de.appfiction.yocutiegoogle A/art: art/runtime/runtime.cc:366]   at java.lang.Thread.run(Thread.java:818)
+11-25 10:20:07.103 30592-30592/de.appfiction.yocutiegoogle A/art: art/runtime/runtime.cc:366] 
+11-25 10:20:07.103 30592-30592/de.appfiction.yocutiegoogle A/art: art/runtime/runtime.cc:366] "HeapTaskDaemon" prio=5 tid=7 Blocked
+11-25 10:20:07.103 30592-30592/de.appfiction.yocutiegoogle A/art: art/runtime/runtime.cc:366]   | group="" sCount=1 dsCount=0 obj=0x12c6a1c0 self=0xebb77000
+11-25 10:20:07.103 30592-30592/de.appfiction.yocutiegoogle A/art: art/runtime/runtime.cc:366]   | sysTid=30602 nice=0 cgrp=default sched=0/0 handle=0xf2f09930
+11-25 10:20:07.103 30592-30592/de.appfiction.yocutiegoogle A/art: art/runtime/runtime.cc:366]   | state=S schedstat=( 0 0 0 ) utm=0 stm=0 core=0 HZ=100
+11-25 10:20:07.103 30592-30592/de.appfiction.yocutiegoogle A/art: art/runtime/runtime.cc:366]   | stack=0xf2e07000-0xf2e09000 stackSize=1038KB
+11-25 10:20:07.103 30592-30592/de.appfiction.yocutiegoogle A/art: art/runtime/runtime.cc:366]   | held mutexes=
+11-25 10:20:07.103 30592-30592/de.appfiction.yocutiegoogle A/art: art/runtime/runtime.cc:366]   kernel: futex_wait_queue_me+0xde/0x12f
+11-25 10:20:07.103 30592-30592/de.appfiction.yocutiegoogle A/art: art/runtime/runtime.cc:366]   kernel: futex_wait+0x113/0x22e
+11-25 10:20:07.103 30592-30592/de.appfiction.yocutiegoogle A/art: art/runtime/runtime.cc:366]   kernel: do_futex+0xc5/0x8a2
+11-25 10:20:07.103 30592-30592/de.appfiction.yocutiegoogle A/art: art/runtime/runtime.cc:366]   kernel: compat_SyS_futex+0xb7/0x129
+11-25 10:20:07.103 30592-30592/de.appfiction.yocutiegoogle A/art: art/runtime/runtime.cc:366]   kernel: ia32_sysret+0x0/0x5
+11-25 10:20:07.103 30592-30592/de.appfiction.yocutiegoogle A/art: art/runtime/runtime.cc:366]   native: #00 pc 000171e0  /system/lib/libc.so (syscall+32)
+11-25 10:20:07.103 30592-30592/de.appfiction.yocutiegoogle A/art: art/runtime/runtime.cc:366]   native: #01 pc 00154f74  /system/lib/libart.so (art::ConditionVariable::WaitHoldingLocks(art::Thread*)+772)
+11-25 10:20:07.103 30592-30592/de.appfiction.yocutiegoogle A/art: art/runtime/runtime.cc:366]   native: #02 pc 002da209  /system/lib/libart.so (art::gc::TaskProcessor::GetTask(art::Thread*)+153)
+11-25 10:20:07.103 30592-30592/de.appfiction.yocutiegoogle A/art: art/runtime/runtime.cc:366]   native: #03 pc 002dad25  /system/lib/libart.so (art::gc::TaskProcessor::RunAllTasks(art::Thread*)+37)
+11-25 10:20:07.103 30592-30592/de.appfiction.yocutiegoogle A/art: art/runtime/runtime.cc:366]   native: #04 pc 0045f13c  /system/lib/libart.so (art::VMRuntime_runHeapTasks(_JNIEnv*, _jobject*)+53)
+11-25 10:20:07.103 30592-30592/de.appfiction.yocutiegoogle A/art: art/runtime/runtime.cc:366]   native: #05 pc 00000494  /data/dalvik-cache/x86/system@framework@boot.oat (Java_dalvik_system_VMRuntime_runHeapTasks__+104)
+11-25 10:20:07.103 30592-30592/de.appfiction.yocutiegoogle A/art: art/runtime/runtime.cc:366]   at dalvik.system.VMRuntime.runHeapTasks(Native method)
+11-25 10:20:07.103 30592-30592/de.appfiction.yocutiegoogle A/art: art/runtime/runtime.cc:366]   - waiting to lock an unknown object
+11-25 10:20:07.103 30592-30592/de.appfiction.yocutiegoogle A/art: art/runtime/runtime.cc:366]   at java.lang.Daemons$HeapTaskDaemon.run(Daemons.java:355)
+11-25 10:20:07.103 30592-30592/de.appfiction.yocutiegoogle A/art: art/runtime/runtime.cc:366]   at java.lang.Thread.run(Thread.java:818)
+11-25 10:20:07.103 30592-30592/de.appfiction.yocutiegoogle A/art: art/runtime/runtime.cc:366] 
+11-25 10:20:07.103 30592-30592/de.appfiction.yocutiegoogle A/art: art/runtime/runtime.cc:366] "Binder_1" prio=5 tid=8 Native
+11-25 10:20:07.103 30592-30592/de.appfiction.yocutiegoogle A/art: art/runtime/runtime.cc:366]   | group="" sCount=1 dsCount=0 obj=0x12c700a0 self=0xea22e900
+11-25 10:20:07.103 30592-30592/de.appfiction.yocutiegoogle A/art: art/runtime/runtime.cc:366]   | sysTid=30603 nice=0 cgrp=default sched=0/0 handle=0xf2d03930
+11-25 10:20:07.103 30592-30592/de.appfiction.yocutiegoogle A/art: art/runtime/runtime.cc:366]   | state=S schedstat=( 0 0 0 ) utm=0 stm=0 core=1 HZ=100
+11-25 10:20:07.103 30592-30592/de.appfiction.yocutiegoogle A/art: art/runtime/runtime.cc:366]   | stack=0xf2c07000-0xf2c09000 stackSize=1014KB
+11-25 10:20:07.103 30592-30592/de.appfiction.yocutiegoogle A/art: art/runtime/runtime.cc:366]   | held mutexes=
+11-25 10:20:07.103 30592-30592/de.appfiction.yocutiegoogle A/art: art/runtime/runtime.cc:366]   kernel: binder_thread_read+0xbef/0xdf1
+11-25 10:20:07.103 30592-30592/de.appfiction.yocutiegoogle A/art: art/runtime/runtime.cc:366]   kernel: binder_ioctl_write_read+0x136/0x259
+11-25 10:20:07.103 30592-30592/de.appfiction.yocutiegoogle A/art: art/runtime/runtime.cc:366]   kernel: binder_ioctl+0x1dd/0x561
+11-25 10:20:07.103 30592-30592/de.appfiction.yocutiegoogle A/art: art/runtime/runtime.cc:366]   kernel: compat_sys_ioctl+0x1c2/0xd0f
+11-25 10:20:07.103 30592-30592/de.appfiction.yocutiegoogle A/art: art/runtime/runtime.cc:366]   kernel: ia32_sysret+0x0/0x5
+11-25 10:20:07.103 30592-30592/de.appfiction.yocutiegoogle A/art: art/runtime/runtime.cc:366]   native: #00 pc 00084164  /system/lib/libc.so (__ioctl+20)
+11-25 10:20:07.103 30592-30592/de.appfiction.yocutiegoogle A/art: art/runtime/runtime.cc:366]   native: #01 pc 00095d1a  /system/lib/libc.so (ioctl+42)
+11-25 10:20:07.103 30592-30592/de.appfiction.yocutiegoogle A/art: art/runtime/runtime.cc:366]   native: #02 pc 000267ff  /system/lib/libbinder.so (android::IPCThreadState::talkWithDriver(bool)+239)
+11-25 10:20:07.103 30592-30592/de.appfiction.yocutiegoogle A/art: art/runtime/runtime.cc:366]   native: #03 pc 000271d5  /system/lib/libbinder.so (android::IPCThreadState::getAndExecuteCommand()+37)
+11-25 10:20:07.103 30592-30592/de.appfiction.yocutiegoogle A/art: art/runtime/runtime.cc:366]   native: #04 pc 00027317  /system/lib/libbinder.so (android::IPCThreadState::joinThreadPool(bool)+151)
+11-25 10:20:07.103 30592-30592/de.appfiction.yocutiegoogle A/art: art/runtime/runtime.cc:366]   native: #05 pc 00030362  /system/lib/libbinder.so (android::PoolThread::threadLoop()+40)
+11-25 10:20:07.103 30592-30592/de.appfiction.yocutiegoogle A/art: art/runtime/runtime.cc:366]   native: #06 pc 00014aac  /system/lib/libutils.so (android::Thread::_threadLoop(void*)+418)
+11-25 10:20:07.103 30592-30592/de.appfiction.yocutiegoogle A/art: art/runtime/runtime.cc:366]   native: #07 pc 0006bfae  /system/lib/libandroid_runtime.so (android::AndroidRuntime::javaThreadShell(void*)+98)
+11-25 10:20:07.103 30592-30592/de.appfiction.yocutiegoogle A/art: art/runtime/runtime.cc:366]   native: #08 pc 000141cf  /system/lib/libutils.so (thread_data_t::trampoline(thread_data_t const*)+122)
+11-25 10:20:07.103 30592-30592/de.appfiction.yocutiegoogle A/art: art/runtime/runtime.cc:366]   native: #09 pc 00081923  /system/lib/libc.so (__pthread_start(void*)+56)
+11-25 10:20:07.103 30592-30592/de.appfiction.yocutiegoogle A/art: art/runtime/runtime.cc:366]   native: #10 pc 000227f2  /system/lib/libc.so (__start_thread+25)
+11-25 10:20:07.103 30592-30592/de.appfiction.yocutiegoogle A/art: art/runtime/runtime.cc:366]   native: #11 pc 000170b6  /system/lib/libc.so (__bionic_clone+70)
+11-25 10:20:07.103 30592-30592/de.appfiction.yocutiegoogle A/art: art/runtime/runtime.cc:366]   (no managed stack frames)
+11-25 10:20:07.103 30592-30592/de.appfiction.yocutiegoogle A/art: art/runtime/runtime.cc:366] 
+11-25 10:20:07.103 30592-30592/de.appfiction.yocutiegoogle A/art: art/runtime/runtime.cc:366] "Binder_2" prio=5 tid=9 Native
+11-25 10:20:07.103 30592-30592/de.appfiction.yocutiegoogle A/art: art/runtime/runtime.cc:366]   | group="" sCount=1 dsCount=0 obj=0x12c740a0 self=0xebb77500
+11-25 10:20:07.103 30592-30592/de.appfiction.yocutiegoogle A/art: art/runtime/runtime.cc:366]   | sysTid=30604 nice=0 cgrp=default sched=0/0 handle=0xf2bff930
+11-25 10:20:07.103 30592-30592/de.appfiction.yocutiegoogle A/art: art/runtime/runtime.cc:366]   | state=S schedstat=( 0 0 0 ) utm=0 stm=0 core=2 HZ=100
+11-25 10:20:07.103 30592-30592/de.appfiction.yocutiegoogle A/art: art/runtime/runtime.cc:366]   | stack=0xf2b03000-0xf2b05000 stackSize=1014KB
+11-25 10:20:07.103 30592-30592/de.appfiction.yocutiegoogle A/art: art/runtime/runtime.cc:366]   | held mutexes=
+11-25 10:20:07.103 30592-30592/de.appfiction.yocutiegoogle A/art: art/runtime/runtime.cc:366]   kernel: binder_thread_read+0xbef/0xdf1
+11-25 10:20:07.103 30592-30592/de.appfiction.yocutiegoogle A/art: art/runtime/runtime.cc:366]   kernel: binder_ioctl_write_read+0x136/0x259
+11-25 10:20:07.103 30592-30592/de.appfiction.yocutiegoogle A/art: art/runtime/runtime.cc:366]   kernel: binder_ioctl+0x1dd/0x561
+11-25 10:20:07.103 30592-30592/de.appfiction.yocutiegoogle A/art: art/runtime/runtime.cc:366]   kernel: compat_sys_ioctl+0x1c2/0xd0f
+11-25 10:20:07.103 30592-30592/de.appfiction.yocutiegoogle A/art: art/runtime/runtime.cc:366]   kernel: ia32_sysret+0x0/0x5
+11-25 10:20:07.103 30592-30592/de.appfiction.yocutiegoogle A/art: art/runtime/runtime.cc:366]   native: #00 pc 00084164  /system/lib/libc.so (__ioctl+20)
+11-25 10:20:07.103 30592-30592/de.appfiction.yocutiegoogle A/art: art/runtime/runtime.cc:366]   native: #01 pc 00095d1a  /system/lib/libc.so (ioctl+42)
+11-25 10:20:07.103 30592-30592/de.appfiction.yocutiegoogle A/art: art/runtime/runtime.cc:366]   native: #02 pc 000267ff  /system/lib/libbinder.so (android::IPCThreadState::talkWithDriver(bool)+239)
+11-25 10:20:07.103 30592-30592/de.appfiction.yocutiegoogle A/art: art/runtime/runtime.cc:366]   native: #03 pc 000271d5  /system/lib/libbinder.so (android::IPCThreadState::getAndExecuteCommand()+37)
+11-25 10:20:07.103 30592-30592/de.appfiction.yocutiegoogle A/art: art/runtime/runtime.cc:366]   native: #04 pc 000272d1  /system/lib/libbinder.so (android::IPCThreadState::joinThreadPool(bool)+81)
+11-25 10:20:07.103 30592-30592/de.appfiction.yocutiegoogle A/art: art/runtime/runtime.cc:366]   native: #05 pc 00030362  /system/lib/libbinder.so (android::PoolThread::threadLoop()+40)
+11-25 10:20:07.103 30592-30592/de.appfiction.yocutiegoogle A/art: art/runtime/runtime.cc:366]   native: #06 pc 00014aac  /system/lib/libutils.so (android::Thread::_threadLoop(void*)+418)
+11-25 10:20:07.103 30592-30592/de.appfiction.yocutiegoogle A/art: art/runtime/runtime.cc:366]   native: #07 pc 0006bfae  /system/lib/libandroid_runtime.so (android::AndroidRuntime::javaThreadShell(void*)+98)
+11-25 10:20:07.103 30592-30592/de.appfiction.yocutiegoogle A/art: art/runtime/runtime.cc:366]   native: #08 pc 000141cf  /system/lib/libutils.so (thread_data_t::trampoline(thread_data_t const*)+122)
+11-25 10:20:07.103 30592-30592/de.appfiction.yocutiegoogle A/art: art/runtime/runtime.cc:366]   native: #09 pc 00081923  /system/lib/libc.so (__pthread_start(void*)+56)
+11-25 10:20:07.103 30592-30592/de.appfiction.yocutiegoogle A/art: art/runtime/runtime.cc:366]   native: #10 pc 000227f2  /system/lib/libc.so (__start_thread+25)
+11-25 10:20:07.103 30592-30592/de.appfiction.yocutiegoogle A/art: art/runtime/runtime.cc:366]   native: #11 pc 000170b6  /system/lib/libc.so (__bionic_clone+70)
+11-25 10:20:07.103 30592-30592/de.appfiction.yocutiegoogle A/art: art/runtime/runtime.cc:366]   (no managed stack frames)
+11-25 10:20:07.103 30592-30592/de.appfiction.yocutiegoogle A/art: art/runtime/runtime.cc:366] 
+11-25 10:20:07.103 30592-30592/de.appfiction.yocutiegoogle A/art: art/runtime/runtime.cc:366] 
+    
+    --------- beginning of crash
+11-25 10:20:07.103 30592-30592/de.appfiction.yocutiegoogle A/libc: Fatal signal 6 (SIGABRT), code -6 in tid 30592 (n.yocutiegoogle)
+11-25 10:20:07.204 1679-1679/? A/DEBUG: *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ***
+11-25 10:20:07.204 1679-1679/? A/DEBUG: Build fingerprint: 'Android/sdk_google_phone_x86_64/generic_x86_64:6.0/MASTER/4931947:userdebug/test-keys'
+11-25 10:20:07.204 1679-1679/? A/DEBUG: Revision: '0'
+11-25 10:20:07.204 1679-1679/? A/DEBUG: ABI: 'x86'
+11-25 10:20:07.204 1679-1679/? A/DEBUG: pid: 30592, tid: 30592, name: n.yocutiegoogle  >>> de.appfiction.yocutiegoogle <<<
+11-25 10:20:07.204 1679-1679/? A/DEBUG: signal 6 (SIGABRT), code -6 (SI_TKILL), fault addr --------
+11-25 10:20:07.206 1679-1679/? A/DEBUG: Abort message: 'art/runtime/java_vm_ext.cc:410] JNI DETECTED ERROR IN APPLICATION: JNI NewGlobalRef called with pending exception java.lang.ClassNotFoundException: Didn't find class "com.adcolony.sdk.ADCNative" on path: DexPathList[[zip file "/data/app/de.appfiction.yocutiegoogle-1/base.apk"],nativeLibraryDirectories=[/data/app/de.appfiction.yocutiegoogle-1/lib/x86, /data/app/de.appfiction.yocutiegoogle-1/base.apk!/lib/x86, /vendor/lib, /system/lib]]'
+11-25 10:20:07.206 1679-1679/? A/DEBUG:     eax 00000000  ebx 00007780  ecx 00007780  edx 00000006
+11-25 10:20:07.206 1679-1679/? A/DEBUG:     esi f76fdc50  edi 00000002
+11-25 10:20:07.206 1679-1679/? A/DEBUG:     xcs 00000023  xds 0000002b  xes 0000002b  xfs 00000007  xss 0000002b
+11-25 10:20:07.207 1679-1679/? A/DEBUG:     eip f72c8996  ebp 00007780  esp ffdaa1a0  flags 00200202
+11-25 10:20:07.210 1679-1679/? A/DEBUG: backtrace:
+11-25 10:20:07.210 1679-1679/? A/DEBUG:     #00 pc 00085996  /system/lib/libc.so (tgkill+22)
+11-25 10:20:07.210 1679-1679/? A/DEBUG:     #01 pc 00082478  /system/lib/libc.so (pthread_kill+70)
+11-25 10:20:07.210 1679-1679/? A/DEBUG:     #02 pc 000280a5  /system/lib/libc.so (raise+36)
+11-25 10:20:07.210 1679-1679/? A/DEBUG:     #03 pc 0002187d  /system/lib/libc.so (abort+80)
+11-25 10:20:07.210 1679-1679/? A/DEBUG:     #04 pc 005171cb  /system/lib/libart.so (art::Runtime::Abort()+377)
+11-25 10:20:07.210 1679-1679/? A/DEBUG:     #05 pc 0014d933  /system/lib/libart.so (art::LogMessage::~LogMessage()+1343)
+11-25 10:20:07.210 1679-1679/? A/DEBUG:     #06 pc 003a5042  /system/lib/libart.so (art::JavaVMExt::JniAbort(char const*, char const*)+3842)
+11-25 10:20:07.210 1679-1679/? A/DEBUG:     #07 pc 003a5c9c  /system/lib/libart.so (art::JavaVMExt::JniAbortV(char const*, char const*, char*)+116)
+11-25 10:20:07.210 1679-1679/? A/DEBUG:     #08 pc 00163950  /system/lib/libart.so (art::ScopedCheck::AbortF(char const*, ...)+62)
+11-25 10:20:07.210 1679-1679/? A/DEBUG:     #09 pc 0016d912  /system/lib/libart.so (art::ScopedCheck::CheckThread(_JNIEnv*)+1890)
+11-25 10:20:07.210 1679-1679/? A/DEBUG:     #10 pc 0016e421  /system/lib/libart.so (art::ScopedCheck::Check(art::ScopedObjectAccess&, bool, char const*, art::JniValueType*) (.constprop.114)+1489)
+11-25 10:20:07.210 1679-1679/? A/DEBUG:     #11 pc 0017680a  /system/lib/libart.so (art::CheckJNI::NewRef(char const*, _JNIEnv*, _jobject*, art::IndirectRefKind)+602)
+11-25 10:20:07.210 1679-1679/? A/DEBUG:     #12 pc 00176b49  /system/lib/libart.so (art::CheckJNI::NewGlobalRef(_JNIEnv*, _jobject*)+52)
+11-25 10:20:07.210 1679-1679/? A/DEBUG:     #13 pc 00003755  /data/app/de.appfiction.yocutiegoogle-1/lib/x86/libadcolony.so (JNI_OnLoad+149)
+11-25 10:20:07.210 1679-1679/? A/DEBUG:     #14 pc 003a6356  /system/lib/libart.so (art::JavaVMExt::LoadNativeLibrary(_JNIEnv*, std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&, _jobject*, std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >*)+1494)
+11-25 10:20:07.210 1679-1679/? A/DEBUG:     #15 pc 00470b4d  /system/lib/libart.so (art::Runtime_nativeLoad(_JNIEnv*, _jclass*, _jstring*, _jobject*, _jstring*)+301)
+11-25 10:20:07.210 1679-1679/? A/DEBUG:     #16 pc 73a196ce  /data/dalvik-cache/x86/system@framework@boot.oat (offset 0x1eb2000)
+11-25 10:20:07.210 1679-1679/? A/DEBUG:     #17 pc 00641453  /dev/ashmem/dalvik-main space 1 (deleted) (offset 0x1000)
+11-25 10:20:07.251 1679-1679/? A/DEBUG: Tombstone written to: /data/tombstones/tombstone_09
+11-25 10:20:07.251 1679-1679/? E/DEBUG: AM write failed: Broken pipe
+11-25 10:20:07.251 1962-1981/system_process I/BootReceiver: Copying /data/tombstones/tombstone_09 to DropBox (SYSTEM_TOMBSTONE)
+11-25 10:20:07.251 1962-30609/system_process W/ActivityManager:   Force finishing activity de.appfiction.yocutiegoogle/.MainActivity
+11-25 10:20:07.252 1273-1328/? D/gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 1019904
+11-25 10:20:07.256 1273-1273/? E/EGL_emulation: tid 1273: eglCreateSyncKHR(1881): error 0x3004 (EGL_BAD_ATTRIBUTE)
+11-25 10:20:07.263 1962-30609/system_process E/JavaBinder: !!! FAILED BINDER TRANSACTION !!!  (parcel size = 112)
+11-25 10:20:07.263 1962-30609/system_process W/ActivityManager: Exception thrown during pause
+    android.os.DeadObjectException: Transaction failed on small parcel; remote process probably died
+        at android.os.BinderProxy.transactNative(Native Method)
+        at android.os.BinderProxy.transact(Binder.java:503)
+        at android.app.ApplicationThreadProxy.schedulePauseActivity(ApplicationThreadNative.java:727)
+        at com.android.server.am.ActivityStack.startPausingLocked(ActivityStack.java:867)
+        at com.android.server.am.ActivityStack.finishActivityLocked(ActivityStack.java:2907)
+        at com.android.server.am.ActivityStack.finishTopRunningActivityLocked(ActivityStack.java:2763)
+        at com.android.server.am.ActivityStackSupervisor.finishTopRunningActivityLocked(ActivityStackSupervisor.java:2755)
+        at com.android.server.am.ActivityManagerService.handleAppCrashLocked(ActivityManagerService.java:11971)
+        at com.android.server.am.ActivityManagerService.makeAppCrashingLocked(ActivityManagerService.java:11867)
+        at com.android.server.am.ActivityManagerService.crashApplication(ActivityManagerService.java:12556)
+        at com.android.server.am.ActivityManagerService.handleApplicationCrashInner(ActivityManagerService.java:12063)
+        at com.android.server.am.NativeCrashListener$NativeCrashReporter.run(NativeCrashListener.java:86)
+11-25 10:20:07.265 1271-1271/? E/lowmemorykiller: Error writing /proc/30592/oom_score_adj; errno=22
+11-25 10:20:07.281 1962-3650/system_process I/AccountManagerService: getTypesVisibleToCaller: isPermitted? true
+11-25 10:20:07.281 1962-7407/system_process I/AccountManagerService: getTypesVisibleToCaller: isPermitted? true
+11-25 10:20:07.286 1962-2201/system_process I/AccountManagerService: getTypesVisibleToCaller: isPermitted? true
+11-25 10:20:07.288 1962-2669/system_process I/AccountManagerService: getTypesVisibleToCaller: isPermitted? true
+11-25 10:20:07.288 1962-2204/system_process I/AccountManagerService: getTypesVisibleToCaller: isPermitted? true
+11-25 10:20:07.293 1962-4209/system_process I/OpenGLRenderer: Initialized EGL, version 1.4
+11-25 10:20:07.293 1962-3646/system_process I/AccountManagerService: getTypesVisibleToCaller: isPermitted? true
+11-25 10:20:07.298 1962-4209/system_process D/EGL_emulation: eglCreateContext: 0x7fa7e4b6f9a0: maj 2 min 0 rcv 2
+11-25 10:20:07.299 1962-4209/system_process D/EGL_emulation: eglMakeCurrent: 0x7fa7e4b6f9a0: ver 2 0 (tinfo 0x7fa7e4cbe5c0)
+11-25 10:20:07.307 1962-4209/system_process D/EGL_emulation: eglMakeCurrent: 0x7fa7e4b6f9a0: ver 2 0 (tinfo 0x7fa7e4cbe5c0)
+11-25 10:20:07.310 1687-1687/? I/Zygote: Process 30592 exited due to signal (6)
+11-25 10:20:07.311 1962-2201/system_process I/ActivityManager: Process de.appfiction.yocutiegoogle (pid 30592) has died
+11-25 10:20:07.347 3047-3117/com.android.launcher3 D/EGL_emulation: eglMakeCurrent: 0x7fa7f5469c20: ver 2 0 (tinfo 0x7fa7f3ad02e0)
+11-25 10:20:10.159 1683-2025/? W/audio_hw_generic: Not supplying enough data to HAL, expected position 5097670 , only wrote 4960805

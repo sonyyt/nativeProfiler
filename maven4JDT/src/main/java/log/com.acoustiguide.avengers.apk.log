@@ -1,0 +1,10 @@
+Processing:com.acoustiguide.avengers.apk
+
+3 native library detected
+
+1 native interfaces detected
+
+type cannot be processed:Ljava/lang/Object;
+0 native interfaces invoked
+
+Code Generation Error, stop execution
