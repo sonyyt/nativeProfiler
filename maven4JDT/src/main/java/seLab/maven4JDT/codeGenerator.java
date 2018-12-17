@@ -197,6 +197,7 @@ public class codeGenerator{
 		for(nativeInterface ni:interfaceArrayList) {
 			nativeInvocationGenerator nig = new nativeInvocationGenerator(ni);
 			nig.fillDefaultValuesByType();
+			invocation += nig.prefixDeclaration;
 			String[][] testcases = nig.generateTestCases();
 			for(int i=0;i<testcases.length;i++) {
 				invocation += ni.getInvocation(testcases[i])+"\n";	

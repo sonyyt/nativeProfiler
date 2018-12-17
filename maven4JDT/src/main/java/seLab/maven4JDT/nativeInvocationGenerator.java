@@ -12,10 +12,12 @@ import java.util.Iterator;
  */
 public class nativeInvocationGenerator{
 	private nativeInterface ni;
+	public String prefixDeclaration;
 	private ArrayList<paramPotentialValues> paramVs = new ArrayList<paramPotentialValues>();
 
 	public nativeInvocationGenerator(nativeInterface interf) {
 		this.ni = interf;
+		prefixDeclaration = "";
 	}
 
 	/*
@@ -125,7 +127,15 @@ public class nativeInvocationGenerator{
 				" (byte)0x87, (byte)0xa0, 0x42, 0x69, 0x10, (byte)0xa2, (byte)0xea, 0x08," + 
 				" 0x00, 0x2b, 0x30, 0x30, (byte)0x9d }"};
 		if(type.equals("char[]"))returnStrArr = new String[] {"\"abcdefg\".toCharArray()","\"test char array\".toCharArray()"};
-		
+		if(type.equals("bitmap")) {
+			returnStrArr = new String[] {"bitmap1","bitmap2"};
+			// need to setup path 1. 
+			//need to move bitmap file to resource folder!!!!
+			prefixDeclaration += "BitmapFactory.Options options = new BitmapFactory.Options();\n" + 
+					"options.inPreferredConfig = Bitmap.Config.ARGB_8888;\n" + 
+					"Bitmap bitmap1 = BitmapFactory.decodeFile(\"path1\", options);\n" + 
+					"Bitmap bitmap2 = BitmapFactory.decodeFile(\"path2\", options);\n";
+		}
 		return returnStrArr;
 	}
 	

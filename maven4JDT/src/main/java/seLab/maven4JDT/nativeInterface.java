@@ -177,6 +177,7 @@ public class nativeInterface{
 			case "java/lang/String": returnType = "String"; break;
 			case "java/lang/Integer": returnType = "int"; break;
 			case "java/lang/Long": returnType = "long"; break;
+			case "android/graphics/Bitmap": returnType="bitmap"; break;
 			default: return null;
 		}
 		

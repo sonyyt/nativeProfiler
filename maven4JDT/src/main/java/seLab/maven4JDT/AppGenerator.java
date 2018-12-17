@@ -156,6 +156,7 @@ public class AppGenerator
 		List<String> nativeInterfaceStrArr = new ArrayList<String>();
 		List<String> permissionStrArr = new ArrayList<String>();
 		
+		//testMode: record the apkAnalyser execution result and replay the result to accelerate this procedure. 
 		if(testMode){
 			 try {
 				androguardResult = new String(Files.readAllBytes(Paths.get("/data/JDT/maven/maven4JDT/src/main/java/seLab/maven4JDT/com.ANIMPANOO.beutwatvh.apk.log")));
@@ -193,7 +194,7 @@ public class AppGenerator
 			}else if(aResult.contains("permission:")) {
 				permissionStrArr.add(aResult.replace("permission:","").replace("\n","").trim());
 			}else {
-				System.out.println("Androguard analysis error output @ AppGenerator Line 180");
+				System.out.println("Androguard analysis error output @ AppGenerator Line 197");
 			}
 		}
 		
