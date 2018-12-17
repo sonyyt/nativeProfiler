@@ -30,7 +30,7 @@ public class codeGenerator{
 		templateClassDir = tempFile;
 		try {
 			templateClassContent = new String(Files.readAllBytes(Paths.get(templateClassDir)));
-			nativeDeclarationClass = new String("package #packageNeedle#; public class #classnameNeedle# {"
+			nativeDeclarationClass = new String("package #packageNeedle#; #importNeedle# public class #classnameNeedle# {"
 					+ " static { #loadLibraryNeedle# }   "
 					+ " public	#classnameNeedle#(){}"
 					+ " #nativeInterfaceDeclarationNeedle#"
@@ -149,6 +149,7 @@ public class codeGenerator{
 			//1. generate dir and file. 
 			String[] tmp = classWithPackage.split("\\.");
 			String packagePath = outputDir;
+			String importStr = "";
 			for(int i =0; i<tmp.length-1; i++) {
 				packagePath += tmp[i] + "/";
 			}
@@ -162,8 +163,11 @@ public class codeGenerator{
 			for(nativeInterface ni:interfaceArrayList) {
 				if(ni.classNameWithPackage.equals(classWithPackage)) {
 					jniDeclaration += ni.getDeclaration()+"\n";
+					importStr += ni.getImport() + "\n";
 				}
 			}
+			
+			classStr =  classStr.replace("#importNeedle#", importStr);
 			
 			classStr =  Roaster.format(classStr.replace("#nativeInterfaceDeclarationNeedle#", jniDeclaration));
 			
@@ -222,6 +226,13 @@ public class codeGenerator{
 //    	}
     	
     	MainActivityClass.getMethod("runTestCases").setBody(invocation);
+    	
+    	// import class
+    	for(nativeInterface ni:interfaceArrayList) {
+    		for(String className : ni.importClasses) {
+    			MainActivityClass.addImport(className);
+    		}
+    	}
     	
     	String mainActivityClassContent = Roaster.format(MainActivityClass.getInternal().toString());
     	

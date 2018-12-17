@@ -1,5 +1,6 @@
 package seLab.maven4JDT;
 
+import java.util.ArrayList;
 import java.util.Arrays;
 
 /*
@@ -45,6 +46,7 @@ public class nativeInterface{
 	public String[] inputTypes;
 	public String[] inputIDs;
 	public String returnType;
+	public ArrayList<String> importClasses;
 
 	/*
 	 * nativeInterface: need a mapping from parameterTypes to actual types.
@@ -52,6 +54,7 @@ public class nativeInterface{
 	 */
 	public boolean set(String cname, String interfaceName, String[] parameterTypes, String[] parameterIDs, String rtType){
 		classNameWithPackage = cname;
+		importClasses = new ArrayList<String>();
 		String[] tmp = classNameWithPackage.split("\\.");
 		String className = tmp[tmp.length-1];
 		objectHandler = className+"Handler";
@@ -80,6 +83,14 @@ public class nativeInterface{
 			return false;
 		}
 		return true;
+	}
+	
+	public String getImport() {
+		String returnStr = "";
+		for(String className : importClasses) {
+			returnStr += "import "+className+";\n";
+		}
+		return returnStr;
 	}
 	
 	public String getClassName() {
@@ -171,13 +182,19 @@ public class nativeInterface{
 			case "S": returnType = "short"; break; 
 			case "I": returnType = "int"; break;
 			case "V": returnType = "void"; break;
+			case "null": returnType = "void"; break;
 			case "J": returnType = "long";break;
 			case "F": returnType = "float"; break;
 			case "D": returnType = "double"; break;
 			case "java/lang/String": returnType = "String"; break;
 			case "java/lang/Integer": returnType = "int"; break;
 			case "java/lang/Long": returnType = "long"; break;
-			case "android/graphics/Bitmap": returnType="bitmap"; break;
+			case "android/graphics/Bitmap": {
+				returnType="Bitmap"; 
+				importClasses.add("android.graphics.Bitmap");
+				importClasses.add("android.graphics.BitmapFactory");
+				break;
+			}
 			default: return null;
 		}
 		
